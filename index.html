@@ -25,6 +25,166 @@
   <link rel="stylesheet" href="css/main.css">
   
   <style>
+    /* YouTube Announcement Banner */
+    .announcement-banner {
+      background: linear-gradient(90deg, #FF0000 0%, #cc0000 50%, #FF0000 100%);
+      background-size: 200% 100%;
+      animation: gradient-scroll 3s ease infinite;
+      color: white;
+      padding: 12px 16px;
+      text-align: center;
+      position: relative;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(255, 0, 0, 0.3);
+    }
+    
+    @keyframes gradient-scroll {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    
+    .announcement-banner-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .announcement-banner .youtube-icon {
+      display: flex;
+      align-items: center;
+      animation: pulse 2s ease-in-out infinite;
+    }
+    
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+    
+    .announcement-banner-text {
+      font-size: 14px;
+      font-weight: 500;
+    }
+    
+    .announcement-banner-text strong {
+      font-weight: 700;
+    }
+    
+    .announcement-banner .subscribe-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: white;
+      color: #FF0000;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .announcement-banner .subscribe-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      text-decoration: none;
+    }
+    
+    .announcement-banner .close-banner {
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255, 255, 255, 0.2);
+      border: none;
+      color: white;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.3s ease;
+    }
+    
+    .announcement-banner .close-banner:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+    
+    .announcement-banner.hidden {
+      display: none;
+    }
+    
+    /* Floating YouTube Button */
+    .floating-youtube {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: #FF0000;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      box-shadow: 0 4px 20px rgba(255, 0, 0, 0.4);
+      transition: all 0.3s ease;
+      animation: float 3s ease-in-out infinite;
+    }
+    
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    
+    .floating-youtube:hover {
+      transform: scale(1.05) translateY(-2px);
+      box-shadow: 0 6px 25px rgba(255, 0, 0, 0.5);
+      text-decoration: none;
+      color: white;
+    }
+    
+    .floating-youtube svg {
+      flex-shrink: 0;
+    }
+    
+    @media (max-width: 768px) {
+      .announcement-banner-text {
+        font-size: 12px;
+      }
+      
+      .announcement-banner .subscribe-btn {
+        padding: 6px 12px;
+        font-size: 12px;
+      }
+      
+      .floating-youtube {
+        padding: 10px 16px;
+        font-size: 12px;
+        bottom: 16px;
+        right: 16px;
+      }
+      
+      .floating-youtube span {
+        display: none;
+      }
+      
+      .floating-youtube {
+        padding: 14px;
+        border-radius: 50%;
+      }
+    }
+
     /* Additional Page-Specific Styles */
     .app-layout {
       min-height: 100vh;
@@ -423,6 +583,52 @@
   </style>
 </head>
 <body>
+  <!-- YouTube Subscribe Banner -->
+  <div class="announcement-banner" id="ytBanner">
+    <div class="announcement-banner-content">
+      <span class="youtube-icon">
+        <svg width="28" height="20" viewBox="0 0 28 20" fill="white">
+          <path d="M27.4 3.1c-.3-1.2-1.2-2.1-2.4-2.4C22.8 0 14 0 14 0S5.2 0 3 .7C1.8 1 .9 1.9.6 3.1 0 5.3 0 10 0 10s0 4.7.6 6.9c.3 1.2 1.2 2.1 2.4 2.4 2.2.7 11 .7 11 .7s8.8 0 11-.7c1.2-.3 2.1-1.2 2.4-2.4.6-2.2.6-6.9.6-6.9s0-4.7-.6-6.9zM11.2 14.2V5.8L18.5 10l-7.3 4.2z"/>
+        </svg>
+      </span>
+      <span class="announcement-banner-text">
+        🎓 <strong>Love this tool?</strong> Subscribe to our YouTube for more amazing LLB resources!
+      </span>
+      <a href="https://www.youtube.com/channel/UCEbbu5RXRFKV3-jkXGLijdw?sub_confirmation=1" target="_blank" rel="noopener" class="subscribe-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF0000">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+        </svg>
+        Subscribe Now
+      </a>
+    </div>
+    <button class="close-banner" onclick="closeBanner()" aria-label="Close banner">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+        <path d="M18 6L6 18M6 6l12 12"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Floating YouTube Subscribe Button -->
+  <a href="https://www.youtube.com/channel/UCEbbu5RXRFKV3-jkXGLijdw?sub_confirmation=1" target="_blank" rel="noopener" class="floating-youtube no-print" id="floatingYT">
+    <svg width="24" height="18" viewBox="0 0 28 20" fill="white">
+      <path d="M27.4 3.1c-.3-1.2-1.2-2.1-2.4-2.4C22.8 0 14 0 14 0S5.2 0 3 .7C1.8 1 .9 1.9.6 3.1 0 5.3 0 10 0 10s0 4.7.6 6.9c.3 1.2 1.2 2.1 2.4 2.4 2.2.7 11 .7 11 .7s8.8 0 11-.7c1.2-.3 2.1-1.2 2.4-2.4.6-2.2.6-6.9.6-6.9s0-4.7-.6-6.9zM11.2 14.2V5.8L18.5 10l-7.3 4.2z"/>
+    </svg>
+    <span>Subscribe</span>
+  </a>
+
+  <script>
+    // Banner close functionality with localStorage persistence
+    function closeBanner() {
+      document.getElementById('ytBanner').classList.add('hidden');
+      localStorage.setItem('ytBannerClosed', 'true');
+    }
+    
+    // Check if banner was previously closed
+    if (localStorage.getItem('ytBannerClosed') === 'true') {
+      document.getElementById('ytBanner').classList.add('hidden');
+    }
+  </script>
+
   <div class="app-layout">
     <!-- Header -->
     <header class="header no-print">
