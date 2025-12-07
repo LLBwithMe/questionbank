@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LLBwithMe - Your Complete Law Examination Preparation Platform. Access 284+ curated exam questions across 6 subjects for Semester 1.">
+  <meta name="keywords" content="LLB, law exam, question bank, legal education, constitutional law, contract law, criminal law">
+  <meta name="author" content="LLBwithMe">
+  <meta name="theme-color" content="#1a4d5e">
+  
+  <title>LLBwithMe Question Bank | Law Exam Preparation Platform</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%231a4d5e' rx='15' width='100' height='100'/><text x='50' y='65' font-size='50' text-anchor='middle' fill='white' font-family='serif' font-weight='bold'>LL</text></svg>">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="css/main.css">
+  
+  <style>
+    /* Additional Page-Specific Styles */
+    .app-layout {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .main-content {
+      flex: 1;
+      padding: var(--space-6) 0;
+    }
+    
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+      color: white;
+      padding: var(--space-12) 0;
+      margin-bottom: var(--space-8);
+      text-align: center;
+    }
+    
+    .hero h1 {
+      color: white;
+      font-size: var(--font-size-3xl);
+      margin-bottom: var(--space-4);
+    }
+    
+    .hero p {
+      color: rgba(255, 255, 255, 0.9);
+      font-size: var(--font-size-lg);
+      max-width: 600px;
+      margin: 0 auto var(--space-6);
+    }
+    
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: var(--space-8);
+      flex-wrap: wrap;
+      margin-top: var(--space-8);
+    }
+    
+    .hero-stat {
+      text-align: center;
+    }
+    
+    .hero-stat-value {
+      font-family: var(--font-family-heading);
+      font-size: var(--font-size-2xl);
+      font-weight: var(--font-weight-bold);
+    }
+    
+    .hero-stat-label {
+      font-size: var(--font-size-sm);
+      opacity: 0.9;
+    }
+    
+    /* Section Styles */
+    .section {
+      margin-bottom: var(--space-10);
+    }
+    
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: var(--space-6);
+      flex-wrap: wrap;
+      gap: var(--space-4);
+    }
+    
+    .section-title {
+      font-family: var(--font-family-heading);
+      font-size: var(--font-size-xl);
+      font-weight: var(--font-weight-bold);
+      color: var(--color-text-primary);
+      margin: 0;
+    }
+    
+    /* Roadmap Timeline */
+    .roadmap {
+      position: relative;
+      padding-left: var(--space-8);
+    }
+    
+    .roadmap::before {
+      content: '';
+      position: absolute;
+      left: 12px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: var(--color-border);
+    }
+    
+    .roadmap-item {
+      position: relative;
+      padding-bottom: var(--space-6);
+    }
+    
+    .roadmap-item:last-child {
+      padding-bottom: 0;
+    }
+    
+    .roadmap-marker {
+      position: absolute;
+      left: calc(-1 * var(--space-8) + 4px);
+      top: 4px;
+      width: 18px;
+      height: 18px;
+      background: var(--color-bg-secondary);
+      border: 3px solid var(--color-border);
+      border-radius: 50%;
+    }
+    
+    .roadmap-item.active .roadmap-marker {
+      background: var(--color-success);
+      border-color: var(--color-success);
+    }
+    
+    .roadmap-item.coming-soon .roadmap-marker {
+      border-color: var(--color-warning);
+    }
+    
+    .roadmap-content {
+      background: var(--color-bg-secondary);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-4);
+    }
+    
+    .roadmap-title {
+      font-weight: var(--font-weight-semibold);
+      color: var(--color-text-primary);
+      margin-bottom: var(--space-1);
+    }
+    
+    .roadmap-date {
+      font-size: var(--font-size-sm);
+      color: var(--color-text-tertiary);
+    }
+    
+    /* Question List */
+    .question-list {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-4);
+    }
+    
+    /* Footer */
+    .footer {
+      background: var(--color-bg-secondary);
+      border-top: 1px solid var(--color-border);
+      padding: var(--space-8) 0;
+      margin-top: auto;
+    }
+    
+    .footer-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: var(--space-8);
+    }
+    
+    .footer-section h4 {
+      font-family: var(--font-family-heading);
+      font-size: var(--font-size-base);
+      font-weight: var(--font-weight-semibold);
+      margin-bottom: var(--space-4);
+    }
+    
+    .footer-links {
+      list-style: none;
+    }
+    
+    .footer-links li {
+      margin-bottom: var(--space-2);
+    }
+    
+    .footer-links a {
+      color: var(--color-text-tertiary);
+      font-size: var(--font-size-sm);
+    }
+    
+    .footer-links a:hover {
+      color: var(--color-secondary);
+    }
+    
+    .footer-bottom {
+      margin-top: var(--space-8);
+      padding-top: var(--space-6);
+      border-top: 1px solid var(--color-border);
+      text-align: center;
+      font-size: var(--font-size-sm);
+      color: var(--color-text-muted);
+    }
+    
+    /* View Tabs */
+    .view-tabs {
+      display: flex;
+      gap: var(--space-2);
+      margin-bottom: var(--space-4);
+      border-bottom: 1px solid var(--color-border);
+      padding-bottom: var(--space-2);
+    }
+    
+    .view-tab {
+      padding: var(--space-2) var(--space-4);
+      background: none;
+      border: none;
+      font-size: var(--font-size-sm);
+      font-weight: var(--font-weight-medium);
+      color: var(--color-text-tertiary);
+      cursor: pointer;
+      border-radius: var(--radius-md) var(--radius-md) 0 0;
+      transition: all var(--transition-fast);
+    }
+    
+    .view-tab:hover {
+      color: var(--color-text-primary);
+      background: var(--color-bg-tertiary);
+    }
+    
+    .view-tab.active {
+      color: var(--color-primary);
+      background: var(--color-bg-secondary);
+      border-bottom: 2px solid var(--color-primary);
+    }
+    
+    /* Dashboard Stats Grid */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: var(--space-4);
+      margin-bottom: var(--space-6);
+    }
+    
+    /* Charts Container */
+    .charts-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: var(--space-6);
+      margin-bottom: var(--space-6);
+    }
+    
+    .chart-card {
+      background: var(--color-bg-secondary);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-xl);
+      padding: var(--space-5);
+    }
+    
+    .chart-title {
+      font-family: var(--font-family-heading);
+      font-size: var(--font-size-base);
+      font-weight: var(--font-weight-semibold);
+      margin-bottom: var(--space-4);
+    }
+    
+    .chart-container {
+      position: relative;
+      height: 250px;
+    }
+    
+    /* Theme Toggle */
+    .theme-toggle {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      cursor: pointer;
+    }
+    
+    .theme-toggle-icon {
+      width: 20px;
+      height: 20px;
+      color: var(--color-text-tertiary);
+    }
+    
+    /* Bookmark Heart */
+    .bookmark-btn {
+      color: var(--color-text-muted);
+      transition: all var(--transition-fast);
+    }
+    
+    .bookmark-btn:hover {
+      color: var(--color-error);
+    }
+    
+    .bookmark-btn.active {
+      color: var(--color-error);
+    }
+    
+    .bookmark-btn.active svg {
+      fill: var(--color-error);
+    }
+    
+    /* Studied Checkbox */
+    .studied-check.checked {
+      color: var(--color-success);
+    }
+    
+    /* Pagination */
+    .pagination {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-2);
+      margin-top: var(--space-6);
+    }
+    
+    .pagination-btn {
+      min-width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--color-bg-secondary);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      font-size: var(--font-size-sm);
+      color: var(--color-text-secondary);
+      cursor: pointer;
+      transition: all var(--transition-fast);
+    }
+    
+    .pagination-btn:hover:not(:disabled) {
+      border-color: var(--color-secondary);
+      color: var(--color-secondary);
+    }
+    
+    .pagination-btn.active {
+      background: var(--color-primary);
+      border-color: var(--color-primary);
+      color: white;
+    }
+    
+    .pagination-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    
+    /* Page Views */
+    .page-view {
+      display: none;
+    }
+    
+    .page-view.active {
+      display: block;
+    }
+    
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      .hero {
+        padding: var(--space-8) 0;
+      }
+      
+      .hero h1 {
+        font-size: var(--font-size-xl);
+      }
+      
+      .hero p {
+        font-size: var(--font-size-base);
+      }
+      
+      .hero-stats {
+        gap: var(--space-6);
+      }
+      
+      .filter-groups {
+        flex-direction: column;
+      }
+      
+      .filter-group {
+        width: 100%;
+      }
+      
+      .question-actions {
+        flex-wrap: wrap;
+      }
+      
+      .search-container {
+        display: none;
+      }
+      
+      .search-container.mobile-visible {
+        display: block;
+        position: absolute;
+        top: var(--header-height);
+        left: 0;
+        right: 0;
+        padding: var(--space-4);
+        background: var(--color-bg-secondary);
+        border-bottom: 1px solid var(--color-border);
+        max-width: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Header -->
+    <header class="header no-print">
+      <div class="container">
+        <div class="header-inner">
+          <a href="#" class="logo" onclick="App.navigate('home')">
+            <div class="logo-icon">LL</div>
+            <div class="logo-text">
+              <span class="primary">LLBwithMe</span>
+              <span class="accent">Question Bank</span>
+            </div>
+          </a>
+          
+          <div class="search-container" id="searchContainer">
+            <div class="search-input-wrapper">
+              <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.3-4.3"></path>
+              </svg>
+              <input 
+                type="text" 
+                class="search-input" 
+                id="searchInput"
+                placeholder="Search questions..."
+                aria-label="Search questions"
+              >
+              <button class="search-clear" id="searchClear" aria-label="Clear search">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 6 6 18"></path>
+                  <path d="m6 6 12 12"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="search-results" id="searchResults"></div>
+          </div>
+          
+          <nav class="nav-main" id="navMain">
+            <a href="#" class="nav-link active" data-page="home" onclick="App.navigate('home')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+              </svg>
+              Home
+            </a>
+            <a href="#" class="nav-link" data-page="questions" onclick="App.navigate('questions')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+              </svg>
+              Questions
+            </a>
+            <a href="#" class="nav-link" data-page="progress" onclick="App.navigate('progress')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+              Progress
+            </a>
+            <a href="#" class="nav-link" data-page="bookmarks" onclick="App.navigate('bookmarks')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+              </svg>
+              Bookmarks
+            </a>
+          </nav>
+          
+          <div class="header-actions">
+            <label class="theme-toggle" title="Toggle dark mode">
+              <input type="checkbox" id="themeToggle" class="sr-only">
+              <svg class="theme-toggle-icon" id="themeIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="4"></circle>
+                <path d="M12 2v2"></path>
+                <path d="M12 20v2"></path>
+                <path d="m4.93 4.93 1.41 1.41"></path>
+                <path d="m17.66 17.66 1.41 1.41"></path>
+                <path d="M2 12h2"></path>
+                <path d="M20 12h2"></path>
+                <path d="m6.34 17.66-1.41 1.41"></path>
+                <path d="m19.07 4.93-1.41 1.41"></path>
+              </svg>
+            </label>
+            
+            <button class="btn btn-sm btn-ghost" onclick="App.navigate('admin')" title="Admin Panel">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+            </button>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="4" y1="6" x2="20" y2="6"></line>
+                <line x1="4" y1="12" x2="20" y2="12"></line>
+                <line x1="4" y1="18" x2="20" y2="18"></line>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Home Page -->
+      <div class="page-view active" id="pageHome">
+        <!-- Hero Section -->
+        <section class="hero">
+          <div class="container">
+            <h1>Master Your Law Exams</h1>
+            <p>Access 284+ curated exam questions from actual LL.B. examinations. Organized by subject, filtered by marks, and tracked for your progress.</p>
+            <button class="btn btn-accent btn-lg" onclick="App.navigate('questions')">
+              Start Studying Now
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </button>
+            
+            <div class="hero-stats">
+              <div class="hero-stat">
+                <div class="hero-stat-value">284</div>
+                <div class="hero-stat-label">Questions</div>
+              </div>
+              <div class="hero-stat">
+                <div class="hero-stat-value">6</div>
+                <div class="hero-stat-label">Subjects</div>
+              </div>
+              <div class="hero-stat">
+                <div class="hero-stat-value">4</div>
+                <div class="hero-stat-label">Exam Sessions</div>
+              </div>
+              <div class="hero-stat">
+                <div class="hero-stat-value" id="studiedCount">0</div>
+                <div class="hero-stat-label">Questions Studied</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <div class="container">
+          <!-- Semester Selector -->
+          <section class="section">
+            <div class="section-header">
+              <h2 class="section-title">Select Semester</h2>
+            </div>
+            <div class="semester-tabs" id="semesterTabs">
+              <!-- Rendered by JS -->
+            </div>
+          </section>
+          
+          <!-- Subjects Grid -->
+          <section class="section">
+            <div class="section-header">
+              <h2 class="section-title">Subjects</h2>
+              <span class="text-sm text-muted" id="subjectCount">6 subjects</span>
+            </div>
+            <div class="grid grid-cols-3" id="subjectsGrid">
+              <!-- Rendered by JS -->
+            </div>
+          </section>
+          
+          <!-- Statistics Dashboard -->
+          <section class="section">
+            <div class="section-header">
+              <h2 class="section-title">Statistics Overview</h2>
+            </div>
+            
+            <div class="stats-grid" id="statsGrid">
+              <!-- Rendered by JS -->
+            </div>
+            
+            <div class="charts-grid">
+              <div class="chart-card">
+                <h3 class="chart-title">Questions by Subject</h3>
+                <div class="chart-container">
+                  <canvas id="subjectChart"></canvas>
+                </div>
+              </div>
+              <div class="chart-card">
+                <h3 class="chart-title">Questions by Marks</h3>
+                <div class="chart-container">
+                  <canvas id="marksChart"></canvas>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <!-- Roadmap -->
+          <section class="section">
+            <div class="section-header">
+              <h2 class="section-title">Semester Roadmap</h2>
+            </div>
+            <div class="roadmap" id="roadmap">
+              <!-- Rendered by JS -->
+            </div>
+          </section>
+        </div>
+      </div>
+      
+      <!-- Questions Page -->
+      <div class="page-view" id="pageQuestions">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Question Bank</h2>
+            <div class="flex gap-2">
+              <button class="btn btn-sm" onclick="App.exportPDF()">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                Export PDF
+              </button>
+              <button class="btn btn-sm" onclick="App.printQuestions()">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                  <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                  <rect x="6" y="14" width="12" height="8"></rect>
+                </svg>
+                Print
+              </button>
+            </div>
+          </div>
+          
+          <!-- Filter Panel -->
+          <div class="filter-panel">
+            <div class="filter-header">
+              <h3 class="filter-title">Filter Questions</h3>
+              <button class="btn btn-sm btn-ghost" onclick="App.clearFilters()">Clear All</button>
+            </div>
+            <div class="filter-groups">
+              <div class="filter-group">
+                <label class="filter-group-label">Subject</label>
+                <select class="filter-select" id="filterSubject" onchange="App.applyFilters()">
+                  <option value="">All Subjects</option>
+                </select>
+              </div>
+              <div class="filter-group">
+                <label class="filter-group-label">Marks</label>
+                <select class="filter-select" id="filterMarks" onchange="App.applyFilters()">
+                  <option value="">All Marks</option>
+                  <option value="15">15 Marks (Long)</option>
+                  <option value="10">10 Marks (Medium)</option>
+                  <option value="5">5 Marks (Short)</option>
+                </select>
+              </div>
+              <div class="filter-group">
+                <label class="filter-group-label">Difficulty</label>
+                <select class="filter-select" id="filterDifficulty" onchange="App.applyFilters()">
+                  <option value="">All Levels</option>
+                  <option value="easy">Easy</option>
+                  <option value="medium">Medium</option>
+                  <option value="hard">Hard</option>
+                </select>
+              </div>
+              <div class="filter-group">
+                <label class="filter-group-label">Type</label>
+                <select class="filter-select" id="filterType" onchange="App.applyFilters()">
+                  <option value="">All Types</option>
+                  <option value="definition">Definition</option>
+                  <option value="analytical">Analytical</option>
+                  <option value="comparative">Comparative</option>
+                  <option value="statutory">Statutory</option>
+                  <option value="case_law">Case Law</option>
+                  <option value="problem">Problem-Based</option>
+                </select>
+              </div>
+              <div class="filter-group">
+                <label class="filter-group-label">Status</label>
+                <select class="filter-select" id="filterStatus" onchange="App.applyFilters()">
+                  <option value="">All Questions</option>
+                  <option value="studied">Studied</option>
+                  <option value="not-studied">Not Studied</option>
+                  <option value="bookmarked">Bookmarked</option>
+                </select>
+              </div>
+            </div>
+            <div class="active-filters" id="activeFilters"></div>
+            <div class="filter-result-count" id="filterResultCount">Showing 284 questions</div>
+          </div>
+          
+          <!-- Question List -->
+          <div class="question-list" id="questionList">
+            <!-- Rendered by JS -->
+          </div>
+          
+          <!-- Pagination -->
+          <div class="pagination" id="pagination">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+      </div>
+      
+      <!-- Progress Page -->
+      <div class="page-view" id="pageProgress">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Your Progress</h2>
+          </div>
+          
+          <div class="stats-grid">
+            <div class="card stat-card">
+              <div class="stat-card-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+              </div>
+              <div class="stat-card-value" id="progressStudied">0</div>
+              <div class="stat-card-label">Questions Studied</div>
+            </div>
+            <div class="card stat-card">
+              <div class="stat-card-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                </svg>
+              </div>
+              <div class="stat-card-value" id="progressBookmarks">0</div>
+              <div class="stat-card-label">Bookmarks</div>
+            </div>
+            <div class="card stat-card">
+              <div class="stat-card-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="20" x2="12" y2="10"></line>
+                  <line x1="18" y1="20" x2="18" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="16"></line>
+                </svg>
+              </div>
+              <div class="stat-card-value" id="progressPercentage">0%</div>
+              <div class="stat-card-label">Completion Rate</div>
+            </div>
+          </div>
+          
+          <div class="card" style="margin-bottom: var(--space-6);">
+            <div class="card-body">
+              <h3 class="chart-title">Overall Progress</h3>
+              <div class="progress-bar" style="margin: var(--space-4) 0;">
+                <div class="progress-bar-fill" id="overallProgressBar" style="width: 0%"></div>
+              </div>
+              <div class="progress-text">
+                <span id="progressLabel">0 / 284 questions</span>
+                <span id="progressPercent">0%</span>
+              </div>
+            </div>
+          </div>
+          
+          <h3 class="section-title">Progress by Subject</h3>
+          <div class="grid grid-cols-2" id="subjectProgressGrid">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+      </div>
+      
+      <!-- Bookmarks Page -->
+      <div class="page-view" id="pageBookmarks">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Your Bookmarks</h2>
+            <span class="text-sm text-muted" id="bookmarkCount">0 bookmarked</span>
+          </div>
+          
+          <div class="question-list" id="bookmarkList">
+            <!-- Rendered by JS -->
+          </div>
+          
+          <div class="empty-state" id="bookmarksEmpty">
+            <div class="empty-state-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </div>
+            <h3 class="empty-state-title">No Bookmarks Yet</h3>
+            <p class="empty-state-text">Start bookmarking questions to save them for later review.</p>
+            <button class="btn btn-primary" onclick="App.navigate('questions')">Browse Questions</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Admin Page -->
+      <div class="page-view" id="pageAdmin">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Admin Panel</h2>
+          </div>
+          
+          <div class="card" id="adminLogin" style="max-width: 400px; margin: 0 auto;">
+            <div class="card-body">
+              <h3 style="margin-bottom: var(--space-4);">Admin Access</h3>
+              <div class="filter-group" style="margin-bottom: var(--space-4);">
+                <label class="filter-group-label">Password</label>
+                <input type="password" class="filter-select" id="adminPassword" placeholder="Enter admin password">
+              </div>
+              <button class="btn btn-primary w-full" onclick="App.adminLogin()">Login</button>
+            </div>
+          </div>
+          
+          <div id="adminPanel" class="hidden">
+            <div class="view-tabs">
+              <button class="view-tab active" onclick="App.showAdminTab('overview')">Overview</button>
+              <button class="view-tab" onclick="App.showAdminTab('questions')">Questions</button>
+              <button class="view-tab" onclick="App.showAdminTab('export')">Export Data</button>
+            </div>
+            
+            <div id="adminOverview" class="mt-6">
+              <div class="stats-grid">
+                <div class="card stat-card">
+                  <div class="stat-card-value">284</div>
+                  <div class="stat-card-label">Total Questions</div>
+                </div>
+                <div class="card stat-card">
+                  <div class="stat-card-value">6</div>
+                  <div class="stat-card-label">Total Subjects</div>
+                </div>
+                <div class="card stat-card">
+                  <div class="stat-card-value">1</div>
+                  <div class="stat-card-label">Active Semesters</div>
+                </div>
+              </div>
+            </div>
+            
+            <div id="adminQuestions" class="mt-6 hidden">
+              <div class="card">
+                <div class="card-header">
+                  <h3>Add New Question</h3>
+                </div>
+                <div class="card-body">
+                  <div class="grid grid-cols-2" style="gap: var(--space-4); margin-bottom: var(--space-4);">
+                    <div class="filter-group">
+                      <label class="filter-group-label">Subject</label>
+                      <select class="filter-select" id="newQuestionSubject">
+                        <option value="crim_psych">Criminal Psychology & Criminal Sociology</option>
+                        <option value="const_law">Constitutional Law I</option>
+                        <option value="contract_law">Law of Contract I</option>
+                        <option value="family_law">Family Law I</option>
+                        <option value="crimes">Law of Crimes</option>
+                        <option value="ipr">Intellectual Property Rights</option>
+                      </select>
+                    </div>
+                    <div class="filter-group">
+                      <label class="filter-group-label">Marks</label>
+                      <select class="filter-select" id="newQuestionMarks">
+                        <option value="15">15 Marks</option>
+                        <option value="10">10 Marks</option>
+                        <option value="5">5 Marks</option>
+                      </select>
+                    </div>
+                    <div class="filter-group">
+                      <label class="filter-group-label">Difficulty</label>
+                      <select class="filter-select" id="newQuestionDifficulty">
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                      </select>
+                    </div>
+                    <div class="filter-group">
+                      <label class="filter-group-label">Type</label>
+                      <select class="filter-select" id="newQuestionType">
+                        <option value="definition">Definition</option>
+                        <option value="analytical">Analytical</option>
+                        <option value="comparative">Comparative</option>
+                        <option value="statutory">Statutory</option>
+                        <option value="case_law">Case Law</option>
+                        <option value="problem">Problem-Based</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="filter-group" style="margin-bottom: var(--space-4);">
+                    <label class="filter-group-label">Question Text</label>
+                    <textarea class="filter-select" id="newQuestionText" rows="4" placeholder="Enter question text..."></textarea>
+                  </div>
+                  <button class="btn btn-primary" onclick="App.addQuestion()">Add Question</button>
+                </div>
+              </div>
+            </div>
+            
+            <div id="adminExport" class="mt-6 hidden">
+              <div class="card">
+                <div class="card-body">
+                  <h3 style="margin-bottom: var(--space-4);">Export Options</h3>
+                  <div class="flex gap-4 flex-wrap">
+                    <button class="btn" onclick="App.exportData('json')">
+                      Export as JSON
+                    </button>
+                    <button class="btn" onclick="App.exportData('csv')">
+                      Export as CSV
+                    </button>
+                    <button class="btn" onclick="App.exportUserData()">
+                      Export User Progress
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer no-print">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>LLBwithMe</h4>
+            <p class="text-sm text-muted">Your complete law examination preparation platform. Access curated questions from actual examinations.</p>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#" onclick="App.navigate('home')">Home</a></li>
+              <li><a href="#" onclick="App.navigate('questions')">Questions</a></li>
+              <li><a href="#" onclick="App.navigate('progress')">Progress</a></li>
+              <li><a href="#" onclick="App.navigate('bookmarks')">Bookmarks</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Subjects</h4>
+            <ul class="footer-links">
+              <li><a href="#" onclick="App.filterBySubject('crim_psych')">Criminal Psychology</a></li>
+              <li><a href="#" onclick="App.filterBySubject('const_law')">Constitutional Law</a></li>
+              <li><a href="#" onclick="App.filterBySubject('contract_law')">Contract Law</a></li>
+              <li><a href="#" onclick="App.filterBySubject('family_law')">Family Law</a></li>
+              <li><a href="#" onclick="App.filterBySubject('crimes')">Law of Crimes</a></li>
+              <li><a href="#" onclick="App.filterBySubject('ipr')">IPR</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Semesters</h4>
+            <ul class="footer-links">
+              <li><a href="#">Semester 1 <span class="badge badge-active">Active</span></a></li>
+              <li><a href="#">Semester 2 <span class="badge badge-coming-soon">Apr 2026</span></a></li>
+              <li><a href="#">Semester 3 <span class="badge badge-planned">Aug 2026</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 LLBwithMe. All questions extracted from actual examination papers.</p>
+          <p style="margin-top: var(--space-2);">Version 2.0.0 | Built with care for law students</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+  
+  <!-- Modal -->
+  <div class="modal-backdrop" id="modalBackdrop" onclick="App.closeModal()"></div>
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <h3 class="modal-title" id="modalTitle">Question Details</h3>
+      <button class="modal-close" onclick="App.closeModal()" aria-label="Close modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 6 6 18"></path>
+          <path d="m6 6 12 12"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="modal-body" id="modalBody">
+      <!-- Dynamic content -->
+    </div>
+    <div class="modal-footer" id="modalFooter">
+      <button class="btn" onclick="App.closeModal()">Close</button>
+    </div>
+  </div>
+  
+  <!-- Application Script -->
+  <script src="js/app.js"></script>
+</body>
+</html>
+

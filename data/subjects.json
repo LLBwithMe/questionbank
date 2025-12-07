@@ -1,0 +1,147 @@
+{
+  "subjects": [
+    {
+      "id": "crim_psych",
+      "name": "Criminal Psychology & Criminal Sociology",
+      "shortName": "Criminal Psychology",
+      "code": "LP101",
+      "semester": "sem1",
+      "description": "Study of criminal behavior, criminological theories, psychological approaches to crime, and sociological perspectives on criminal conduct.",
+      "color": "#d4af37",
+      "icon": "brain",
+      "questionCount": 26,
+      "topics": [
+        "Classical School of Criminology",
+        "Positivist Approach",
+        "Forensic Psychology",
+        "Criminal Profiling",
+        "Social Structure Theory",
+        "Labelling Theory",
+        "Differential Association Theory"
+      ],
+      "createdDate": "2025-11-15"
+    },
+    {
+      "id": "const_law",
+      "name": "Constitutional Law I",
+      "shortName": "Constitutional Law",
+      "code": "LP102",
+      "semester": "sem1",
+      "description": "Fundamental principles of the Indian Constitution, Fundamental Rights, Directive Principles, and constitutional interpretation.",
+      "color": "#e74c3c",
+      "icon": "constitution",
+      "questionCount": 47,
+      "topics": [
+        "Preamble",
+        "Fundamental Rights (Articles 12-35)",
+        "Right to Equality",
+        "Right to Freedom",
+        "Right against Exploitation",
+        "Right to Freedom of Religion",
+        "Cultural and Educational Rights",
+        "Constitutional Remedies",
+        "Directive Principles",
+        "Citizenship"
+      ],
+      "createdDate": "2025-11-15"
+    },
+    {
+      "id": "contract_law",
+      "name": "Law of Contract I",
+      "shortName": "Contract Law",
+      "code": "LP103",
+      "semester": "sem1",
+      "description": "Formation, validity, performance, and discharge of contracts under the Indian Contract Act, 1872 and Specific Relief Act, 1963.",
+      "color": "#3498db",
+      "icon": "handshake",
+      "questionCount": 59,
+      "topics": [
+        "Essential Elements of Contract",
+        "Offer and Acceptance",
+        "Consideration",
+        "Capacity to Contract",
+        "Free Consent",
+        "Void and Voidable Contracts",
+        "Performance of Contracts",
+        "Discharge of Contracts",
+        "Remedies for Breach",
+        "Specific Performance",
+        "Quasi-Contracts"
+      ],
+      "createdDate": "2025-11-15"
+    },
+    {
+      "id": "family_law",
+      "name": "Family Law I",
+      "shortName": "Family Law",
+      "code": "LP104",
+      "semester": "sem1",
+      "description": "Personal laws governing marriage, divorce, adoption, and maintenance across Hindu, Muslim, Christian, and Parsi communities.",
+      "color": "#9b59b6",
+      "icon": "family",
+      "questionCount": 52,
+      "topics": [
+        "Hindu Marriage Act",
+        "Muslim Marriage Law",
+        "Christian Marriage Act",
+        "Special Marriage Act",
+        "Adoption Laws",
+        "Maintenance",
+        "Dower",
+        "Divorce Grounds",
+        "Restitution of Conjugal Rights",
+        "Family Courts"
+      ],
+      "createdDate": "2025-11-15"
+    },
+    {
+      "id": "crimes",
+      "name": "Law of Crimes",
+      "shortName": "Criminal Law",
+      "code": "LP105",
+      "semester": "sem1",
+      "description": "Study of criminal offences, liability, punishments, and defenses under the Bharatiya Nyaya Sanhita, 2023 (BNS).",
+      "color": "#c0392b",
+      "icon": "gavel",
+      "questionCount": 52,
+      "topics": [
+        "Criminal Liability",
+        "Mens Rea and Actus Reus",
+        "General Exceptions",
+        "Stages of Crime",
+        "Culpable Homicide & Murder",
+        "Offences Against Property",
+        "Offences Against Women",
+        "Abetment and Conspiracy",
+        "Right of Private Defence",
+        "Offences Against State"
+      ],
+      "createdDate": "2025-11-15"
+    },
+    {
+      "id": "ipr",
+      "name": "Intellectual Property Rights",
+      "shortName": "IPR",
+      "code": "LP106",
+      "semester": "sem1",
+      "description": "Legal framework for protection of patents, copyrights, trademarks, designs, and geographical indications.",
+      "color": "#1abc9c",
+      "icon": "lightbulb",
+      "questionCount": 48,
+      "topics": [
+        "Patents Act, 1970",
+        "Copyright Act, 1957",
+        "Trademarks Act, 1999",
+        "Designs Act, 2000",
+        "Geographical Indications",
+        "WIPO",
+        "TRIPS Agreement",
+        "Patent Infringement",
+        "Copyright Ownership",
+        "Trademark Registration"
+      ],
+      "createdDate": "2025-11-15"
+    }
+  ]
+}
+

@@ -1,0 +1,127 @@
+{
+  "semesters": [
+    {
+      "id": "sem1",
+      "name": "Semester 1",
+      "displayName": "First Year - Semester I",
+      "year": 1,
+      "sequence": 1,
+      "active": true,
+      "launchDate": "2025-12-01",
+      "endDate": "2026-04-30",
+      "description": "Foundation courses covering criminal psychology, constitutional law, contract law, family law, law of crimes, and intellectual property rights.",
+      "color": "#1a4d5e",
+      "icon": "book",
+      "subjects": ["crim_psych", "const_law", "contract_law", "family_law", "crimes", "ipr"],
+      "stats": {
+        "totalQuestions": 284,
+        "questionsByMarks": {
+          "15": 88,
+          "10": 106,
+          "5": 90
+        },
+        "questionsByType": {
+          "long": 88,
+          "medium": 106,
+          "short": 90
+        }
+      }
+    },
+    {
+      "id": "sem2",
+      "name": "Semester 2",
+      "displayName": "First Year - Semester II",
+      "year": 1,
+      "sequence": 2,
+      "active": false,
+      "launchDate": "2026-04-15",
+      "status": "coming_soon",
+      "description": "Building on Semester 1 fundamentals with advanced legal concepts and procedural law.",
+      "color": "#2a8fa3",
+      "icon": "scale",
+      "subjects": [],
+      "stats": {
+        "totalQuestions": 0,
+        "questionsByMarks": {},
+        "questionsByType": {}
+      }
+    },
+    {
+      "id": "sem3",
+      "name": "Semester 3",
+      "displayName": "Second Year - Semester I",
+      "year": 2,
+      "sequence": 3,
+      "active": false,
+      "launchDate": "2026-08-01",
+      "status": "coming_soon",
+      "description": "Second year studies focusing on specialized legal areas and advanced constitutional principles.",
+      "color": "#27ae60",
+      "icon": "gavel",
+      "subjects": [],
+      "stats": {
+        "totalQuestions": 0,
+        "questionsByMarks": {},
+        "questionsByType": {}
+      }
+    },
+    {
+      "id": "sem4",
+      "name": "Semester 4",
+      "displayName": "Second Year - Semester II",
+      "year": 2,
+      "sequence": 4,
+      "active": false,
+      "launchDate": "2026-12-01",
+      "status": "coming_soon",
+      "description": "Continuing second year legal education with focus on procedural aspects and specialized subjects.",
+      "color": "#9b59b6",
+      "icon": "document",
+      "subjects": [],
+      "stats": {
+        "totalQuestions": 0,
+        "questionsByMarks": {},
+        "questionsByType": {}
+      }
+    },
+    {
+      "id": "sem5",
+      "name": "Semester 5",
+      "displayName": "Third Year - Semester I",
+      "year": 3,
+      "sequence": 5,
+      "active": false,
+      "launchDate": "2027-04-01",
+      "status": "planned",
+      "description": "Third year studies with advanced electives and professional legal skills.",
+      "color": "#e67e22",
+      "icon": "briefcase",
+      "subjects": [],
+      "stats": {
+        "totalQuestions": 0,
+        "questionsByMarks": {},
+        "questionsByType": {}
+      }
+    },
+    {
+      "id": "sem6",
+      "name": "Semester 6",
+      "displayName": "Third Year - Semester II",
+      "year": 3,
+      "sequence": 6,
+      "active": false,
+      "launchDate": "2027-08-01",
+      "status": "planned",
+      "description": "Final semester covering advanced topics and comprehensive legal preparation.",
+      "color": "#e74c3c",
+      "icon": "graduation",
+      "subjects": [],
+      "stats": {
+        "totalQuestions": 0,
+        "questionsByMarks": {},
+        "questionsByType": {}
+      }
+    }
+  ]
+}
+
