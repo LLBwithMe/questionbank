@@ -13,7 +13,10 @@
       "keywords": ["IPR", "intellectual property", "importance", "modern society"],
       "relatedQuestions": [],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Understanding Intellectual Property",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_ipr_002",
@@ -27,7 +30,10 @@
       "keywords": ["WIPO", "global protection", "intellectual property"],
       "relatedQuestions": ["q_sem1_ipr_040"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Understanding Intellectual Property",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_ipr_003",
@@ -41,7 +47,10 @@
       "keywords": ["copyright", "owner rights", "definition"],
       "relatedQuestions": ["q_sem1_ipr_029"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Copyright and Neighbouring Rights",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_ipr_004",
@@ -55,7 +64,10 @@
       "keywords": ["patents", "types", "procedure", "India"],
       "relatedQuestions": ["q_sem1_ipr_030", "q_sem1_ipr_048"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Patents",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_ipr_005",
@@ -69,7 +81,10 @@
       "keywords": ["trademark", "registration", "process", "Trademark Act 1999"],
       "relatedQuestions": [],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Trademarks",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_ipr_006",
@@ -83,7 +98,10 @@
       "keywords": ["patent eligibility", "Patents Act 1970", "case laws"],
       "relatedQuestions": ["q_sem1_ipr_004"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Patents",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_ipr_007",
@@ -97,7 +115,10 @@
       "keywords": ["authorship", "ownership", "copyright", "circumstances"],
       "relatedQuestions": ["q_sem1_ipr_043"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Copyright and Neighbouring Rights",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_ipr_008",
@@ -111,7 +132,10 @@
       "keywords": ["geographical indication", "registration", "authorised user", "GI Act"],
       "relatedQuestions": ["q_sem1_ipr_019"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Geographical Indications",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_ipr_009",
@@ -125,7 +149,10 @@
       "keywords": ["appellations of origin", "geographical indications", "Article 22", "Article 23", "TRIPS"],
       "relatedQuestions": [],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Geographical Indications",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_ipr_010",
@@ -139,7 +166,10 @@
       "keywords": ["absolute grounds", "relative grounds", "refusal", "trademark registration"],
       "relatedQuestions": ["q_sem1_ipr_038"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Trademarks",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_ipr_011",
@@ -153,7 +183,10 @@
       "keywords": ["PCT application", "procedure", "convention application", "difference"],
       "relatedQuestions": [],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Patents",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_ipr_012",
@@ -167,7 +200,10 @@
       "keywords": ["fair use", "fair dealing", "doctrine", "case laws"],
       "relatedQuestions": [],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Copyright and Neighbouring Rights",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_ipr_013",
@@ -181,7 +217,10 @@
       "keywords": ["copyright", "neighbouring rights", "Copyright Act 1957", "provisions"],
       "relatedQuestions": ["q_sem1_ipr_003"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Copyright and Neighbouring Rights",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_ipr_014",
@@ -195,7 +234,10 @@
       "keywords": ["patent registration", "steps", "Patents Act 1970", "provisions"],
       "relatedQuestions": ["q_sem1_ipr_004", "q_sem1_ipr_048"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Patents",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_ipr_015",
@@ -209,7 +251,10 @@
       "keywords": ["trademark infringement", "defenses", "case laws"],
       "relatedQuestions": ["q_sem1_ipr_036"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Trademarks",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_ipr_016",
@@ -223,7 +268,10 @@
       "keywords": ["national treatment", "Paris Convention", "MFN", "TRIPS"],
       "relatedQuestions": [],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Understanding Intellectual Property",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_ipr_017",
@@ -237,7 +285,10 @@
       "keywords": ["trademark", "functions", "business"],
       "relatedQuestions": [],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Trademarks",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_ipr_018",
@@ -251,7 +302,10 @@
       "keywords": ["design", "registration", "requirements", "Designs Act 2000"],
       "relatedQuestions": ["q_sem1_ipr_033", "q_sem1_ipr_046"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_05",
+      "moduleName": "Industrial Designs",
+      "moduleSectionNumber": 5
     },
     {
       "id": "q_sem1_ipr_019",
@@ -265,7 +319,10 @@
       "keywords": ["geographical indications", "trademarks", "difference"],
       "relatedQuestions": ["q_sem1_ipr_024", "q_sem1_ipr_047"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Geographical Indications",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_ipr_020",
@@ -279,7 +336,10 @@
       "keywords": ["trade secrets", "importance", "business"],
       "relatedQuestions": [],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_07",
+      "moduleName": "Protection of Other IP Rights",
+      "moduleSectionNumber": 7
     },
     {
       "id": "q_sem1_ipr_021",
@@ -293,7 +353,10 @@
       "keywords": ["patent infringement", "remedies"],
       "relatedQuestions": [],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Patents",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_ipr_022",
@@ -307,7 +370,10 @@
       "keywords": ["originality", "copyright", "case laws"],
       "relatedQuestions": [],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Copyright and Neighbouring Rights",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_ipr_023",
@@ -321,7 +387,10 @@
       "keywords": ["plant varieties", "PPVFRA", "eligibility", "registration"],
       "relatedQuestions": [],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_07",
+      "moduleName": "Protection of Other IP Rights",
+      "moduleSectionNumber": 7
     },
     {
       "id": "q_sem1_ipr_024",
@@ -335,7 +404,10 @@
       "keywords": ["geographical indications", "certification trademarks", "difference"],
       "relatedQuestions": ["q_sem1_ipr_019", "q_sem1_ipr_047"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Geographical Indications",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_ipr_025",
@@ -349,7 +421,10 @@
       "keywords": ["industrial design", "eligibility", "registration", "process"],
       "relatedQuestions": ["q_sem1_ipr_018"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_05",
+      "moduleName": "Industrial Designs",
+      "moduleSectionNumber": 5
     },
     {
       "id": "q_sem1_ipr_026",
@@ -363,7 +438,10 @@
       "keywords": ["biodiversity", "patents", "National Biodiversity Board"],
       "relatedQuestions": [],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Patents",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_ipr_027",
@@ -377,7 +455,10 @@
       "keywords": ["compulsory license", "Patents Act 1970", "case laws"],
       "relatedQuestions": ["q_sem1_ipr_035"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Patents",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_ipr_028",
@@ -391,7 +472,10 @@
       "keywords": ["R.G. Anand", "Deluxe Films", "judgment", "copyright"],
       "relatedQuestions": [],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Copyright and Neighbouring Rights",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_ipr_029",
@@ -405,7 +489,10 @@
       "keywords": ["well known marks", "Trademarks Act 1999", "case laws"],
       "relatedQuestions": [],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Trademarks",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_ipr_030",
@@ -419,7 +506,10 @@
       "keywords": ["design holder", "rights", "piracy", "Designs Act 2000"],
       "relatedQuestions": ["q_sem1_ipr_018"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_05",
+      "moduleName": "Industrial Designs",
+      "moduleSectionNumber": 5
     },
     {
       "id": "q_sem1_ipr_031",
@@ -433,7 +523,10 @@
       "keywords": ["geographical indication", "registration", "effect", "GI Act"],
       "relatedQuestions": ["q_sem1_ipr_008"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Geographical Indications",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_ipr_032",
@@ -447,7 +540,10 @@
       "keywords": ["patent registration", "process", "Patent Act 1970"],
       "relatedQuestions": ["q_sem1_ipr_004", "q_sem1_ipr_014"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Patents",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_ipr_033",
@@ -461,7 +557,10 @@
       "keywords": ["industrial design", "significance", "definition"],
       "relatedQuestions": ["q_sem1_ipr_018"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_05",
+      "moduleName": "Industrial Designs",
+      "moduleSectionNumber": 5
     },
     {
       "id": "q_sem1_ipr_034",
@@ -475,7 +574,10 @@
       "keywords": ["moral rights", "copyright", "concept"],
       "relatedQuestions": [],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Copyright and Neighbouring Rights",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_ipr_035",
@@ -489,7 +591,10 @@
       "keywords": ["compulsory licensing", "patent law"],
       "relatedQuestions": ["q_sem1_ipr_027"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Patents",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_ipr_036",
@@ -503,7 +608,10 @@
       "keywords": ["passing off", "trademarks"],
       "relatedQuestions": ["q_sem1_ipr_015"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Trademarks",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_ipr_037",
@@ -517,7 +625,10 @@
       "keywords": ["TKDL", "traditional knowledge", "digital library"],
       "relatedQuestions": [],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_07",
+      "moduleName": "Protection of Other IP Rights",
+      "moduleSectionNumber": 7
     },
     {
       "id": "q_sem1_ipr_038",
@@ -531,7 +642,10 @@
       "keywords": ["absolute grounds", "refusal", "trademark"],
       "relatedQuestions": ["q_sem1_ipr_010"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Trademarks",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_ipr_039",
@@ -545,7 +659,10 @@
       "keywords": ["exhaustion", "doctrine", "IPR"],
       "relatedQuestions": [],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Understanding Intellectual Property",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_ipr_040",
@@ -559,7 +676,10 @@
       "keywords": ["WIPO", "World Intellectual Property Organization"],
       "relatedQuestions": ["q_sem1_ipr_002"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Understanding Intellectual Property",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_ipr_041",
@@ -573,7 +693,10 @@
       "keywords": ["patent of addition", "improvement"],
       "relatedQuestions": [],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Patents",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_ipr_042",
@@ -587,7 +710,10 @@
       "keywords": ["layout designs", "semiconductor", "integrated circuits"],
       "relatedQuestions": [],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_07",
+      "moduleName": "Protection of Other IP Rights",
+      "moduleSectionNumber": 7
     },
     {
       "id": "q_sem1_ipr_043",
@@ -601,7 +727,10 @@
       "keywords": ["first owner", "copyright", "ownership"],
       "relatedQuestions": ["q_sem1_ipr_007"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Copyright and Neighbouring Rights",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_ipr_044",
@@ -615,7 +744,10 @@
       "keywords": ["copyright", "works", "Copyright Act 1957"],
       "relatedQuestions": ["q_sem1_ipr_003"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Copyright and Neighbouring Rights",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_ipr_045",
@@ -629,7 +761,10 @@
       "keywords": ["domain names", "trademark", "protection"],
       "relatedQuestions": [],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Trademarks",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_ipr_046",
@@ -643,7 +778,10 @@
       "keywords": ["geographical indications", "certification trademarks", "distinction"],
       "relatedQuestions": ["q_sem1_ipr_024"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Geographical Indications",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_ipr_047",
@@ -657,7 +795,10 @@
       "keywords": ["theories", "intellectual property", "justification"],
       "relatedQuestions": [],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Understanding Intellectual Property",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_ipr_048",
@@ -671,8 +812,10 @@
       "keywords": ["patent", "registration", "process", "India"],
       "relatedQuestions": ["q_sem1_ipr_004", "q_sem1_ipr_014"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Patents",
+      "moduleSectionNumber": 3
     }
   ]
 }
-

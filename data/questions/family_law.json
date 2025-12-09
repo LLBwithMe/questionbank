@@ -13,7 +13,10 @@
       "keywords": ["adoption", "valid adoption", "essentials", "effects"],
       "relatedQuestions": ["q_sem1_family_025", "q_sem1_family_031"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Adoption and Guardianship",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_family_002",
@@ -27,7 +30,10 @@
       "keywords": ["Hindu marriage", "Muslim marriage", "sacrament", "contract", "essentials"],
       "relatedQuestions": [],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Marriage and Matrimonial Reliefs under Hindu Law",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_family_003",
@@ -41,7 +47,10 @@
       "keywords": ["Christian marriage", "essentials", "divorce", "grounds"],
       "relatedQuestions": ["q_sem1_family_033"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Marriage under Other Laws",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_family_004",
@@ -55,7 +64,10 @@
       "keywords": ["Special Marriage Act", "procedure", "solemnization", "conditions"],
       "relatedQuestions": ["q_sem1_family_027"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Marriage under Other Laws",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_family_005",
@@ -69,7 +81,10 @@
       "keywords": ["Hindu law", "nature", "sources"],
       "relatedQuestions": ["q_sem1_family_029"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Introduction to Hindu and Muslim Law",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_family_006",
@@ -83,7 +98,10 @@
       "keywords": ["Hindu Marriage Act", "essentials", "ceremonies", "mandatory"],
       "relatedQuestions": [],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Marriage and Matrimonial Reliefs under Hindu Law",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_family_007",
@@ -97,7 +115,10 @@
       "keywords": ["Family Courts Act", "establishment", "jurisdiction"],
       "relatedQuestions": [],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Marriage and Matrimonial Reliefs under Hindu Law",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_family_008",
@@ -111,7 +132,10 @@
       "keywords": ["Muslim marriage", "legal effect", "muta marriage"],
       "relatedQuestions": ["q_sem1_family_052"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Marriage and Matrimonial Reliefs under Muslim Law",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_family_009",
@@ -125,7 +149,10 @@
       "keywords": ["maintenance", "wife", "welfare", "provisions"],
       "relatedQuestions": ["q_sem1_family_018", "q_sem1_family_030"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_05",
+      "moduleName": "Alimony and Maintenance",
+      "moduleSectionNumber": 5
     },
     {
       "id": "q_sem1_family_010",
@@ -139,7 +166,10 @@
       "keywords": ["adoption", "Hindu Adoptions and Maintenance Act", "provisions"],
       "relatedQuestions": ["q_sem1_family_001", "q_sem1_family_025"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Adoption and Guardianship",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_family_011",
@@ -153,7 +183,10 @@
       "keywords": ["Special Marriage Act", "essentials", "procedure", "consequences"],
       "relatedQuestions": ["q_sem1_family_004", "q_sem1_family_027"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Marriage under Other Laws",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_family_012",
@@ -167,7 +200,10 @@
       "keywords": ["dower", "talak", "Muslim law", "safeguard"],
       "relatedQuestions": ["q_sem1_family_017", "q_sem1_family_022"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Marriage and Matrimonial Reliefs under Muslim Law",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_family_013",
@@ -181,7 +217,10 @@
       "keywords": ["Hindu law", "sources", "schools"],
       "relatedQuestions": ["q_sem1_family_005"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Introduction to Hindu and Muslim Law",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_family_014",
@@ -195,7 +234,10 @@
       "keywords": ["mutual consent divorce", "Hindu Marriage Act", "case laws"],
       "relatedQuestions": [],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Marriage and Matrimonial Reliefs under Hindu Law",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_family_015",
@@ -209,7 +251,10 @@
       "keywords": ["Christian Marriage Act", "solemnization", "provisions"],
       "relatedQuestions": ["q_sem1_family_003"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Marriage under Other Laws",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_family_016",
@@ -223,7 +268,10 @@
       "keywords": ["sahih", "fasid", "batil", "Muslim marriage", "validity"],
       "relatedQuestions": [],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Marriage and Matrimonial Reliefs under Muslim Law",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_family_017",
@@ -237,7 +285,10 @@
       "keywords": ["dower", "mehr", "Muslim law"],
       "relatedQuestions": ["q_sem1_family_012", "q_sem1_family_022"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Marriage and Matrimonial Reliefs under Muslim Law",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_family_018",
@@ -251,7 +302,10 @@
       "keywords": ["separate residence", "maintenance", "Hindu wife"],
       "relatedQuestions": ["q_sem1_family_009"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_05",
+      "moduleName": "Alimony and Maintenance",
+      "moduleSectionNumber": 5
     },
     {
       "id": "q_sem1_family_019",
@@ -265,7 +319,10 @@
       "keywords": ["void", "voidable", "valid", "Parsi marriage"],
       "relatedQuestions": ["q_sem1_family_034"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Marriage under Other Laws",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_family_020",
@@ -279,7 +336,10 @@
       "keywords": ["live-in relationship", "same-sex relationship", "legal validity"],
       "relatedQuestions": [],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Marriage under Other Laws",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_family_021",
@@ -293,7 +353,10 @@
       "keywords": ["ancient Hindu law", "forms of marriage", "nature"],
       "relatedQuestions": ["q_sem1_family_002"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Marriage and Matrimonial Reliefs under Hindu Law",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_family_022",
@@ -307,7 +370,10 @@
       "keywords": ["dower", "Muslim widow", "enforcement", "rights"],
       "relatedQuestions": ["q_sem1_family_012", "q_sem1_family_017"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Marriage and Matrimonial Reliefs under Muslim Law",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_family_023",
@@ -321,7 +387,10 @@
       "keywords": ["Foreign Marriage Act", "solemnization", "object", "provisions"],
       "relatedQuestions": [],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Marriage under Other Laws",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_family_024",
@@ -335,7 +404,10 @@
       "keywords": ["maintenance", "parents", "senior citizens", "Maintenance and Welfare Act"],
       "relatedQuestions": [],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_05",
+      "moduleName": "Alimony and Maintenance",
+      "moduleSectionNumber": 5
     },
     {
       "id": "q_sem1_family_025",
@@ -349,7 +421,10 @@
       "keywords": ["adoption", "essentials", "Hindu Adoption and Maintenance Act"],
       "relatedQuestions": ["q_sem1_family_001", "q_sem1_family_010"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Adoption and Guardianship",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_family_026",
@@ -363,7 +438,10 @@
       "keywords": ["CARA Guidelines", "post-adoption", "Juvenile Justice Act"],
       "relatedQuestions": ["q_sem1_family_031"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Adoption and Guardianship",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_family_027",
@@ -377,7 +455,10 @@
       "keywords": ["Special Marriage Act", "essential conditions", "procedure", "solemnization"],
       "relatedQuestions": ["q_sem1_family_004", "q_sem1_family_011"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Marriage under Other Laws",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_family_028",
@@ -391,7 +472,10 @@
       "keywords": ["dissolution", "Muslim marriage", "modes", "talaq"],
       "relatedQuestions": [],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Marriage and Matrimonial Reliefs under Muslim Law",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_family_029",
@@ -405,7 +489,10 @@
       "keywords": ["restitution", "conjugal rights", "comparative", "remedy"],
       "relatedQuestions": [],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Marriage and Matrimonial Reliefs under Hindu Law",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_family_030",
@@ -419,7 +506,10 @@
       "keywords": ["maintenance", "divorced", "Hindu wife", "provisions"],
       "relatedQuestions": ["q_sem1_family_009", "q_sem1_family_018"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_05",
+      "moduleName": "Alimony and Maintenance",
+      "moduleSectionNumber": 5
     },
     {
       "id": "q_sem1_family_031",
@@ -433,7 +523,10 @@
       "keywords": ["adoption", "Juvenile Justice Act", "CARA Regulations", "essentials"],
       "relatedQuestions": ["q_sem1_family_026"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Adoption and Guardianship",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_family_032",
@@ -447,7 +540,10 @@
       "keywords": ["Muslim law", "sources", "schools"],
       "relatedQuestions": [],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Introduction to Hindu and Muslim Law",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_family_033",
@@ -461,7 +557,10 @@
       "keywords": ["divorce", "grounds", "Divorce Act 1869", "Christian"],
       "relatedQuestions": ["q_sem1_family_003"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Marriage under Other Laws",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_family_034",
@@ -475,7 +574,10 @@
       "keywords": ["Parsi Matrimonial Courts", "Parsi Marriage and Divorce Act"],
       "relatedQuestions": ["q_sem1_family_019"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Marriage under Other Laws",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_family_035",
@@ -489,7 +591,10 @@
       "keywords": ["age of marriage", "validity", "various laws", "effect"],
       "relatedQuestions": [],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Marriage and Matrimonial Reliefs under Hindu Law",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_family_036",
@@ -503,7 +608,10 @@
       "keywords": ["valid", "void", "voidable", "Hindu Marriage Act"],
       "relatedQuestions": ["q_sem1_family_019"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Marriage and Matrimonial Reliefs under Hindu Law",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_family_037",
@@ -517,7 +625,10 @@
       "keywords": ["Christian divorce", "bigamy", "problem"],
       "relatedQuestions": ["q_sem1_family_003"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Marriage under Other Laws",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_family_038",
@@ -531,7 +642,10 @@
       "keywords": ["adoption", "revocation", "custody", "Hindu"],
       "relatedQuestions": ["q_sem1_family_001"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Adoption and Guardianship",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_family_039",
@@ -545,7 +659,10 @@
       "keywords": ["dower", "Muslim widow", "property rights", "inheritance"],
       "relatedQuestions": ["q_sem1_family_022"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Marriage and Matrimonial Reliefs under Muslim Law",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_family_040",
@@ -559,7 +676,10 @@
       "keywords": ["prohibited relationship", "Muslim marriage", "sister"],
       "relatedQuestions": [],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Marriage and Matrimonial Reliefs under Muslim Law",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_family_041",
@@ -573,7 +693,10 @@
       "keywords": ["widow", "maintenance", "in-laws", "Hindu"],
       "relatedQuestions": ["q_sem1_family_009"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_05",
+      "moduleName": "Alimony and Maintenance",
+      "moduleSectionNumber": 5
     },
     {
       "id": "q_sem1_family_042",
@@ -587,7 +710,10 @@
       "keywords": ["pre-nuptial agreement", "living separately", "enforcement"],
       "relatedQuestions": ["q_sem1_family_048"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Marriage and Matrimonial Reliefs under Hindu Law",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_family_043",
@@ -601,7 +727,10 @@
       "keywords": ["remarriage", "appeal period", "validity", "Hindu divorce"],
       "relatedQuestions": [],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Marriage and Matrimonial Reliefs under Hindu Law",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_family_044",
@@ -615,7 +744,10 @@
       "keywords": ["cruelty", "abuse", "remedies", "Christian marriage"],
       "relatedQuestions": [],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Marriage under Other Laws",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_family_045",
@@ -629,7 +761,10 @@
       "keywords": ["pre-nuptial agreement", "living separately", "enforcement"],
       "relatedQuestions": ["q_sem1_family_042"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Marriage and Matrimonial Reliefs under Hindu Law",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_family_046",
@@ -643,7 +778,10 @@
       "keywords": ["destination marriage", "foreign country", "Hindu Marriage Act"],
       "relatedQuestions": ["q_sem1_family_023"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Marriage and Matrimonial Reliefs under Hindu Law",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_family_047",
@@ -657,7 +795,10 @@
       "keywords": ["talaq", "child maintenance", "Muslim law", "custody"],
       "relatedQuestions": [],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_05",
+      "moduleName": "Alimony and Maintenance",
+      "moduleSectionNumber": 5
     },
     {
       "id": "q_sem1_family_048",
@@ -671,7 +812,10 @@
       "keywords": ["adoption", "consent", "Hindu woman", "husband"],
       "relatedQuestions": ["q_sem1_family_001", "q_sem1_family_025"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Adoption and Guardianship",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_family_049",
@@ -685,7 +829,10 @@
       "keywords": ["muta marriage", "Shia", "dower", "validity"],
       "relatedQuestions": ["q_sem1_family_008", "q_sem1_family_052"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Marriage and Matrimonial Reliefs under Muslim Law",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_family_050",
@@ -699,7 +846,10 @@
       "keywords": ["mental illness", "voidable marriage", "remedies", "Hindu"],
       "relatedQuestions": ["q_sem1_family_036"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Marriage and Matrimonial Reliefs under Hindu Law",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_family_051",
@@ -713,7 +863,10 @@
       "keywords": ["Parsi", "Special Marriage Act", "Aashirvad", "validity"],
       "relatedQuestions": ["q_sem1_family_004"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Marriage under Other Laws",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_family_052",
@@ -727,8 +880,10 @@
       "keywords": ["minor", "property", "guardian", "sale"],
       "relatedQuestions": [],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Adoption and Guardianship",
+      "moduleSectionNumber": 6
     }
   ]
 }
-

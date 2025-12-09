@@ -13,7 +13,10 @@
       "keywords": ["contract", "valid contract", "essential elements", "definition"],
       "relatedQuestions": ["q_sem1_contract_030"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Introduction and Formation of Contract",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_contract_002",
@@ -27,7 +30,10 @@
       "keywords": ["acceptance", "communication", "legal rules", "cases"],
       "relatedQuestions": ["q_sem1_contract_029"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Introduction and Formation of Contract",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_contract_003",
@@ -41,7 +47,10 @@
       "keywords": ["specific performance", "Section 19", "Specific Relief Act"],
       "relatedQuestions": ["q_sem1_contract_008", "q_sem1_contract_039"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_08",
+      "moduleName": "Contract Remedies",
+      "moduleSectionNumber": 8
     },
     {
       "id": "q_sem1_contract_004",
@@ -55,7 +64,10 @@
       "keywords": ["privity", "contract", "doctrine", "exceptions"],
       "relatedQuestions": ["q_sem1_contract_034", "q_sem1_contract_055"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Consideration",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_contract_005",
@@ -69,7 +81,10 @@
       "keywords": ["proposal", "offer", "communication", "revocation"],
       "relatedQuestions": ["q_sem1_contract_025"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Introduction and Formation of Contract",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_contract_006",
@@ -83,7 +98,10 @@
       "keywords": ["competency", "capacity", "parties", "contract"],
       "relatedQuestions": ["q_sem1_contract_012", "q_sem1_contract_013"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Competency of Parties",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_contract_007",
@@ -97,7 +115,10 @@
       "keywords": ["fraud", "misrepresentation", "effect", "distinction"],
       "relatedQuestions": ["q_sem1_contract_054"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Free Consent",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_contract_008",
@@ -111,7 +132,10 @@
       "keywords": ["specific performance", "cannot be granted", "exceptions"],
       "relatedQuestions": ["q_sem1_contract_003", "q_sem1_contract_039"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_08",
+      "moduleName": "Contract Remedies",
+      "moduleSectionNumber": 8
     },
     {
       "id": "q_sem1_contract_009",
@@ -125,7 +149,10 @@
       "keywords": ["discharge", "modes", "contract termination"],
       "relatedQuestions": ["q_sem1_contract_024", "q_sem1_contract_018"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_07",
+      "moduleName": "Performance and Discharge of Contract",
+      "moduleSectionNumber": 7
     },
     {
       "id": "q_sem1_contract_010",
@@ -139,7 +166,10 @@
       "keywords": ["remedies", "breach", "provisions"],
       "relatedQuestions": ["q_sem1_contract_026", "q_sem1_contract_033"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_08",
+      "moduleName": "Contract Remedies",
+      "moduleSectionNumber": 8
     },
     {
       "id": "q_sem1_contract_011",
@@ -153,7 +183,10 @@
       "keywords": ["consensus ad idem", "free consent", "consent"],
       "relatedQuestions": [],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Free Consent",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_contract_012",
@@ -167,7 +200,10 @@
       "keywords": ["competency", "disqualification", "legal capacity"],
       "relatedQuestions": ["q_sem1_contract_006"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Competency of Parties",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_contract_013",
@@ -181,7 +217,10 @@
       "keywords": ["competency", "minor", "contract", "legal effects"],
       "relatedQuestions": ["q_sem1_contract_006"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Competency of Parties",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_contract_014",
@@ -195,7 +234,10 @@
       "keywords": ["injunctions", "relief", "grounds", "court"],
       "relatedQuestions": ["q_sem1_contract_031", "q_sem1_contract_040"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_08",
+      "moduleName": "Contract Remedies",
+      "moduleSectionNumber": 8
     },
     {
       "id": "q_sem1_contract_015",
@@ -209,7 +251,10 @@
       "keywords": ["quasi-contract", "provisions", "Indian Contract Act"],
       "relatedQuestions": ["q_sem1_contract_019", "q_sem1_contract_030"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Contingent Contracts and Quasi-Contracts",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_contract_016",
@@ -223,7 +268,10 @@
       "keywords": ["discharge", "modes", "contract"],
       "relatedQuestions": ["q_sem1_contract_009", "q_sem1_contract_024"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_07",
+      "moduleName": "Performance and Discharge of Contract",
+      "moduleSectionNumber": 7
     },
     {
       "id": "q_sem1_contract_017",
@@ -237,7 +285,10 @@
       "keywords": ["acceptance", "offer", "communication", "cases"],
       "relatedQuestions": ["q_sem1_contract_002", "q_sem1_contract_036"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Introduction and Formation of Contract",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_contract_018",
@@ -251,7 +302,10 @@
       "keywords": ["essential elements", "valid contract", "provisions"],
       "relatedQuestions": ["q_sem1_contract_001"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Introduction and Formation of Contract",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_contract_019",
@@ -265,7 +319,10 @@
       "keywords": ["quasi-contract", "types", "Indian Contract Act"],
       "relatedQuestions": ["q_sem1_contract_015"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Contingent Contracts and Quasi-Contracts",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_contract_020",
@@ -279,7 +336,10 @@
       "keywords": ["specific performance", "relief", "Specific Relief Act", "who can claim"],
       "relatedQuestions": ["q_sem1_contract_003", "q_sem1_contract_008"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_08",
+      "moduleName": "Contract Remedies",
+      "moduleSectionNumber": 8
     },
     {
       "id": "q_sem1_contract_021",
@@ -293,7 +353,10 @@
       "keywords": ["wagering agreement", "essential elements", "betting"],
       "relatedQuestions": ["q_sem1_contract_057"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_05",
+      "moduleName": "Void Agreements",
+      "moduleSectionNumber": 5
     },
     {
       "id": "q_sem1_contract_022",
@@ -307,7 +370,10 @@
       "keywords": ["discharge", "methods", "contract"],
       "relatedQuestions": ["q_sem1_contract_009", "q_sem1_contract_016"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_07",
+      "moduleName": "Performance and Discharge of Contract",
+      "moduleSectionNumber": 7
     },
     {
       "id": "q_sem1_contract_023",
@@ -321,7 +387,10 @@
       "keywords": ["proposal", "rules", "case laws", "Indian Contract Act"],
       "relatedQuestions": ["q_sem1_contract_005"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Introduction and Formation of Contract",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_contract_024",
@@ -335,7 +404,10 @@
       "keywords": ["remedies", "aggrieved party", "breach"],
       "relatedQuestions": ["q_sem1_contract_010"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_08",
+      "moduleName": "Contract Remedies",
+      "moduleSectionNumber": 8
     },
     {
       "id": "q_sem1_contract_025",
@@ -349,7 +421,10 @@
       "keywords": ["restitution", "doctrine"],
       "relatedQuestions": ["q_sem1_contract_055"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Contingent Contracts and Quasi-Contracts",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_contract_026",
@@ -363,7 +438,10 @@
       "keywords": ["consideration", "void", "agreement"],
       "relatedQuestions": [],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Consideration",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_contract_027",
@@ -377,7 +455,10 @@
       "keywords": ["time", "place", "performance", "rules"],
       "relatedQuestions": ["q_sem1_contract_038"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_07",
+      "moduleName": "Performance and Discharge of Contract",
+      "moduleSectionNumber": 7
     },
     {
       "id": "q_sem1_contract_028",
@@ -391,7 +472,10 @@
       "keywords": ["quasi-contracts", "provisions", "enumeration"],
       "relatedQuestions": ["q_sem1_contract_015", "q_sem1_contract_019"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Contingent Contracts and Quasi-Contracts",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_contract_029",
@@ -405,7 +489,10 @@
       "keywords": ["injunction", "cannot be granted"],
       "relatedQuestions": ["q_sem1_contract_014", "q_sem1_contract_031"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_08",
+      "moduleName": "Contract Remedies",
+      "moduleSectionNumber": 8
     },
     {
       "id": "q_sem1_contract_030",
@@ -419,7 +506,10 @@
       "keywords": ["discharge", "ways", "methods"],
       "relatedQuestions": ["q_sem1_contract_009", "q_sem1_contract_022"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_07",
+      "moduleName": "Performance and Discharge of Contract",
+      "moduleSectionNumber": 7
     },
     {
       "id": "q_sem1_contract_031",
@@ -433,7 +523,10 @@
       "keywords": ["quantum meruit", "remedies", "breach"],
       "relatedQuestions": ["q_sem1_contract_058"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_08",
+      "moduleName": "Contract Remedies",
+      "moduleSectionNumber": 8
     },
     {
       "id": "q_sem1_contract_032",
@@ -447,7 +540,10 @@
       "keywords": ["privity", "doctrine", "exceptions"],
       "relatedQuestions": ["q_sem1_contract_004"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Consideration",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_contract_033",
@@ -461,7 +557,10 @@
       "keywords": ["undue influence", "essentials", "effect", "provisions"],
       "relatedQuestions": ["q_sem1_contract_041"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Free Consent",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_contract_034",
@@ -475,7 +574,10 @@
       "keywords": ["communication", "offer", "acceptance", "electronic contracts", "online"],
       "relatedQuestions": ["q_sem1_contract_017"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Introduction and Formation of Contract",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_contract_035",
@@ -489,7 +591,10 @@
       "keywords": ["restraint of trade", "void", "exceptions"],
       "relatedQuestions": [],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_05",
+      "moduleName": "Void Agreements",
+      "moduleSectionNumber": 5
     },
     {
       "id": "q_sem1_contract_036",
@@ -503,7 +608,10 @@
       "keywords": ["time", "place", "performance", "laws"],
       "relatedQuestions": ["q_sem1_contract_027"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_07",
+      "moduleName": "Performance and Discharge of Contract",
+      "moduleSectionNumber": 7
     },
     {
       "id": "q_sem1_contract_037",
@@ -517,7 +625,10 @@
       "keywords": ["specific performance", "cannot be granted", "Specific Relief Act"],
       "relatedQuestions": ["q_sem1_contract_008"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_08",
+      "moduleName": "Contract Remedies",
+      "moduleSectionNumber": 8
     },
     {
       "id": "q_sem1_contract_038",
@@ -531,7 +642,10 @@
       "keywords": ["temporary injunction", "perpetual injunction", "comparison"],
       "relatedQuestions": ["q_sem1_contract_014"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_08",
+      "moduleName": "Contract Remedies",
+      "moduleSectionNumber": 8
     },
     {
       "id": "q_sem1_contract_039",
@@ -545,7 +659,10 @@
       "keywords": ["undue influence", "misrepresentation", "difference"],
       "relatedQuestions": ["q_sem1_contract_033"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Free Consent",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_contract_040",
@@ -559,7 +676,10 @@
       "keywords": ["fraud", "essential elements", "silence"],
       "relatedQuestions": ["q_sem1_contract_007"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Free Consent",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_contract_041",
@@ -573,7 +693,10 @@
       "keywords": ["privity", "doctrine", "exceptions"],
       "relatedQuestions": ["q_sem1_contract_004", "q_sem1_contract_032"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Consideration",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_contract_042",
@@ -587,7 +710,10 @@
       "keywords": ["contingent contract", "event", "effect"],
       "relatedQuestions": ["q_sem1_contract_054"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Contingent Contracts and Quasi-Contracts",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_contract_043",
@@ -601,7 +727,10 @@
       "keywords": ["recession", "cancellation", "rectification", "Specific Relief Act"],
       "relatedQuestions": ["q_sem1_contract_050"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_08",
+      "moduleName": "Contract Remedies",
+      "moduleSectionNumber": 8
     },
     {
       "id": "q_sem1_contract_044",
@@ -615,7 +744,10 @@
       "keywords": ["remedies", "free consent", "party"],
       "relatedQuestions": ["q_sem1_contract_011"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Free Consent",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_contract_045",
@@ -629,7 +761,10 @@
       "keywords": ["Balfour v. Balfour", "domestic agreement", "intention"],
       "relatedQuestions": [],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Introduction and Formation of Contract",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_contract_046",
@@ -643,7 +778,10 @@
       "keywords": ["quasi contract", "contract", "difference"],
       "relatedQuestions": ["q_sem1_contract_015"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Contingent Contracts and Quasi-Contracts",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_contract_047",
@@ -657,7 +795,10 @@
       "keywords": ["tender", "offer to perform"],
       "relatedQuestions": [],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_07",
+      "moduleName": "Performance and Discharge of Contract",
+      "moduleSectionNumber": 7
     },
     {
       "id": "q_sem1_contract_048",
@@ -671,7 +812,10 @@
       "keywords": ["alteration", "novation", "discharge"],
       "relatedQuestions": ["q_sem1_contract_053"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_07",
+      "moduleName": "Performance and Discharge of Contract",
+      "moduleSectionNumber": 7
     },
     {
       "id": "q_sem1_contract_049",
@@ -685,7 +829,10 @@
       "keywords": ["standard form", "contracts", "adhesion"],
       "relatedQuestions": ["q_sem1_contract_059"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Introduction and Formation of Contract",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_contract_050",
@@ -699,7 +846,10 @@
       "keywords": ["rectification", "instruments"],
       "relatedQuestions": ["q_sem1_contract_043"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_08",
+      "moduleName": "Contract Remedies",
+      "moduleSectionNumber": 8
     },
     {
       "id": "q_sem1_contract_051",
@@ -713,7 +863,10 @@
       "keywords": ["anticipatory breach", "breach"],
       "relatedQuestions": [],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_07",
+      "moduleName": "Performance and Discharge of Contract",
+      "moduleSectionNumber": 7
     },
     {
       "id": "q_sem1_contract_052",
@@ -727,7 +880,10 @@
       "keywords": ["quantum meruit", "reasonable remuneration"],
       "relatedQuestions": ["q_sem1_contract_031", "q_sem1_contract_058"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_08",
+      "moduleName": "Contract Remedies",
+      "moduleSectionNumber": 8
     },
     {
       "id": "q_sem1_contract_053",
@@ -741,7 +897,10 @@
       "keywords": ["novation", "new contract"],
       "relatedQuestions": ["q_sem1_contract_048"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_07",
+      "moduleName": "Performance and Discharge of Contract",
+      "moduleSectionNumber": 7
     },
     {
       "id": "q_sem1_contract_054",
@@ -755,7 +914,10 @@
       "keywords": ["contingent", "uncertain event"],
       "relatedQuestions": ["q_sem1_contract_042"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Contingent Contracts and Quasi-Contracts",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_contract_055",
@@ -769,7 +931,10 @@
       "keywords": ["restitution", "doctrine", "restoration"],
       "relatedQuestions": ["q_sem1_contract_025"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Contingent Contracts and Quasi-Contracts",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_contract_056",
@@ -783,7 +948,10 @@
       "keywords": ["reciprocal promises", "performance", "mutual"],
       "relatedQuestions": [],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_07",
+      "moduleName": "Performance and Discharge of Contract",
+      "moduleSectionNumber": 7
     },
     {
       "id": "q_sem1_contract_057",
@@ -797,7 +965,10 @@
       "keywords": ["wagering", "betting", "void agreement"],
       "relatedQuestions": ["q_sem1_contract_021"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_05",
+      "moduleName": "Void Agreements",
+      "moduleSectionNumber": 5
     },
     {
       "id": "q_sem1_contract_058",
@@ -811,7 +982,10 @@
       "keywords": ["quantum meruit", "claim", "reasonable value"],
       "relatedQuestions": ["q_sem1_contract_052"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_08",
+      "moduleName": "Contract Remedies",
+      "moduleSectionNumber": 8
     },
     {
       "id": "q_sem1_contract_059",
@@ -825,8 +999,10 @@
       "keywords": ["standard form", "boilerplate", "contract"],
       "relatedQuestions": ["q_sem1_contract_049"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Introduction and Formation of Contract",
+      "moduleSectionNumber": 1
     }
   ]
 }
-

@@ -1,0 +1,337 @@
+{
+  "subject": "crimes",
+  "subjectName": "Law of Crimes",
+  "semester": "sem1",
+  "totalModules": 8,
+  "modules": [
+    {
+      "id": "module_01",
+      "code": "01",
+      "subject": "crimes",
+      "semester": "sem1",
+      "name": "Introduction to Bharatiya Nyaya Sanhita 2023",
+      "description": "Historical background, structure, and fundamental principles of criminal law under BNS.",
+      "displayOrder": 1,
+      "subTopics": [
+        {
+          "id": "subtopic_01_01",
+          "name": "Background and Development",
+          "items": [
+            "Historical background of criminal law in India",
+            "Evolution from IPC 1860 to BNS 2023"
+          ]
+        },
+        {
+          "id": "subtopic_01_02",
+          "name": "Structure of BNS",
+          "items": [
+            "Structure and classification of BNS",
+            "Jurisdiction (Section 1)",
+            "Definitions (Sections 2-3)"
+          ]
+        },
+        {
+          "id": "subtopic_01_03",
+          "name": "Principles of Criminal Liability",
+          "items": [
+            "Elements of crime",
+            "Actus reus and Mens rea",
+            "Types of punishment"
+          ]
+        }
+      ],
+      "questionCount": 7,
+      "estimatedHours": 3
+    },
+    {
+      "id": "module_02",
+      "code": "02",
+      "subject": "crimes",
+      "semester": "sem1",
+      "name": "General Exceptions",
+      "description": "Defences and exceptions to criminal liability under Sections 4-44 of BNS.",
+      "displayOrder": 2,
+      "subTopics": [
+        {
+          "id": "subtopic_02_01",
+          "name": "Excusable Acts",
+          "items": [
+            "Mistake of fact (Sections 14-17)",
+            "Judicial acts (Sections 15-16)",
+            "Accident (Section 18)",
+            "Absence of criminal intent (Sections 19-24)"
+          ]
+        },
+        {
+          "id": "subtopic_02_02",
+          "name": "Justifiable Acts",
+          "items": [
+            "Consent (Sections 25-30)",
+            "Communication in good faith (Section 31)",
+            "Threats (Section 32)",
+            "Trifling acts (Section 33)"
+          ]
+        },
+        {
+          "id": "subtopic_02_03",
+          "name": "Right of Private Defence",
+          "items": [
+            "Private defence of body (Sections 34-44)",
+            "Private defence of property",
+            "Extent of right"
+          ]
+        }
+      ],
+      "questionCount": 6,
+      "estimatedHours": 3
+    },
+    {
+      "id": "module_03",
+      "code": "03",
+      "subject": "crimes",
+      "semester": "sem1",
+      "name": "Inchoate Crimes",
+      "description": "Abetment, conspiracy, and attempt under Sections 45-62 of BNS.",
+      "displayOrder": 3,
+      "subTopics": [
+        {
+          "id": "subtopic_03_01",
+          "name": "Stages of Crime",
+          "items": [
+            "Intention, preparation, attempt, commission",
+            "Tests for distinguishing preparation and attempt"
+          ]
+        },
+        {
+          "id": "subtopic_03_02",
+          "name": "Abetment",
+          "items": [
+            "Definition of abetment (Sections 45-60)",
+            "Abettor and liability",
+            "Abetment when act abetted not done"
+          ]
+        },
+        {
+          "id": "subtopic_03_03",
+          "name": "Conspiracy and Attempt",
+          "items": [
+            "Criminal conspiracy (Section 61)",
+            "Common intention and common object",
+            "Attempt (Section 62)"
+          ]
+        }
+      ],
+      "questionCount": 10,
+      "estimatedHours": 4
+    },
+    {
+      "id": "module_04",
+      "code": "04",
+      "subject": "crimes",
+      "semester": "sem1",
+      "name": "Offences Against Human Body",
+      "description": "Offences relating to homicide, hurt, restraint, and kidnapping under BNS.",
+      "displayOrder": 4,
+      "subTopics": [
+        {
+          "id": "subtopic_04_01",
+          "name": "Homicide",
+          "items": [
+            "Culpable homicide and murder (Sections 100-105)",
+            "Exceptions to murder",
+            "Death by negligence (Section 106)",
+            "Attempt to murder (Section 109)"
+          ]
+        },
+        {
+          "id": "subtopic_04_02",
+          "name": "Hurt and Grievous Hurt",
+          "items": [
+            "Simple and grievous hurt (Sections 114-125)",
+            "Voluntarily causing hurt",
+            "Acid attacks"
+          ]
+        },
+        {
+          "id": "subtopic_04_03",
+          "name": "Criminal Force and Restraint",
+          "items": [
+            "Wrongful restraint and confinement (Sections 126-127)",
+            "Force and assault (Sections 128-136)"
+          ]
+        },
+        {
+          "id": "subtopic_04_04",
+          "name": "Kidnapping and Abduction",
+          "items": [
+            "Kidnapping (Sections 137-146)",
+            "Abduction",
+            "Slavery"
+          ]
+        },
+        {
+          "id": "subtopic_04_05",
+          "name": "Other Offences",
+          "items": [
+            "Organized crime (Sections 111-112)",
+            "Terrorist acts (Section 113)",
+            "Defamation (Section 356)"
+          ]
+        }
+      ],
+      "questionCount": 9,
+      "estimatedHours": 4
+    },
+    {
+      "id": "module_05",
+      "code": "05",
+      "subject": "crimes",
+      "semester": "sem1",
+      "name": "Offences Against Women",
+      "description": "Sexual offences, domestic violence, and cruelty under BNS.",
+      "displayOrder": 5,
+      "subTopics": [
+        {
+          "id": "subtopic_05_01",
+          "name": "Sexual Offences",
+          "items": [
+            "Rape (Sections 63-73)",
+            "Sexual harassment (Section 75)",
+            "Criminal force with intent to disrobe (Section 76)",
+            "Voyeurism (Section 77)",
+            "Stalking (Section 78)"
+          ]
+        },
+        {
+          "id": "subtopic_05_02",
+          "name": "Matrimonial Offences",
+          "items": [
+            "Dowry death (Section 80)",
+            "Cruelty by husband/relatives (Sections 85-86)"
+          ]
+        }
+      ],
+      "questionCount": 5,
+      "estimatedHours": 3
+    },
+    {
+      "id": "module_06",
+      "code": "06",
+      "subject": "crimes",
+      "semester": "sem1",
+      "name": "Offences Against Property",
+      "description": "Property offences including theft, robbery, cheating, and mischief under BNS.",
+      "displayOrder": 6,
+      "subTopics": [
+        {
+          "id": "subtopic_06_01",
+          "name": "Theft and Robbery",
+          "items": [
+            "Theft (Sections 303-307)",
+            "Extortion (Section 308)",
+            "Robbery and dacoity (Sections 309-313)"
+          ]
+        },
+        {
+          "id": "subtopic_06_02",
+          "name": "Misappropriation and Breach of Trust",
+          "items": [
+            "Criminal misappropriation (Sections 314-315)",
+            "Criminal breach of trust (Section 316)",
+            "Receiving stolen property (Section 317)"
+          ]
+        },
+        {
+          "id": "subtopic_06_03",
+          "name": "Cheating and Mischief",
+          "items": [
+            "Cheating (Sections 318-323)",
+            "Mischief (Sections 324-328)",
+            "Criminal trespass (Sections 329-334)"
+          ]
+        },
+        {
+          "id": "subtopic_06_04",
+          "name": "Forgery",
+          "items": [
+            "Essentials of forgery",
+            "Liability for forgery"
+          ]
+        }
+      ],
+      "questionCount": 10,
+      "estimatedHours": 4
+    },
+    {
+      "id": "module_07",
+      "code": "07",
+      "subject": "crimes",
+      "semester": "sem1",
+      "name": "Offences Against Public Tranquility",
+      "description": "Offences disturbing public peace and harmony under BNS.",
+      "displayOrder": 7,
+      "subTopics": [
+        {
+          "id": "subtopic_07_01",
+          "name": "Public Tranquility Offences",
+          "items": [
+            "Unlawful assembly (Section 189)",
+            "Rioting (Section 191)",
+            "Affray (Section 194)"
+          ]
+        },
+        {
+          "id": "subtopic_07_02",
+          "name": "Promoting Enmity",
+          "items": [
+            "Promoting enmity between groups (Section 196)",
+            "Imputations prejudicial to national integration (Section 197)"
+          ]
+        }
+      ],
+      "questionCount": 1,
+      "estimatedHours": 2
+    },
+    {
+      "id": "module_08",
+      "code": "08",
+      "subject": "crimes",
+      "semester": "sem1",
+      "name": "Offences Against the State",
+      "description": "Offences affecting sovereignty and integrity of the State under BNS.",
+      "displayOrder": 8,
+      "subTopics": [
+        {
+          "id": "subtopic_08_01",
+          "name": "War Against Government",
+          "items": [
+            "Waging/attempting war (Sections 147-150)",
+            "Assaulting President/Governor (Section 151)"
+          ]
+        },
+        {
+          "id": "subtopic_08_02",
+          "name": "Sedition and Related Offences",
+          "items": [
+            "Sedition (Section 152)",
+            "Evolution from IPC Section 124-A",
+            "Scope and definition"
+          ]
+        },
+        {
+          "id": "subtopic_08_03",
+          "name": "Other State Offences",
+          "items": [
+            "Waging war against Asiatic Power (Section 153)",
+            "Depredation (Section 154)",
+            "Receiving war property (Section 155)",
+            "Prisoner escape (Section 156)"
+          ]
+        }
+      ],
+      "questionCount": 4,
+      "estimatedHours": 2
+    }
+  ]
+}
+

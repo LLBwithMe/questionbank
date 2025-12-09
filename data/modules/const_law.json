@@ -1,0 +1,427 @@
+{
+  "subject": "const_law",
+  "semester": "sem1",
+  "modules": [
+    {
+      "id": "module_01",
+      "code": "01",
+      "subject": "const_law",
+      "semester": "sem1",
+      "name": "Introduction to the Indian Constitution",
+      "description": "Study of the Constituent Assembly, framing of the Constitution, its salient features, and the Preamble.",
+      "displayOrder": 1,
+      "subTopics": [
+        {
+          "id": "subtopic_01_01",
+          "name": "Constituent Assembly in India and framing of the Constitution",
+          "items": [
+            "Formation of the Constituent Assembly of India",
+            "The issues before the Constituent Assembly",
+            "Passing of the Constitution",
+            "Dr. Ambedkar's warning and anxiety about the working of the Constitution",
+            "Date of Commencement of the Constitution"
+          ]
+        },
+        {
+          "id": "subtopic_01_02",
+          "name": "The Nature of Preamble to the Constitution",
+          "items": [
+            "The Preamble as a part of the Constitution",
+            "Significance of the Preamble",
+            "Amendability of the Preamble"
+          ]
+        },
+        {
+          "id": "subtopic_01_03",
+          "name": "Salient features of the Indian Constitution",
+          "items": [
+            "Federal Structure with Unitary Features",
+            "Parliamentary Form of Government",
+            "Independent Judiciary",
+            "Fundamental Rights and Directive Principles",
+            "Amendment Process under Article 368"
+          ]
+        }
+      ],
+      "questionCount": 6,
+      "estimatedHours": 4
+    },
+    {
+      "id": "module_02",
+      "code": "02",
+      "subject": "const_law",
+      "semester": "sem1",
+      "name": "Territory of India, Citizenship & General Principles Relating to Fundamental Rights (Articles 12 and 13)",
+      "description": "Study of Territory of India, Citizenship provisions, and the foundational Articles 12 and 13 relating to Fundamental Rights.",
+      "displayOrder": 2,
+      "subTopics": [
+        {
+          "id": "subtopic_02_01",
+          "name": "Territory of India",
+          "items": [
+            "Article 1 - Name and Territory of the Union",
+            "Formation of new States and alteration of boundaries"
+          ]
+        },
+        {
+          "id": "subtopic_02_02",
+          "name": "Citizenship",
+          "items": [
+            "Constitutional provisions relating to Citizenship (Articles 5-11)",
+            "Acquisition of Citizenship under the Citizenship Act, 1955",
+            "Termination of Citizenship"
+          ]
+        },
+        {
+          "id": "subtopic_02_03",
+          "name": "Article 12 - Definition of State",
+          "items": [
+            "Definition of 'State' under Article 12",
+            "Other authorities under Article 12",
+            "Liberalization, Privatization, Globalization (LPG) and Article 12"
+          ]
+        },
+        {
+          "id": "subtopic_02_04",
+          "name": "Article 13 - Laws inconsistent with or in derogation of Fundamental Rights",
+          "items": [
+            "Definition of 'Law' under Article 13",
+            "Doctrine of Severability",
+            "Doctrine of Eclipse",
+            "Constitutional Amendment and Article 13"
+          ]
+        }
+      ],
+      "questionCount": 8,
+      "estimatedHours": 4
+    },
+    {
+      "id": "module_03",
+      "code": "03",
+      "subject": "const_law",
+      "semester": "sem1",
+      "name": "Right to Equality (Article 14 to 18)",
+      "description": "Comprehensive study of the Right to Equality including prohibition of discrimination, equality of opportunity, and abolition of untouchability and titles.",
+      "displayOrder": 3,
+      "subTopics": [
+        {
+          "id": "subtopic_03_01",
+          "name": "Article 14 - Equality before law",
+          "items": [
+            "Equality before law and Equal protection of laws",
+            "Rule of Law",
+            "Reasonable Classification",
+            "Arbitrariness doctrine",
+            "Evolution through judicial interpretation"
+          ]
+        },
+        {
+          "id": "subtopic_03_02",
+          "name": "Article 15 - Prohibition of discrimination",
+          "items": [
+            "Discrimination on grounds of religion, race, caste, sex, or place of birth",
+            "Special provisions for women and children",
+            "Reservation provisions"
+          ]
+        },
+        {
+          "id": "subtopic_03_03",
+          "name": "Article 16 - Equality of opportunity in public employment",
+          "items": [
+            "Equal opportunity in matters of public employment",
+            "Reservation in services",
+            "Backward classes and reservation"
+          ]
+        },
+        {
+          "id": "subtopic_03_04",
+          "name": "Article 17 - Abolition of Untouchability",
+          "items": [
+            "Constitutional prohibition of untouchability",
+            "Protection of Civil Rights Act, 1955"
+          ]
+        },
+        {
+          "id": "subtopic_03_05",
+          "name": "Article 18 - Abolition of Titles",
+          "items": [
+            "Abolition of titles",
+            "Acceptance of titles from foreign states"
+          ]
+        }
+      ],
+      "questionCount": 5,
+      "estimatedHours": 5
+    },
+    {
+      "id": "module_04",
+      "code": "04",
+      "subject": "const_law",
+      "semester": "sem1",
+      "name": "Right to Freedom I (Article 19)",
+      "description": "Study of the six freedoms guaranteed under Article 19 and their reasonable restrictions.",
+      "displayOrder": 4,
+      "subTopics": [
+        {
+          "id": "subtopic_04_01",
+          "name": "Article 19(1)(a) - Freedom of Speech and Expression",
+          "items": [
+            "Scope of freedom of speech and expression",
+            "Freedom of Press",
+            "Right to Information",
+            "Reasonable restrictions under Article 19(2)"
+          ]
+        },
+        {
+          "id": "subtopic_04_02",
+          "name": "Article 19(1)(b) - Freedom to assemble peacefully",
+          "items": [
+            "Right to peaceful assembly",
+            "Restrictions under Article 19(3)"
+          ]
+        },
+        {
+          "id": "subtopic_04_03",
+          "name": "Article 19(1)(c) - Freedom to form associations",
+          "items": [
+            "Right to form associations, unions",
+            "Trade unions and political parties",
+            "Restrictions under Article 19(4)"
+          ]
+        },
+        {
+          "id": "subtopic_04_04",
+          "name": "Article 19(1)(d) & (e) - Freedom of movement and residence",
+          "items": [
+            "Right to move freely throughout India",
+            "Right to reside and settle",
+            "Restrictions under Article 19(5)"
+          ]
+        },
+        {
+          "id": "subtopic_04_05",
+          "name": "Article 19(1)(g) - Freedom of profession, occupation, trade or business",
+          "items": [
+            "Right to practice any profession",
+            "Restrictions under Article 19(6)",
+            "State monopoly and licensing"
+          ]
+        }
+      ],
+      "questionCount": 4,
+      "estimatedHours": 5
+    },
+    {
+      "id": "module_05",
+      "code": "05",
+      "subject": "const_law",
+      "semester": "sem1",
+      "name": "Right to Freedom II (Articles 20 to 22)",
+      "description": "Protection in respect of conviction for offences, protection of life and personal liberty, and protection against arrest and detention.",
+      "displayOrder": 5,
+      "subTopics": [
+        {
+          "id": "subtopic_05_01",
+          "name": "Article 20 - Protection in respect of conviction for offences",
+          "items": [
+            "Ex-post facto laws prohibition",
+            "Double jeopardy protection",
+            "Protection against self-incrimination"
+          ]
+        },
+        {
+          "id": "subtopic_05_02",
+          "name": "Article 21 - Protection of life and personal liberty",
+          "items": [
+            "Right to Life - Expanded interpretation",
+            "Due Process of Law vs Procedure Established by Law",
+            "Right to Privacy",
+            "Right to Speedy Trial",
+            "Right to Education (Article 21A)",
+            "Right to Livelihood"
+          ]
+        },
+        {
+          "id": "subtopic_05_03",
+          "name": "Article 22 - Protection against arrest and detention",
+          "items": [
+            "Rights of arrested persons",
+            "Preventive Detention",
+            "Safeguards against arbitrary arrest",
+            "Constitutional safeguards"
+          ]
+        }
+      ],
+      "questionCount": 12,
+      "estimatedHours": 6
+    },
+    {
+      "id": "module_06",
+      "code": "06",
+      "subject": "const_law",
+      "semester": "sem1",
+      "name": "Right against Exploitation (Articles 23 and 24)",
+      "description": "Study of prohibition of traffic in human beings, forced labour, and child labour.",
+      "displayOrder": 6,
+      "subTopics": [
+        {
+          "id": "subtopic_06_01",
+          "name": "Article 23 - Prohibition of traffic in human beings and forced labour",
+          "items": [
+            "Traffic in human beings",
+            "Begar and other forms of forced labour",
+            "Bonded Labour System (Abolition) Act, 1976",
+            "Exception for compulsory service for public purposes"
+          ]
+        },
+        {
+          "id": "subtopic_06_02",
+          "name": "Article 24 - Prohibition of employment of children in factories",
+          "items": [
+            "Child labour prohibition",
+            "Hazardous employment restrictions",
+            "Child Labour (Prohibition and Regulation) Act, 1986"
+          ]
+        }
+      ],
+      "questionCount": 1,
+      "estimatedHours": 2
+    },
+    {
+      "id": "module_07",
+      "code": "07",
+      "subject": "const_law",
+      "semester": "sem1",
+      "name": "Right to Freedom of Religion (Articles 25 to 28) and Cultural and Educational Rights (Articles 29 to 30)",
+      "description": "Study of religious freedom, secularism, and rights of minorities to conserve their culture and establish educational institutions.",
+      "displayOrder": 7,
+      "subTopics": [
+        {
+          "id": "subtopic_07_01",
+          "name": "Article 25 - Freedom of conscience and free profession, practice and propagation of religion",
+          "items": [
+            "Freedom of religion - scope and extent",
+            "Essential Religious Practices Test",
+            "Restrictions on religious freedom"
+          ]
+        },
+        {
+          "id": "subtopic_07_02",
+          "name": "Article 26 - Freedom to manage religious affairs",
+          "items": [
+            "Right to establish and maintain religious institutions",
+            "Management of religious property"
+          ]
+        },
+        {
+          "id": "subtopic_07_03",
+          "name": "Article 27 - Freedom from payment of taxes for promotion of religion",
+          "items": [
+            "Prohibition of religious taxation"
+          ]
+        },
+        {
+          "id": "subtopic_07_04",
+          "name": "Article 28 - Freedom from religious instruction in educational institutions",
+          "items": [
+            "Religious instruction in State-funded institutions"
+          ]
+        },
+        {
+          "id": "subtopic_07_05",
+          "name": "Article 29 - Protection of interests of minorities",
+          "items": [
+            "Right to conserve distinct language, script or culture",
+            "Admission to educational institutions"
+          ]
+        },
+        {
+          "id": "subtopic_07_06",
+          "name": "Article 30 - Right of minorities to establish and administer educational institutions",
+          "items": [
+            "Minority educational institutions",
+            "Protection against discrimination in grants"
+          ]
+        }
+      ],
+      "questionCount": 5,
+      "estimatedHours": 5
+    },
+    {
+      "id": "module_08",
+      "code": "08",
+      "subject": "const_law",
+      "semester": "sem1",
+      "name": "Right to Constitutional Remedies",
+      "description": "Study of writs, Public Interest Litigation, and the enforcement mechanism for Fundamental Rights.",
+      "displayOrder": 8,
+      "subTopics": [
+        {
+          "id": "subtopic_08_01",
+          "name": "Article 32 - Remedies for enforcement of Fundamental Rights",
+          "items": [
+            "Right to move Supreme Court",
+            "Power of Supreme Court to issue writs",
+            "Types of Writs - Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo Warranto",
+            "Comparison between Article 32 and Article 226"
+          ]
+        },
+        {
+          "id": "subtopic_08_02",
+          "name": "Public Interest Litigation (PIL)",
+          "items": [
+            "Evolution of PIL in India",
+            "Locus Standi relaxation",
+            "PIL for social justice",
+            "Criticisms and limitations of PIL"
+          ]
+        }
+      ],
+      "questionCount": 4,
+      "estimatedHours": 4
+    },
+    {
+      "id": "module_09",
+      "code": "09",
+      "subject": "const_law",
+      "semester": "sem1",
+      "name": "Directive Principles of State Policy (Articles 36 to 51) and Fundamental Duties (Article 51A)",
+      "description": "Study of Directive Principles, their nature, importance, and the Fundamental Duties of citizens.",
+      "displayOrder": 9,
+      "subTopics": [
+        {
+          "id": "subtopic_09_01",
+          "name": "Directive Principles of State Policy",
+          "items": [
+            "Nature and importance of Directive Principles",
+            "Socialistic principles (Article 38, 39, 41, 42, 43, 43A, 47)",
+            "Gandhian principles (Article 40, 43, 46, 47, 48)",
+            "Liberal-intellectual principles (Article 44, 45, 48, 48A, 49, 50, 51)",
+            "Non-justiciability of Directive Principles"
+          ]
+        },
+        {
+          "id": "subtopic_09_02",
+          "name": "Relationship between Fundamental Rights and Directive Principles",
+          "items": [
+            "Conflict and harmonious construction",
+            "Judicial interpretation",
+            "Amendments and their impact"
+          ]
+        },
+        {
+          "id": "subtopic_09_03",
+          "name": "Fundamental Duties (Article 51A)",
+          "items": [
+            "List of Fundamental Duties",
+            "Constitutional Amendment introducing duties",
+            "Enforceability of Fundamental Duties"
+          ]
+        }
+      ],
+      "questionCount": 2,
+      "estimatedHours": 4
+    }
+  ]
+}
+

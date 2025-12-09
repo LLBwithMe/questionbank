@@ -534,6 +534,252 @@
       display: block;
     }
     
+    /* Module Styles */
+    .module-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: var(--space-4);
+    }
+    
+    .module-card {
+      background: var(--color-bg-secondary);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-xl);
+      padding: var(--space-5);
+      transition: all var(--transition-normal);
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .module-card:hover {
+      border-color: var(--color-secondary);
+      box-shadow: var(--shadow-lg);
+      transform: translateY(-2px);
+    }
+    
+    .module-card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-4);
+      margin-bottom: var(--space-4);
+    }
+    
+    .module-number {
+      width: 48px;
+      height: 48px;
+      background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+      color: white;
+      border-radius: var(--radius-lg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-family-heading);
+      font-size: var(--font-size-lg);
+      font-weight: var(--font-weight-bold);
+      flex-shrink: 0;
+    }
+    
+    .module-info {
+      flex: 1;
+      min-width: 0;
+    }
+    
+    .module-name {
+      font-family: var(--font-family-heading);
+      font-size: var(--font-size-base);
+      font-weight: var(--font-weight-semibold);
+      color: var(--color-text-primary);
+      margin: 0 0 var(--space-2) 0;
+      line-height: 1.4;
+    }
+    
+    .module-meta {
+      display: flex;
+      gap: var(--space-3);
+      flex-wrap: wrap;
+      font-size: var(--font-size-xs);
+      color: var(--color-text-tertiary);
+    }
+    
+    .module-meta-item {
+      display: flex;
+      align-items: center;
+      gap: var(--space-1);
+    }
+    
+    .module-description {
+      font-size: var(--font-size-sm);
+      color: var(--color-text-secondary);
+      line-height: 1.6;
+      margin-bottom: var(--space-4);
+    }
+    
+    .module-progress-bar {
+      height: 6px;
+      background: var(--color-bg-tertiary);
+      border-radius: 3px;
+      overflow: hidden;
+      margin-bottom: var(--space-3);
+    }
+    
+    .module-progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--color-success), var(--color-secondary));
+      transition: width var(--transition-normal);
+    }
+    
+    .module-stats {
+      display: flex;
+      justify-content: space-between;
+      font-size: var(--font-size-xs);
+      color: var(--color-text-tertiary);
+    }
+    
+    .module-action {
+      display: flex;
+      gap: var(--space-2);
+      margin-top: var(--space-4);
+    }
+    
+    /* Module Detail Styles */
+    .breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: var(--font-size-sm);
+      margin-bottom: var(--space-6);
+    }
+    
+    .breadcrumb a {
+      color: var(--color-text-tertiary);
+    }
+    
+    .breadcrumb a:hover {
+      color: var(--color-secondary);
+    }
+    
+    .breadcrumb-sep {
+      color: var(--color-text-muted);
+    }
+    
+    .module-detail-header {
+      background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+      border-radius: var(--radius-xl);
+      padding: var(--space-8);
+      color: white;
+      margin-bottom: var(--space-6);
+    }
+    
+    .module-detail-header h1 {
+      color: white;
+      font-size: var(--font-size-2xl);
+      margin-bottom: var(--space-2);
+    }
+    
+    .module-detail-header p {
+      color: rgba(255, 255, 255, 0.9);
+      margin-bottom: var(--space-4);
+    }
+    
+    .module-detail-stats {
+      display: flex;
+      gap: var(--space-6);
+      flex-wrap: wrap;
+    }
+    
+    .module-detail-stat {
+      text-align: center;
+    }
+    
+    .module-detail-stat-value {
+      font-family: var(--font-family-heading);
+      font-size: var(--font-size-xl);
+      font-weight: var(--font-weight-bold);
+    }
+    
+    .module-detail-stat-label {
+      font-size: var(--font-size-xs);
+      opacity: 0.9;
+    }
+    
+    /* Subtopic Accordion */
+    .subtopic-item {
+      border-bottom: 1px solid var(--color-border);
+      padding: var(--space-4) 0;
+    }
+    
+    .subtopic-item:last-child {
+      border-bottom: none;
+    }
+    
+    .subtopic-header {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      cursor: pointer;
+      font-weight: var(--font-weight-medium);
+      color: var(--color-text-primary);
+    }
+    
+    .subtopic-header:hover {
+      color: var(--color-secondary);
+    }
+    
+    .subtopic-toggle {
+      width: 20px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--color-bg-tertiary);
+      border-radius: var(--radius-sm);
+      transition: transform var(--transition-fast);
+    }
+    
+    .subtopic-item.open .subtopic-toggle {
+      transform: rotate(90deg);
+    }
+    
+    .subtopic-content {
+      display: none;
+      padding: var(--space-4) 0 0 var(--space-8);
+    }
+    
+    .subtopic-item.open .subtopic-content {
+      display: block;
+    }
+    
+    .subtopic-content ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .subtopic-content li {
+      position: relative;
+      padding-left: var(--space-4);
+      margin-bottom: var(--space-2);
+      font-size: var(--font-size-sm);
+      color: var(--color-text-secondary);
+    }
+    
+    .subtopic-content li::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      color: var(--color-secondary);
+    }
+    
+    /* Module Badge on Question Cards */
+    .badge-module {
+      background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+      color: white;
+      font-size: var(--font-size-xs);
+      padding: 2px 8px;
+      border-radius: var(--radius-full);
+    }
+    
     /* Responsive Adjustments */
     @media (max-width: 768px) {
       .hero {
@@ -861,8 +1107,14 @@
             <div class="filter-groups">
               <div class="filter-group">
                 <label class="filter-group-label">Subject</label>
-                <select class="filter-select" id="filterSubject" onchange="App.applyFilters()">
+                <select class="filter-select" id="filterSubject" onchange="App.applyFilters(); App.updateModuleFilter();">
                   <option value="">All Subjects</option>
+                </select>
+              </div>
+              <div class="filter-group">
+                <label class="filter-group-label">Module</label>
+                <select class="filter-select" id="filterModule" onchange="App.applyFilters()">
+                  <option value="">All Modules</option>
                 </select>
               </div>
               <div class="filter-group">
@@ -916,6 +1168,100 @@
           
           <!-- Pagination -->
           <div class="pagination" id="pagination">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+      </div>
+      
+      <!-- Modules Page -->
+      <div class="page-view" id="pageModules">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Study Modules</h2>
+            <span class="text-sm text-muted">Organized by syllabus topics</span>
+          </div>
+          
+          <!-- Subject Filter for Modules -->
+          <div class="filter-panel" style="margin-bottom: var(--space-6);">
+            <div class="filter-groups">
+              <div class="filter-group">
+                <label class="filter-group-label">Select Subject</label>
+                <select class="filter-select" id="moduleSubjectSelect" onchange="App.loadModulesForSubject(this.value)">
+                  <option value="">Choose a subject...</option>
+                  <option value="const_law">Constitutional Law I</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Module Grid -->
+          <div class="module-grid" id="moduleGrid">
+            <div class="empty-state" id="modulesEmpty">
+              <div class="empty-state-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path>
+                </svg>
+              </div>
+              <h3 class="empty-state-title">Select a Subject</h3>
+              <p class="empty-state-text">Choose a subject above to view its study modules organized by syllabus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Module Detail Page -->
+      <div class="page-view" id="pageModuleDetail">
+        <div class="container">
+          <!-- Breadcrumb -->
+          <nav class="breadcrumb" id="moduleBreadcrumb">
+            <a href="#" onclick="App.navigate('home')">Home</a>
+            <span class="breadcrumb-sep">›</span>
+            <a href="#" onclick="App.navigate('modules')">Modules</a>
+            <span class="breadcrumb-sep">›</span>
+            <span id="breadcrumbModuleName">Module Name</span>
+          </nav>
+          
+          <!-- Module Header -->
+          <div class="module-detail-header" id="moduleDetailHeader">
+            <!-- Rendered by JS -->
+          </div>
+          
+          <!-- Sub-topics Accordion -->
+          <div class="card" style="margin-bottom: var(--space-6);">
+            <div class="card-header">
+              <h3>Sub-Topics Covered</h3>
+            </div>
+            <div class="card-body" id="moduleSubtopics">
+              <!-- Rendered by JS -->
+            </div>
+          </div>
+          
+          <!-- Module Questions -->
+          <div class="section-header">
+            <h2 class="section-title">Questions in This Module</h2>
+            <span class="text-sm text-muted" id="moduleQuestionCount">0 questions</span>
+          </div>
+          
+          <!-- Module Navigation -->
+          <div class="module-nav" style="display: flex; gap: var(--space-3); margin-bottom: var(--space-4);">
+            <button class="btn btn-sm" onclick="App.goToPrevModule()" id="prevModuleBtn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="m15 18-6-6 6-6"></path>
+              </svg>
+              Previous Module
+            </button>
+            <button class="btn btn-sm btn-primary" onclick="App.studyAllInModule()">
+              Study All Questions
+            </button>
+            <button class="btn btn-sm" onclick="App.goToNextModule()" id="nextModuleBtn">
+              Next Module
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="m9 18 6-6-6-6"></path>
+              </svg>
+            </button>
+          </div>
+          
+          <div class="question-list" id="moduleQuestionList">
             <!-- Rendered by JS -->
           </div>
         </div>
@@ -977,6 +1323,14 @@
           <h3 class="section-title">Progress by Subject</h3>
           <div class="grid grid-cols-2" id="subjectProgressGrid">
             <!-- Rendered by JS -->
+          </div>
+          
+          <!-- Module Progress Section -->
+          <div id="moduleProgressSection" style="margin-top: var(--space-8);">
+            <h3 class="section-title">Progress by Module (Constitutional Law)</h3>
+            <div class="module-progress-grid" id="moduleProgressGrid">
+              <!-- Rendered by JS -->
+            </div>
           </div>
         </div>
       </div>

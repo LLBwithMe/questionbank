@@ -13,14 +13,18 @@ const App = {
   state: {
     currentPage: 'home',
     currentSemester: 'sem1',
+    currentModule: null,
+    currentModuleSubject: '',
     semesters: [],
     subjects: [],
+    modules: {},
     questions: [],
     filteredQuestions: [],
     bookmarks: new Set(),
     studied: new Set(),
     filters: {
       subject: '',
+      module: '',
       marks: '',
       difficulty: '',
       type: '',
@@ -94,10 +98,11 @@ const App = {
       const subjectsData = await subjectsResponse.json();
       this.state.subjects = subjectsData.subjects;
 
-      // Load questions for each subject
+      // Load questions for each subject (with cache-busting)
+      const cacheBuster = Date.now();
       const questionFiles = ['crim_psych', 'const_law', 'contract_law', 'family_law', 'crimes', 'ipr'];
       const questionPromises = questionFiles.map(subject => 
-        fetch(`data/questions/${subject}.json`).then(res => res.json())
+        fetch(`data/questions/${subject}.json?v=${cacheBuster}`).then(res => res.json())
       );
       
       const questionsData = await Promise.all(questionPromises);
@@ -105,9 +110,42 @@ const App = {
       this.state.filteredQuestions = [...this.state.questions];
       this.state.pagination.total = this.state.questions.length;
 
+      // Load modules (currently only Constitutional Law)
+      await this.loadModules();
+
     } catch (error) {
       console.error('Error loading data:', error);
       this.showToast('Failed to load question data. Please refresh the page.', 'error');
+    }
+  },
+
+  async loadModules() {
+    try {
+      // Define all subjects with modules
+      const subjectModules = [
+        { id: 'const_law', file: 'const_law.json' },
+        { id: 'crim_psych', file: 'crim_psych.json' },
+        { id: 'contract_law', file: 'contract_law.json' },
+        { id: 'family_law', file: 'family_law.json' },
+        { id: 'crimes', file: 'crimes.json' },
+        { id: 'ipr', file: 'ipr.json' }
+      ];
+      
+      // Load all modules in parallel
+      const modulePromises = subjectModules.map(async (subject) => {
+        try {
+          const response = await fetch(`data/modules/${subject.file}`);
+          const data = await response.json();
+          this.state.modules[subject.id] = data.modules;
+        } catch (err) {
+          console.warn(`Could not load modules for ${subject.id}:`, err.message);
+        }
+      });
+      
+      await Promise.all(modulePromises);
+      console.log('Loaded modules for subjects:', Object.keys(this.state.modules));
+    } catch (error) {
+      console.error('Error loading modules:', error);
     }
   },
 
@@ -203,15 +241,21 @@ const App = {
     // Hide all pages
     document.querySelectorAll('.page-view').forEach(el => el.classList.remove('active'));
     
+    // Handle module detail page specially
+    let pageId = page;
+    if (page === 'moduleDetail') {
+      pageId = 'ModuleDetail';
+    }
+    
     // Show requested page
-    const pageEl = document.getElementById(`page${page.charAt(0).toUpperCase() + page.slice(1)}`);
+    const pageEl = document.getElementById(`page${pageId.charAt(0).toUpperCase() + pageId.slice(1)}`);
     if (pageEl) {
       pageEl.classList.add('active');
     }
     
     // Update nav links
     document.querySelectorAll('.nav-link').forEach(el => {
-      el.classList.toggle('active', el.dataset.page === page);
+      el.classList.toggle('active', el.dataset.page === page || (page === 'moduleDetail' && el.dataset.page === 'modules'));
     });
     
     this.state.currentPage = page;
@@ -219,6 +263,7 @@ const App = {
     // Render page-specific content
     switch(page) {
       case 'questions':
+        this.updateModuleFilter(); // Populate module filter based on current subject
         this.renderQuestions();
         break;
       case 'bookmarks':
@@ -226,6 +271,12 @@ const App = {
         break;
       case 'progress':
         this.renderProgressPage();
+        break;
+      case 'modules':
+        this.renderModulesPage();
+        break;
+      case 'moduleDetail':
+        this.renderModuleDetail();
         break;
     }
     
@@ -471,6 +522,7 @@ const App = {
               <span class="badge badge-subject" style="background: ${subject?.color}15; color: ${subject?.color}">
                 ${subject?.shortName || question.subject}
               </span>
+              ${question.module ? `<span class="badge badge-module" title="${question.moduleName || ''}">M${question.moduleCode || question.module.replace('module_', '')}</span>` : ''}
             </div>
             <div class="flex gap-2">
               <button 
@@ -609,6 +661,7 @@ const App = {
   applyFilters() {
     const filters = {
       subject: document.getElementById('filterSubject')?.value || '',
+      module: document.getElementById('filterModule')?.value || '',
       marks: document.getElementById('filterMarks')?.value || '',
       difficulty: document.getElementById('filterDifficulty')?.value || '',
       type: document.getElementById('filterType')?.value || '',
@@ -618,6 +671,7 @@ const App = {
     this.state.filters = filters;
     this.state.filteredQuestions = this.state.questions.filter(q => {
       if (filters.subject && q.subject !== filters.subject) return false;
+      if (filters.module && q.module !== filters.module) return false;
       if (filters.marks && q.marks !== parseInt(filters.marks)) return false;
       if (filters.difficulty && q.difficulty !== filters.difficulty) return false;
       if (filters.type && q.type !== filters.type) return false;
@@ -655,6 +709,11 @@ const App = {
       if (this.state.filters.subject) {
         const subject = this.state.subjects.find(s => s.id === this.state.filters.subject);
         activeFilters.push({ key: 'subject', label: subject?.shortName || this.state.filters.subject });
+      }
+      if (this.state.filters.module) {
+        const modules = this.state.modules[this.state.filters.subject];
+        const module = modules?.find(m => m.id === this.state.filters.module);
+        activeFilters.push({ key: 'module', label: `Module ${module?.code || ''}: ${module?.name?.slice(0, 20) || this.state.filters.module}...` });
       }
       if (this.state.filters.marks) {
         activeFilters.push({ key: 'marks', label: `${this.state.filters.marks} Marks` });
@@ -699,6 +758,7 @@ const App = {
 
   clearFilters() {
     document.getElementById('filterSubject').value = '';
+    document.getElementById('filterModule').value = '';
     document.getElementById('filterMarks').value = '';
     document.getElementById('filterDifficulty').value = '';
     document.getElementById('filterType').value = '';
@@ -706,10 +766,11 @@ const App = {
     document.getElementById('searchInput').value = '';
     
     this.state.searchQuery = '';
-    this.state.filters = { subject: '', marks: '', difficulty: '', type: '', status: '' };
+    this.state.filters = { subject: '', module: '', marks: '', difficulty: '', type: '', status: '' };
     this.state.filteredQuestions = [...this.state.questions];
     this.state.pagination.page = 1;
     
+    this.updateModuleFilter();
     this.updateFilterUI();
     this.renderQuestions();
   },
@@ -727,6 +788,24 @@ const App = {
   setupEventListeners() {
     // Theme toggle
     document.getElementById('themeToggle')?.addEventListener('change', () => this.toggleTheme());
+    
+    // Subject filter change - update module filter options
+    document.getElementById('filterSubject')?.addEventListener('change', () => {
+      this.updateModuleFilter();
+      this.applyFilters();
+    });
+    
+    // Module filter change
+    document.getElementById('filterModule')?.addEventListener('change', () => {
+      this.applyFilters();
+    });
+    
+    // Other filter changes
+    ['filterMarks', 'filterDifficulty', 'filterType', 'filterStatus'].forEach(filterId => {
+      document.getElementById(filterId)?.addEventListener('change', () => {
+        this.applyFilters();
+      });
+    });
     
     // Search input
     const searchInput = document.getElementById('searchInput');
@@ -951,6 +1030,74 @@ const App = {
         </div>
       `;
     }).join('');
+    
+    // Render module progress
+    this.renderModuleProgress();
+  },
+
+  renderModuleProgress() {
+    const container = document.getElementById('moduleProgressGrid');
+    if (!container) return;
+    
+    // Get all subjects with modules
+    const subjectsWithModules = Object.keys(this.state.modules).filter(
+      subjectId => this.state.modules[subjectId] && this.state.modules[subjectId].length > 0
+    );
+    
+    if (subjectsWithModules.length === 0) {
+      container.innerHTML = '<p class="text-muted">No module data available yet.</p>';
+      return;
+    }
+    
+    // Render module progress for all subjects
+    let html = '';
+    
+    subjectsWithModules.forEach(subjectId => {
+      const subject = this.state.subjects.find(s => s.id === subjectId);
+      const modules = this.state.modules[subjectId];
+      
+      html += `
+        <div style="margin-bottom: var(--space-6);">
+          <h3 style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-4); font-size: var(--font-size-base);">
+            <span style="color: ${subject?.color || 'var(--color-primary)'};">${this.getSubjectIcon(subjectId)}</span>
+            ${subject?.shortName || subjectId}
+            <span class="badge badge-secondary" style="margin-left: var(--space-2);">${modules.length} modules</span>
+          </h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: var(--space-3);">
+            ${modules.map(module => {
+              const moduleQuestions = this.state.questions.filter(q => 
+                q.subject === subjectId && q.module === module.id
+              );
+              const studiedCount = moduleQuestions.filter(q => this.state.studied.has(q.id)).length;
+              const percentage = moduleQuestions.length > 0 ? Math.round((studiedCount / moduleQuestions.length) * 100) : 0;
+              
+              return `
+                <div class="card" style="cursor: pointer;" onclick="App.openModuleDetail('${module.id}')">
+                  <div class="card-body" style="padding: var(--space-3);">
+                    <div class="flex items-center gap-2" style="margin-bottom: var(--space-2);">
+                      <div class="module-number" style="width: 28px; height: 28px; font-size: var(--font-size-xs);">${module.code}</div>
+                      <div style="flex: 1; min-width: 0;">
+                        <h4 style="margin: 0; font-size: var(--font-size-xs); line-height: 1.3; max-height: 2.6em; overflow: hidden;" title="${module.name}">
+                          ${module.name.slice(0, 40)}${module.name.length > 40 ? '...' : ''}
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <div class="progress-bar" style="flex: 1; height: 4px;">
+                        <div class="progress-bar-fill" style="width: ${percentage}%;"></div>
+                      </div>
+                      <span class="text-xs text-muted">${studiedCount}/${moduleQuestions.length}</span>
+                    </div>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      `;
+    });
+    
+    container.innerHTML = html;
   },
 
   getSubjectProgress(subjectId) {
@@ -1212,6 +1359,343 @@ const App = {
     document.getElementById('newQuestionText').value = '';
     
     this.showToast('Question added successfully!', 'success');
+  },
+
+  // ============================================
+  // Module Management
+  // ============================================
+
+  updateModuleFilter() {
+    const subjectFilter = document.getElementById('filterSubject')?.value;
+    const moduleSelect = document.getElementById('filterModule');
+    
+    if (!moduleSelect) return;
+    
+    // Clear current options
+    moduleSelect.innerHTML = '<option value="">All Modules</option>';
+    
+    // If a subject is selected and has modules, populate them
+    if (subjectFilter && this.state.modules[subjectFilter]) {
+      const modules = this.state.modules[subjectFilter];
+      modules.forEach(module => {
+        const option = document.createElement('option');
+        option.value = module.id;
+        option.textContent = `Module ${module.code}: ${module.name.slice(0, 40)}${module.name.length > 40 ? '...' : ''}`;
+        moduleSelect.appendChild(option);
+      });
+    }
+  },
+
+  renderModulesPage() {
+    // The page will be rendered when a subject is selected
+    const container = document.getElementById('moduleGrid');
+    const emptyState = document.getElementById('modulesEmpty');
+    
+    if (this.state.currentModuleSubject && this.state.modules[this.state.currentModuleSubject]) {
+      emptyState?.classList.add('hidden');
+      this.renderModuleGrid(this.state.currentModuleSubject);
+    } else {
+      if (container) container.innerHTML = '';
+      emptyState?.classList.remove('hidden');
+    }
+  },
+
+  loadModulesForSubject(subjectId) {
+    this.state.currentModuleSubject = subjectId;
+    
+    if (!subjectId) {
+      const container = document.getElementById('moduleGrid');
+      const emptyState = document.getElementById('modulesEmpty');
+      if (container) container.innerHTML = '';
+      emptyState?.classList.remove('hidden');
+      return;
+    }
+    
+    this.renderModuleGrid(subjectId);
+  },
+
+  renderModuleGrid(subjectId) {
+    const container = document.getElementById('moduleGrid');
+    const emptyState = document.getElementById('modulesEmpty');
+    
+    if (!container) return;
+    
+    const modules = this.state.modules[subjectId];
+    
+    if (!modules || modules.length === 0) {
+      container.innerHTML = `
+        <div class="empty-state">
+          <div class="empty-state-icon">⚠️</div>
+          <h3 class="empty-state-title">No Modules Available</h3>
+          <p class="empty-state-text">Modules for this subject are coming soon.</p>
+        </div>
+      `;
+      emptyState?.classList.add('hidden');
+      return;
+    }
+    
+    emptyState?.classList.add('hidden');
+    
+    container.innerHTML = modules.map(module => {
+      const moduleQuestions = this.state.questions.filter(q => q.module === module.id);
+      const studiedCount = moduleQuestions.filter(q => this.state.studied.has(q.id)).length;
+      const progressPercent = moduleQuestions.length > 0 ? Math.round((studiedCount / moduleQuestions.length) * 100) : 0;
+      
+      return `
+        <div class="module-card" onclick="App.openModuleDetail('${module.id}')">
+          <div class="module-card-header">
+            <div class="module-number">${module.code}</div>
+            <div class="module-info">
+              <h3 class="module-name">${module.name}</h3>
+              <div class="module-meta">
+                <span class="module-meta-item">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                  </svg>
+                  ${moduleQuestions.length} questions
+                </span>
+                <span class="module-meta-item">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2 2 7l10 5 10-5-10-5Z"></path>
+                    <path d="m2 17 10 5 10-5"></path>
+                    <path d="m2 12 10 5 10-5"></path>
+                  </svg>
+                  ${module.subTopics?.length || 0} sub-topics
+                </span>
+                <span class="module-meta-item">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  ~${module.estimatedHours || 2}h study
+                </span>
+              </div>
+            </div>
+          </div>
+          
+          <p class="module-description">${module.description?.slice(0, 120) || 'Study this module to master the topic.'}${module.description?.length > 120 ? '...' : ''}</p>
+          
+          <div class="module-progress-bar">
+            <div class="module-progress-fill" style="width: ${progressPercent}%"></div>
+          </div>
+          
+          <div class="module-stats">
+            <span>${studiedCount} of ${moduleQuestions.length} studied</span>
+            <span>${progressPercent}% complete</span>
+          </div>
+          
+          <div class="module-action">
+            <button class="btn btn-sm btn-primary" onclick="event.stopPropagation(); App.openModuleDetail('${module.id}')">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+              View Module
+            </button>
+            <button class="btn btn-sm" onclick="event.stopPropagation(); App.filterByModule('${subjectId}', '${module.id}')">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+              </svg>
+              Filter Questions
+            </button>
+          </div>
+        </div>
+      `;
+    }).join('');
+  },
+
+  openModuleDetail(moduleId) {
+    // Find the module
+    let module = null;
+    let subjectId = null;
+    
+    for (const [subject, modules] of Object.entries(this.state.modules)) {
+      const found = modules.find(m => m.id === moduleId);
+      if (found) {
+        module = found;
+        subjectId = subject;
+        break;
+      }
+    }
+    
+    if (!module) {
+      this.showToast('Module not found', 'error');
+      return;
+    }
+    
+    this.state.currentModule = module;
+    this.state.currentModuleSubject = subjectId;
+    this.navigate('moduleDetail');
+  },
+
+  renderModuleDetail() {
+    const module = this.state.currentModule;
+    if (!module) {
+      this.navigate('modules');
+      return;
+    }
+    
+    const subject = this.state.subjects.find(s => s.id === this.state.currentModuleSubject);
+    const moduleQuestions = this.state.questions.filter(q => q.module === module.id);
+    const studiedCount = moduleQuestions.filter(q => this.state.studied.has(q.id)).length;
+    const progressPercent = moduleQuestions.length > 0 ? Math.round((studiedCount / moduleQuestions.length) * 100) : 0;
+    
+    // Update breadcrumb
+    document.getElementById('breadcrumbModuleName').textContent = `Module ${module.code}`;
+    
+    // Render header
+    const headerEl = document.getElementById('moduleDetailHeader');
+    if (headerEl) {
+      headerEl.innerHTML = `
+        <div style="display: flex; align-items: center; gap: var(--space-4); margin-bottom: var(--space-4);">
+          <div class="module-number" style="background: rgba(255,255,255,0.2); width: 56px; height: 56px; font-size: var(--font-size-xl);">${module.code}</div>
+          <div>
+            <h1>${module.name}</h1>
+            <p style="margin: 0; opacity: 0.9;">${subject?.name || 'Constitutional Law I'}</p>
+          </div>
+        </div>
+        <p>${module.description || ''}</p>
+        <div class="module-detail-stats">
+          <div class="module-detail-stat">
+            <div class="module-detail-stat-value">${moduleQuestions.length}</div>
+            <div class="module-detail-stat-label">Questions</div>
+          </div>
+          <div class="module-detail-stat">
+            <div class="module-detail-stat-value">${module.subTopics?.length || 0}</div>
+            <div class="module-detail-stat-label">Sub-topics</div>
+          </div>
+          <div class="module-detail-stat">
+            <div class="module-detail-stat-value">${progressPercent}%</div>
+            <div class="module-detail-stat-label">Completed</div>
+          </div>
+          <div class="module-detail-stat">
+            <div class="module-detail-stat-value">~${module.estimatedHours || 2}h</div>
+            <div class="module-detail-stat-label">Study Time</div>
+          </div>
+        </div>
+      `;
+    }
+    
+    // Render subtopics
+    const subtopicsEl = document.getElementById('moduleSubtopics');
+    if (subtopicsEl && module.subTopics) {
+      subtopicsEl.innerHTML = module.subTopics.map((subtopic, idx) => `
+        <div class="subtopic-item ${idx === 0 ? 'open' : ''}" onclick="this.classList.toggle('open')">
+          <div class="subtopic-header">
+            <span class="subtopic-toggle">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                <path d="m9 18 6-6-6-6"></path>
+              </svg>
+            </span>
+            <span>${subtopic.name}</span>
+          </div>
+          <div class="subtopic-content">
+            <ul>
+              ${subtopic.items?.map(item => `<li>${item}</li>`).join('') || '<li>No items specified</li>'}
+            </ul>
+          </div>
+        </div>
+      `).join('');
+    }
+    
+    // Update question count
+    document.getElementById('moduleQuestionCount').textContent = `${moduleQuestions.length} questions`;
+    
+    // Render questions
+    const questionListEl = document.getElementById('moduleQuestionList');
+    if (questionListEl) {
+      if (moduleQuestions.length === 0) {
+        questionListEl.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-state-icon">📝</div>
+            <h3 class="empty-state-title">No Questions Yet</h3>
+            <p class="empty-state-text">Questions for this module will be added soon.</p>
+          </div>
+        `;
+      } else {
+        questionListEl.innerHTML = moduleQuestions.map(q => this.renderQuestionCard(q)).join('');
+      }
+    }
+    
+    // Update navigation buttons
+    this.updateModuleNavButtons();
+  },
+
+  updateModuleNavButtons() {
+    const module = this.state.currentModule;
+    if (!module) return;
+    
+    const modules = this.state.modules[this.state.currentModuleSubject] || [];
+    const currentIndex = modules.findIndex(m => m.id === module.id);
+    
+    const prevBtn = document.getElementById('prevModuleBtn');
+    const nextBtn = document.getElementById('nextModuleBtn');
+    
+    if (prevBtn) {
+      prevBtn.disabled = currentIndex <= 0;
+      prevBtn.style.opacity = currentIndex <= 0 ? '0.5' : '1';
+    }
+    
+    if (nextBtn) {
+      nextBtn.disabled = currentIndex >= modules.length - 1;
+      nextBtn.style.opacity = currentIndex >= modules.length - 1 ? '0.5' : '1';
+    }
+  },
+
+  goToPrevModule() {
+    const module = this.state.currentModule;
+    if (!module) return;
+    
+    const modules = this.state.modules[this.state.currentModuleSubject] || [];
+    const currentIndex = modules.findIndex(m => m.id === module.id);
+    
+    if (currentIndex > 0) {
+      this.openModuleDetail(modules[currentIndex - 1].id);
+    }
+  },
+
+  goToNextModule() {
+    const module = this.state.currentModule;
+    if (!module) return;
+    
+    const modules = this.state.modules[this.state.currentModuleSubject] || [];
+    const currentIndex = modules.findIndex(m => m.id === module.id);
+    
+    if (currentIndex < modules.length - 1) {
+      this.openModuleDetail(modules[currentIndex + 1].id);
+    }
+  },
+
+  studyAllInModule() {
+    const module = this.state.currentModule;
+    if (!module) return;
+    
+    const moduleQuestions = this.state.questions.filter(q => q.module === module.id);
+    moduleQuestions.forEach(q => {
+      this.state.studied.add(q.id);
+    });
+    
+    this.saveToStorage();
+    this.updateProgressStats();
+    this.renderModuleDetail();
+    this.showToast(`All ${moduleQuestions.length} questions in this module marked as studied!`, 'success');
+  },
+
+  filterByModule(subjectId, moduleId) {
+    // Set the filters
+    document.getElementById('filterSubject').value = subjectId;
+    this.updateModuleFilter();
+    document.getElementById('filterModule').value = moduleId;
+    
+    // Navigate to questions and apply filters
+    this.navigate('questions');
+    this.applyFilters();
+  },
+
+  getModuleProgress(moduleId) {
+    const moduleQuestions = this.state.questions.filter(q => q.module === moduleId);
+    const studiedCount = moduleQuestions.filter(q => this.state.studied.has(q.id)).length;
+    return moduleQuestions.length > 0 ? Math.round((studiedCount / moduleQuestions.length) * 100) : 0;
   },
 
   // ============================================

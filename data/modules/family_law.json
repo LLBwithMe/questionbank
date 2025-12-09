@@ -1,0 +1,262 @@
+{
+  "subject": "family_law",
+  "subjectName": "Family Law I",
+  "semester": "sem1",
+  "totalModules": 6,
+  "modules": [
+    {
+      "id": "module_01",
+      "code": "01",
+      "subject": "family_law",
+      "semester": "sem1",
+      "name": "Introduction to Hindu and Muslim Law",
+      "description": "Foundational concepts, sources, and schools of Hindu and Muslim personal law.",
+      "displayOrder": 1,
+      "subTopics": [
+        {
+          "id": "subtopic_01_01",
+          "name": "Hindu Law",
+          "items": [
+            "Nature and application of Hindu law",
+            "Sources of Hindu law (Ancient to Modern)",
+            "Schools of Hindu law (Mitakshara, Dayabhaga)"
+          ]
+        },
+        {
+          "id": "subtopic_01_02",
+          "name": "Muslim Law",
+          "items": [
+            "Nature and application of Muslim law",
+            "Sources of Muslim law",
+            "Schools of Muslim law (Sunni, Shia)"
+          ]
+        }
+      ],
+      "questionCount": 4,
+      "estimatedHours": 3
+    },
+    {
+      "id": "module_02",
+      "code": "02",
+      "subject": "family_law",
+      "semester": "sem1",
+      "name": "Marriage and Matrimonial Reliefs under Hindu Law",
+      "description": "Hindu marriage under Hindu Marriage Act, 1955 and matrimonial remedies.",
+      "displayOrder": 2,
+      "subTopics": [
+        {
+          "id": "subtopic_02_01",
+          "name": "Hindu Marriage",
+          "items": [
+            "Evolution and concept of Hindu marriage",
+            "Nature and forms of marriage under ancient Hindu law",
+            "Essentials of valid marriage (Hindu Marriage Act 1955)",
+            "Ceremonies and registration"
+          ]
+        },
+        {
+          "id": "subtopic_02_02",
+          "name": "Validity of Marriage",
+          "items": [
+            "Valid, void and voidable marriages",
+            "Age requirements and effects"
+          ]
+        },
+        {
+          "id": "subtopic_02_03",
+          "name": "Matrimonial Remedies",
+          "items": [
+            "Divorce (grounds, mutual consent, customary)",
+            "Nullity of marriage",
+            "Judicial separation",
+            "Restitution of conjugal rights"
+          ]
+        },
+        {
+          "id": "subtopic_02_04",
+          "name": "Jurisdiction",
+          "items": [
+            "Hindu Marriage Act jurisdiction",
+            "Family Courts Act 1984"
+          ]
+        }
+      ],
+      "questionCount": 11,
+      "estimatedHours": 4
+    },
+    {
+      "id": "module_03",
+      "code": "03",
+      "subject": "family_law",
+      "semester": "sem1",
+      "name": "Marriage and Matrimonial Reliefs under Muslim Law",
+      "description": "Muslim marriage (Nikah), Mehr, and dissolution of Muslim marriages.",
+      "displayOrder": 3,
+      "subTopics": [
+        {
+          "id": "subtopic_03_01",
+          "name": "Muslim Marriage (Nikah)",
+          "items": [
+            "Definition and classification of Muslim marriage",
+            "Essentials and formalities of valid marriage",
+            "Sahih, Fasid and Batil marriages",
+            "Muta marriage"
+          ]
+        },
+        {
+          "id": "subtopic_03_02",
+          "name": "Mehr (Dower)",
+          "items": [
+            "Definition and importance",
+            "Rights of wife regarding dower",
+            "Enforcement of dower"
+          ]
+        },
+        {
+          "id": "subtopic_03_03",
+          "name": "Dissolution of Muslim Marriage",
+          "items": [
+            "Modes of Talaq",
+            "Dissolution of Muslim Marriages Act 1939",
+            "Remarriage and Iddat"
+          ]
+        }
+      ],
+      "questionCount": 12,
+      "estimatedHours": 4
+    },
+    {
+      "id": "module_04",
+      "code": "04",
+      "subject": "family_law",
+      "semester": "sem1",
+      "name": "Marriage under Other Laws",
+      "description": "Marriage and divorce under Parsi, Christian, and Special Marriage Acts.",
+      "displayOrder": 4,
+      "subTopics": [
+        {
+          "id": "subtopic_04_01",
+          "name": "Parsi Marriage",
+          "items": [
+            "Parsi Marriage and Divorce Act 1936",
+            "Valid, void, voidable marriages",
+            "Parsi Matrimonial Courts"
+          ]
+        },
+        {
+          "id": "subtopic_04_02",
+          "name": "Christian Marriage",
+          "items": [
+            "Indian Christian Marriage Act 1872",
+            "Divorce Act 1869",
+            "Grounds of divorce"
+          ]
+        },
+        {
+          "id": "subtopic_04_03",
+          "name": "Special Marriage Act",
+          "items": [
+            "Special Marriage Act 1954",
+            "Conditions and procedure for solemnization",
+            "Consequences of marriage"
+          ]
+        },
+        {
+          "id": "subtopic_04_04",
+          "name": "Foreign Marriage and Contemporary Issues",
+          "items": [
+            "Foreign Marriages Act 1969",
+            "Live-in relationships",
+            "Same-sex relationships"
+          ]
+        }
+      ],
+      "questionCount": 12,
+      "estimatedHours": 4
+    },
+    {
+      "id": "module_05",
+      "code": "05",
+      "subject": "family_law",
+      "semester": "sem1",
+      "name": "Alimony and Maintenance",
+      "description": "Maintenance rights of wives, children, and parents under various laws.",
+      "displayOrder": 5,
+      "subTopics": [
+        {
+          "id": "subtopic_05_01",
+          "name": "Maintenance of Wife",
+          "items": [
+            "Maintenance pendente lite and permanent",
+            "Maintenance under Hindu law",
+            "Maintenance under Muslim law",
+            "Maintenance under Christian and Parsi law"
+          ]
+        },
+        {
+          "id": "subtopic_05_02",
+          "name": "Other Maintenance Provisions",
+          "items": [
+            "Maintenance of children",
+            "Maintenance under Special Marriage Act 1954",
+            "Protection of Women from Domestic Violence Act 2005",
+            "Code of Criminal Procedure 1973"
+          ]
+        },
+        {
+          "id": "subtopic_05_03",
+          "name": "Maintenance of Parents",
+          "items": [
+            "Maintenance and Welfare of Parents and Senior Citizens Act 2007"
+          ]
+        }
+      ],
+      "questionCount": 7,
+      "estimatedHours": 3
+    },
+    {
+      "id": "module_06",
+      "code": "06",
+      "subject": "family_law",
+      "semester": "sem1",
+      "name": "Adoption and Guardianship",
+      "description": "Laws relating to adoption, guardianship, and custody of minors.",
+      "displayOrder": 6,
+      "subTopics": [
+        {
+          "id": "subtopic_06_01",
+          "name": "Adoption",
+          "items": [
+            "Essentials of valid adoption (Hindu Adoptions and Maintenance Act 1956)",
+            "Procedure and effects of adoption",
+            "Rights of adoptive parents and child",
+            "Inter-country adoption and CARA guidelines",
+            "Juvenile Justice Act 2015"
+          ]
+        },
+        {
+          "id": "subtopic_06_02",
+          "name": "Guardianship",
+          "items": [
+            "Guardianship under Hindu law",
+            "Guardianship under Muslim law",
+            "Guardian and Wards Act 1890",
+            "Types of guardians",
+            "Appointment and powers of guardian"
+          ]
+        },
+        {
+          "id": "subtopic_06_03",
+          "name": "Custody",
+          "items": [
+            "Custody of minors",
+            "Minors' property management"
+          ]
+        }
+      ],
+      "questionCount": 6,
+      "estimatedHours": 3
+    }
+  ]
+}
+

@@ -13,7 +13,10 @@
       "keywords": ["crime", "criminal", "criminology", "schools", "definition"],
       "relatedQuestions": ["q_sem1_crim_psych_002", "q_sem1_crim_psych_007"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Crime, Criminal and Criminology",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_crim_psych_002",
@@ -27,7 +30,10 @@
       "keywords": ["positivist", "Lombroso", "Ferri", "Garofalo", "criminology"],
       "relatedQuestions": ["q_sem1_crim_psych_007"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Crime, Criminal and Criminology",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_crim_psych_003",
@@ -41,7 +47,10 @@
       "keywords": ["forensic psychology", "investigation", "police", "court", "crime"],
       "relatedQuestions": ["q_sem1_crim_psych_015"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Forensic Psychology",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_crim_psych_004",
@@ -55,7 +64,10 @@
       "keywords": ["social structure theory", "social disorganization", "criminal behaviour"],
       "relatedQuestions": ["q_sem1_crim_psych_023"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_05",
+      "moduleName": "Sociological Theories - Crime and Social Structure",
+      "moduleSectionNumber": 5
     },
     {
       "id": "q_sem1_crim_psych_005",
@@ -69,7 +81,10 @@
       "keywords": ["criminology", "definition", "criminal justice", "significance"],
       "relatedQuestions": ["q_sem1_crim_psych_001"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Crime, Criminal and Criminology",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_crim_psych_006",
@@ -83,7 +98,10 @@
       "keywords": ["socialization", "association theory", "differential association"],
       "relatedQuestions": ["q_sem1_crim_psych_021"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_07",
+      "moduleName": "Crime and Social Process",
+      "moduleSectionNumber": 7
     },
     {
       "id": "q_sem1_crim_psych_007",
@@ -97,7 +115,10 @@
       "keywords": ["criminology", "positivist", "Lombroso"],
       "relatedQuestions": ["q_sem1_crim_psych_002"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Crime, Criminal and Criminology",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_crim_psych_008",
@@ -111,7 +132,10 @@
       "keywords": ["criminal psychology", "psychological approach", "psycho-analytical", "scope"],
       "relatedQuestions": ["q_sem1_crim_psych_009"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Psychology and Crime",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_crim_psych_009",
@@ -125,7 +149,10 @@
       "keywords": ["psychological", "psychoanalytical", "approaches", "crime"],
       "relatedQuestions": ["q_sem1_crim_psych_008"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Psychology and Crime",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_crim_psych_010",
@@ -139,7 +166,10 @@
       "keywords": ["psychodynamics", "criminal behaviour", "mental illness"],
       "relatedQuestions": [],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Psychology and Crime",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_crim_psych_011",
@@ -153,7 +183,10 @@
       "keywords": ["Miller", "lower-class", "gang delinquency", "criminal behaviour"],
       "relatedQuestions": [],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_06",
+      "moduleName": "Subcultural Theories",
+      "moduleSectionNumber": 6
     },
     {
       "id": "q_sem1_crim_psych_012",
@@ -167,7 +200,10 @@
       "keywords": ["Becker", "labelling theory", "criminal identity"],
       "relatedQuestions": [],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_07",
+      "moduleName": "Crime and Social Process",
+      "moduleSectionNumber": 7
     },
     {
       "id": "q_sem1_crim_psych_013",
@@ -181,7 +217,10 @@
       "keywords": ["criminal profiling", "merits", "demerits"],
       "relatedQuestions": [],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Psychometric Tests and Criminal Profiling",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_crim_psych_014",
@@ -195,7 +234,10 @@
       "keywords": ["psychometric test", "criminal behavior"],
       "relatedQuestions": [],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_03",
+      "moduleName": "Psychometric Tests and Criminal Profiling",
+      "moduleSectionNumber": 3
     },
     {
       "id": "q_sem1_crim_psych_015",
@@ -209,7 +251,10 @@
       "keywords": ["forensic psychology", "scope", "court", "application"],
       "relatedQuestions": ["q_sem1_crim_psych_003"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Forensic Psychology",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_crim_psych_016",
@@ -223,7 +268,10 @@
       "keywords": ["Hirsch", "social control theory", "differential reinforcement"],
       "relatedQuestions": [],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_07",
+      "moduleName": "Crime and Social Process",
+      "moduleSectionNumber": 7
     },
     {
       "id": "q_sem1_crim_psych_017",
@@ -237,7 +285,10 @@
       "keywords": ["classical school", "neo classical", "criminology"],
       "relatedQuestions": ["q_sem1_crim_psych_019"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Crime, Criminal and Criminology",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_crim_psych_018",
@@ -251,7 +302,10 @@
       "keywords": ["classical school", "criminology"],
       "relatedQuestions": ["q_sem1_crim_psych_017"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_01",
+      "moduleName": "Crime, Criminal and Criminology",
+      "moduleSectionNumber": 1
     },
     {
       "id": "q_sem1_crim_psych_019",
@@ -265,7 +319,10 @@
       "keywords": ["aggression", "crime", "link"],
       "relatedQuestions": ["q_sem1_crim_psych_025"],
       "source": "April 2025 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Psychology and Crime",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_crim_psych_020",
@@ -279,7 +336,10 @@
       "keywords": ["differential association", "theory"],
       "relatedQuestions": ["q_sem1_crim_psych_006"],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_07",
+      "moduleName": "Crime and Social Process",
+      "moduleSectionNumber": 7
     },
     {
       "id": "q_sem1_crim_psych_021",
@@ -293,7 +353,10 @@
       "keywords": ["psychology", "prisons", "role"],
       "relatedQuestions": [],
       "source": "December 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Forensic Psychology",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_crim_psych_022",
@@ -307,7 +370,10 @@
       "keywords": ["social structure", "theory"],
       "relatedQuestions": ["q_sem1_crim_psych_004"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_05",
+      "moduleName": "Sociological Theories - Crime and Social Structure",
+      "moduleSectionNumber": 5
     },
     {
       "id": "q_sem1_crim_psych_023",
@@ -321,7 +387,10 @@
       "keywords": ["forensic psychology", "investigation", "crime"],
       "relatedQuestions": ["q_sem1_crim_psych_003"],
       "source": "June 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_04",
+      "moduleName": "Forensic Psychology",
+      "moduleSectionNumber": 4
     },
     {
       "id": "q_sem1_crim_psych_024",
@@ -335,7 +404,10 @@
       "keywords": ["aggression", "violence", "crime"],
       "relatedQuestions": ["q_sem1_crim_psych_019"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Psychology and Crime",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_crim_psych_025",
@@ -349,7 +421,10 @@
       "keywords": ["crime", "frustration", "relation"],
       "relatedQuestions": [],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Psychology and Crime",
+      "moduleSectionNumber": 2
     },
     {
       "id": "q_sem1_crim_psych_026",
@@ -363,8 +438,10 @@
       "keywords": ["crime", "aggression", "relation"],
       "relatedQuestions": ["q_sem1_crim_psych_019"],
       "source": "January 2024 Exam",
-      "verified": true
+      "verified": true,
+      "module": "module_02",
+      "moduleName": "Psychology and Crime",
+      "moduleSectionNumber": 2
     }
   ]
 }
-

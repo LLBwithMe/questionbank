@@ -1,0 +1,257 @@
+{
+  "subject": "crim_psych",
+  "subjectName": "Criminal Psychology & Criminal Sociology",
+  "semester": "sem1",
+  "totalModules": 7,
+  "modules": [
+    {
+      "id": "module_01",
+      "code": "01",
+      "subject": "crim_psych",
+      "semester": "sem1",
+      "name": "Crime, Criminal and Criminology",
+      "description": "Introduction to fundamental concepts of crime, criminal, and criminology including various schools of criminological thought.",
+      "displayOrder": 1,
+      "subTopics": [
+        {
+          "id": "subtopic_01_01",
+          "name": "Basic Concepts",
+          "items": [
+            "What is crime?",
+            "Who is criminal?",
+            "What is criminology?"
+          ]
+        },
+        {
+          "id": "subtopic_01_02",
+          "name": "Schools of Criminology",
+          "items": [
+            "Pre-Classical School",
+            "Classical School",
+            "Neo-Classical School"
+          ]
+        },
+        {
+          "id": "subtopic_01_03",
+          "name": "Positivist Approach",
+          "items": [
+            "Cesare Lombroso and the Italian School",
+            "Enrico Ferri's contributions",
+            "Raffaele Garofalo's theory",
+            "Gabriel Tarde's theory of imitation"
+          ]
+        }
+      ],
+      "questionCount": 6,
+      "estimatedHours": 3
+    },
+    {
+      "id": "module_02",
+      "code": "02",
+      "subject": "crim_psych",
+      "semester": "sem1",
+      "name": "Psychology and Crime",
+      "description": "Study of psychological aspects of criminal behavior including various psychological approaches and mental factors.",
+      "displayOrder": 2,
+      "subTopics": [
+        {
+          "id": "subtopic_02_01",
+          "name": "Criminal Psychology Concepts",
+          "items": [
+            "Meaning and scope of criminal psychology",
+            "Purpose of criminal psychology"
+          ]
+        },
+        {
+          "id": "subtopic_02_02",
+          "name": "Psychological Approaches",
+          "items": [
+            "Psychological approach to crime",
+            "Psycho-analytical approach to crime",
+            "Behaviorist approach",
+            "Psychodynamics of criminal behavior"
+          ]
+        },
+        {
+          "id": "subtopic_02_03",
+          "name": "Mental Factors and Crime",
+          "items": [
+            "Mental illness and crime",
+            "Human aggression and violence",
+            "Frustration and crime"
+          ]
+        }
+      ],
+      "questionCount": 7,
+      "estimatedHours": 3
+    },
+    {
+      "id": "module_03",
+      "code": "03",
+      "subject": "crim_psych",
+      "semester": "sem1",
+      "name": "Psychometric Tests and Criminal Profiling",
+      "description": "Study of psychometric testing and criminal profiling techniques in understanding criminal behavior.",
+      "displayOrder": 3,
+      "subTopics": [
+        {
+          "id": "subtopic_03_01",
+          "name": "Psychometric Tests",
+          "items": [
+            "Definition and meaning",
+            "Measurement of criminal behavior",
+            "Psychological tests used in criminology"
+          ]
+        },
+        {
+          "id": "subtopic_03_02",
+          "name": "Criminal Profiling",
+          "items": [
+            "Definition and process",
+            "Factors in criminal profiling",
+            "Merits of criminal profiling",
+            "Demerits of criminal profiling"
+          ]
+        }
+      ],
+      "questionCount": 2,
+      "estimatedHours": 2
+    },
+    {
+      "id": "module_04",
+      "code": "04",
+      "subject": "crim_psych",
+      "semester": "sem1",
+      "name": "Forensic Psychology",
+      "description": "Application of psychology in the legal and criminal justice system.",
+      "displayOrder": 4,
+      "subTopics": [
+        {
+          "id": "subtopic_04_01",
+          "name": "Fundamentals of Forensic Psychology",
+          "items": [
+            "Definition, meaning and scope",
+            "Historical background in India and abroad"
+          ]
+        },
+        {
+          "id": "subtopic_04_02",
+          "name": "Role in Criminal Justice System",
+          "items": [
+            "Role in crime investigation",
+            "Psychology and police",
+            "Psychology in court system",
+            "Psychology in prisons"
+          ]
+        }
+      ],
+      "questionCount": 3,
+      "estimatedHours": 2
+    },
+    {
+      "id": "module_05",
+      "code": "05",
+      "subject": "crim_psych",
+      "semester": "sem1",
+      "name": "Sociological Theories - Crime and Social Structure",
+      "description": "Understanding crime through social structure and disorganization theories.",
+      "displayOrder": 5,
+      "subTopics": [
+        {
+          "id": "subtopic_05_01",
+          "name": "Social Structure Theory",
+          "items": [
+            "Definition and concepts",
+            "Application to criminal behavior"
+          ]
+        },
+        {
+          "id": "subtopic_05_02",
+          "name": "Social Disorganization Theory",
+          "items": [
+            "Chicago School",
+            "Zone theory",
+            "Ecological factors"
+          ]
+        },
+        {
+          "id": "subtopic_05_03",
+          "name": "Strain Theories",
+          "items": [
+            "Merton's anomie theory",
+            "Strain and criminal behavior"
+          ]
+        }
+      ],
+      "questionCount": 3,
+      "estimatedHours": 2
+    },
+    {
+      "id": "module_06",
+      "code": "06",
+      "subject": "crim_psych",
+      "semester": "sem1",
+      "name": "Subcultural Theories",
+      "description": "Understanding criminal subcultures and gang delinquency.",
+      "displayOrder": 6,
+      "subTopics": [
+        {
+          "id": "subtopic_06_01",
+          "name": "Cohen's Theory",
+          "items": [
+            "Theory of delinquent subculture",
+            "Status frustration"
+          ]
+        },
+        {
+          "id": "subtopic_06_02",
+          "name": "Miller's Theory",
+          "items": [
+            "Lower-class gang delinquency",
+            "Focal concerns of lower class"
+          ]
+        }
+      ],
+      "questionCount": 1,
+      "estimatedHours": 1
+    },
+    {
+      "id": "module_07",
+      "code": "07",
+      "subject": "crim_psych",
+      "semester": "sem1",
+      "name": "Crime and Social Process",
+      "description": "Social process theories explaining how individuals become criminals through socialization.",
+      "displayOrder": 7,
+      "subTopics": [
+        {
+          "id": "subtopic_07_01",
+          "name": "Socialization and Crime",
+          "items": [
+            "Differential Association Theory (Sutherland)",
+            "Differential Reinforcement Theory"
+          ]
+        },
+        {
+          "id": "subtopic_07_02",
+          "name": "Neutralization and Control Theories",
+          "items": [
+            "Neutralization and drift theory",
+            "Hirsch's Social Control/Bond Theory"
+          ]
+        },
+        {
+          "id": "subtopic_07_03",
+          "name": "Labelling Theory",
+          "items": [
+            "Becker's Labelling theory",
+            "Self-Control and Self Esteem"
+          ]
+        }
+      ],
+      "questionCount": 4,
+      "estimatedHours": 2
+    }
+  ]
+}
+

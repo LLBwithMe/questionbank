@@ -1,0 +1,220 @@
+{
+  "subject": "ipr",
+  "subjectName": "Intellectual Property Rights",
+  "semester": "sem1",
+  "totalModules": 7,
+  "modules": [
+    {
+      "id": "module_01",
+      "code": "01",
+      "subject": "ipr",
+      "semester": "sem1",
+      "name": "Understanding Intellectual Property",
+      "description": "Introduction to intellectual property, its theories, history, and international framework.",
+      "displayOrder": 1,
+      "subTopics": [
+        {
+          "id": "subtopic_01_01",
+          "name": "Fundamentals of IP",
+          "items": ["Meaning of intellectual property", "Theories for justification of IP", "History and origins"]
+        },
+        {
+          "id": "subtopic_01_02",
+          "name": "Internationalization of IP",
+          "items": ["Paris Convention", "Berne Convention", "TRIPS Agreement", "National Treatment and MFN principles"]
+        },
+        {
+          "id": "subtopic_01_03",
+          "name": "International Agencies",
+          "items": ["WIPO", "WTO and IP", "Doctrine of exhaustion"]
+        }
+      ],
+      "questionCount": 6,
+      "estimatedHours": 3
+    },
+    {
+      "id": "module_02",
+      "code": "02",
+      "subject": "ipr",
+      "semester": "sem1",
+      "name": "Copyright and Neighbouring Rights",
+      "description": "Copyright protection, neighbouring rights, and related aspects under Indian Copyright Act.",
+      "displayOrder": 2,
+      "subTopics": [
+        {
+          "id": "subtopic_02_01",
+          "name": "Copyright Fundamentals",
+          "items": ["Originality requirement", "Idea-expression dichotomy", "Works in which copyright subsists", "Authorship and ownership"]
+        },
+        {
+          "id": "subtopic_02_02",
+          "name": "Indian Copyright Act 1957",
+          "items": ["Definitions and subject matter", "Registration and term", "Licensing and copyright societies"]
+        },
+        {
+          "id": "subtopic_02_03",
+          "name": "Rights and Exceptions",
+          "items": ["Economic rights", "Moral rights", "Fair use and fair dealing", "Exceptions to copyright"]
+        },
+        {
+          "id": "subtopic_02_04",
+          "name": "Infringement",
+          "items": ["Direct and indirect infringement", "Plagiarism vs infringement", "Remedies"]
+        }
+      ],
+      "questionCount": 10,
+      "estimatedHours": 4
+    },
+    {
+      "id": "module_03",
+      "code": "03",
+      "subject": "ipr",
+      "semester": "sem1",
+      "name": "Patents",
+      "description": "Patent protection, registration process, and rights under Patents Act 1970.",
+      "displayOrder": 3,
+      "subTopics": [
+        {
+          "id": "subtopic_03_01",
+          "name": "Understanding Patents",
+          "items": ["Meaning and eligibility", "Patentable and non-patentable subject matter", "Types of patents"]
+        },
+        {
+          "id": "subtopic_03_02",
+          "name": "International Framework",
+          "items": ["TRIPS on patents", "Convention and PCT applications", "Budapest Treaty"]
+        },
+        {
+          "id": "subtopic_03_03",
+          "name": "Patents Act 1970",
+          "items": ["Grant procedure and registration", "Opposition proceedings", "Term and patent of addition"]
+        },
+        {
+          "id": "subtopic_03_04",
+          "name": "Licensing and Infringement",
+          "items": ["Compulsory licenses", "Revocation and surrender", "Infringement and remedies"]
+        },
+        {
+          "id": "subtopic_03_05",
+          "name": "Biodiversity Interface",
+          "items": ["Protection of biodiversity", "National Biodiversity Board"]
+        }
+      ],
+      "questionCount": 11,
+      "estimatedHours": 4
+    },
+    {
+      "id": "module_04",
+      "code": "04",
+      "subject": "ipr",
+      "semester": "sem1",
+      "name": "Trademarks",
+      "description": "Trademark protection, registration, and enforcement under Trademarks Act 1999.",
+      "displayOrder": 4,
+      "subTopics": [
+        {
+          "id": "subtopic_04_01",
+          "name": "Understanding Trademarks",
+          "items": ["Meaning and functions", "Eligibility for registration", "Absolute and relative grounds of refusal"]
+        },
+        {
+          "id": "subtopic_04_02",
+          "name": "Trademarks Act 1999",
+          "items": ["Registration process", "Duration and renewal", "Well-known marks", "Non-conventional trademarks", "Domain names as trademark"]
+        },
+        {
+          "id": "subtopic_04_03",
+          "name": "Infringement and Remedies",
+          "items": ["Effect of registration", "Infringement and passing-off", "Exceptions and remedies"]
+        }
+      ],
+      "questionCount": 9,
+      "estimatedHours": 4
+    },
+    {
+      "id": "module_05",
+      "code": "05",
+      "subject": "ipr",
+      "semester": "sem1",
+      "name": "Industrial Designs",
+      "description": "Protection of industrial designs under Designs Act 2000.",
+      "displayOrder": 5,
+      "subTopics": [
+        {
+          "id": "subtopic_05_01",
+          "name": "Understanding Industrial Designs",
+          "items": ["Definition and significance", "TRIPS on industrial designs", "Hague Agreement"]
+        },
+        {
+          "id": "subtopic_05_02",
+          "name": "Designs Act 2000",
+          "items": ["Registration requirements and procedure", "Term of protection", "Restoration and cancellation"]
+        },
+        {
+          "id": "subtopic_05_03",
+          "name": "Rights and Remedies",
+          "items": ["Rights of design holder", "Piracy of registered designs", "Remedies"]
+        }
+      ],
+      "questionCount": 5,
+      "estimatedHours": 2
+    },
+    {
+      "id": "module_06",
+      "code": "06",
+      "subject": "ipr",
+      "semester": "sem1",
+      "name": "Geographical Indications",
+      "description": "Protection of geographical indications under GI Act 1999.",
+      "displayOrder": 6,
+      "subTopics": [
+        {
+          "id": "subtopic_06_01",
+          "name": "Understanding GI",
+          "items": ["Meaning and definition", "Eligibility criteria", "Difference from trademarks", "Appellations of origin vs GI"]
+        },
+        {
+          "id": "subtopic_06_02",
+          "name": "GI Act 1999",
+          "items": ["Registration of GI", "Authorised user registration", "Effect of registration", "Rights and remedies"]
+        }
+      ],
+      "questionCount": 5,
+      "estimatedHours": 2
+    },
+    {
+      "id": "module_07",
+      "code": "07",
+      "subject": "ipr",
+      "semester": "sem1",
+      "name": "Protection of Other IP Rights",
+      "description": "Other forms of IP including layout designs, plant varieties, trade secrets, and traditional knowledge.",
+      "displayOrder": 7,
+      "subTopics": [
+        {
+          "id": "subtopic_07_01",
+          "name": "Layout Designs",
+          "items": ["Layout designs of semiconductor integrated circuits", "Protection framework"]
+        },
+        {
+          "id": "subtopic_07_02",
+          "name": "Plant Varieties",
+          "items": ["Plant Varieties and Farmers Rights Act (PPVFRA)", "Eligibility and registration"]
+        },
+        {
+          "id": "subtopic_07_03",
+          "name": "Trade Secrets",
+          "items": ["Confidential information", "Trade secrets protection", "Importance in business"]
+        },
+        {
+          "id": "subtopic_07_04",
+          "name": "Traditional Knowledge",
+          "items": ["Traditional Knowledge Digital Library (TKDL)", "Biodiversity protection"]
+        }
+      ],
+      "questionCount": 2,
+      "estimatedHours": 2
+    }
+  ]
+}
+
