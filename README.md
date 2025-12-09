@@ -107,7 +107,7 @@ The platform is fully responsive and optimized for:
 ## 🔐 Admin Access
 
 The admin panel is password-protected. Default credentials:
-- **Password:** `llbadmin2025`
+- **Password:** ``
 
 Admin features:
 - Add new questions
