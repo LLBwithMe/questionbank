@@ -1,0 +1,168 @@
+{
+  "subject": "contract_law_2",
+  "modules": [
+    {
+      "id": "module_01",
+      "code": "01",
+      "name": "Indemnity & Guarantee",
+      "description": "Contract of indemnity, guarantee, rights of surety, continuing guarantee, and co-suretyship.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Indemnity",
+          "items": [
+            "Definition — Section 124 ICA",
+            "Rights of indemnity holder",
+            "Extent of liability",
+            "Indemnity vs guarantee distinction"
+          ]
+        },
+        {
+          "name": "Guarantee",
+          "items": [
+            "Essential elements of guarantee",
+            "Rights of surety — indemnity, subrogation, set-off",
+            "Continuing guarantee — Section 129",
+            "Discharge of surety"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_02",
+      "code": "02",
+      "name": "Bailment & Pledge",
+      "description": "Types of bailment, duties of bailor and bailee, pledge, rights of pawnee and pawnor, finder of goods.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Bailment",
+          "items": [
+            "Definition — Section 148",
+            "Types — gratuitous and non-gratuitous",
+            "Duties of bailor and bailee",
+            "Lien — particular and general"
+          ]
+        },
+        {
+          "name": "Pledge",
+          "items": [
+            "Definition and essentials — Section 172",
+            "Rights of pawnee",
+            "Rights of pawnor",
+            "Pledge by non-owners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_03",
+      "code": "03",
+      "name": "Law of Agency",
+      "description": "Creation of agency, authority of agent, duties and rights, liability of principal, sub-agent, termination.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Creation of Agency",
+          "items": [
+            "Express and implied agency",
+            "Agency by estoppel and holding out",
+            "Agency by necessity",
+            "Ratification — essentials and effects"
+          ]
+        },
+        {
+          "name": "Principal-Agent Relationship",
+          "items": [
+            "Actual and apparent authority",
+            "Duties of agent — Sections 211–218",
+            "Rights of agent",
+            "Personal liability of agent"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_04",
+      "code": "04",
+      "name": "Sale of Goods Act 1930",
+      "description": "Formation of contract of sale, conditions and warranties, transfer of property, unpaid seller rights.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Formation & Conditions",
+          "items": [
+            "Contract of sale vs agreement to sell",
+            "Conditions and warranties — distinction",
+            "Implied conditions as to title, description",
+            "Caveat emptor and exceptions"
+          ]
+        },
+        {
+          "name": "Transfer of Property & Remedies",
+          "items": [
+            "Rules for transfer of property",
+            "Nemo dat quod non habet — exceptions",
+            "Rights of unpaid seller",
+            "Remedies of buyer and seller"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_05",
+      "code": "05",
+      "name": "Indian Partnership Act 1932",
+      "description": "Nature of partnership, types, registration, rights and duties of partners, dissolution.",
+      "estimatedHours": 2,
+      "subTopics": [
+        {
+          "name": "Nature of Partnership",
+          "items": [
+            "Definition and essentials",
+            "Partnership vs company, HUF, co-ownership",
+            "Registration and effects of non-registration",
+            "Types of partners"
+          ]
+        },
+        {
+          "name": "Dissolution",
+          "items": [
+            "Dissolution by agreement, notice, court",
+            "Consequences of dissolution",
+            "Settlement of accounts — Section 48",
+            "Continuing authority after dissolution"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_06",
+      "code": "06",
+      "name": "Negotiable Instruments Act 1881",
+      "description": "Promissory notes, bills of exchange, cheques, holder in due course, dishonour, and liability.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Types of Instruments",
+          "items": [
+            "Promissory note — essentials",
+            "Bill of exchange — parties",
+            "Cheque — crossing and payment",
+            "Bearer vs order instruments"
+          ]
+        },
+        {
+          "name": "Liability & Dishonour",
+          "items": [
+            "Holder in due course — rights",
+            "Endorsement — types and effects",
+            "Dishonour by non-acceptance and non-payment",
+            "Notice of dishonour — Section 93–98",
+            "Section 138 NI Act — cheque bounce"
+          ]
+        }
+      ]
+    }
+  ]
+}

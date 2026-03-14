@@ -1,0 +1,167 @@
+{
+  "subject": "family_law_2",
+  "modules": [
+    {
+      "id": "module_01",
+      "code": "01",
+      "name": "Hindu Succession Act 1956",
+      "description": "Devolution of property under HSA, Mitakshara and Dayabhaga schools, coparcenary, and 2005 amendment.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Mitakshara & Dayabhaga",
+          "items": [
+            "Joint family property",
+            "Coparcenary — birth right",
+            "Dayabhaga — succession on death",
+            "Doctrine of pious obligation"
+          ]
+        },
+        {
+          "name": "HSA 1956 & 2005 Amendment",
+          "items": [
+            "Class I and Class II heirs",
+            "Agnates and cognates",
+            "Section 6 — daughter as coparcener (2005)",
+            "Vineeta Sharma v Rakesh Sharma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_02",
+      "code": "02",
+      "name": "Muslim Law of Inheritance",
+      "description": "Quranic heirs, sharers and residuaries, doctrine of return and increase, gift and waqf.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Sunni Law of Inheritance",
+          "items": [
+            "Classification of heirs — sharers, residuaries, distant kindred",
+            "Rules of exclusion — hajb",
+            "Doctrine of return (radd)",
+            "Doctrine of increase (aul)"
+          ]
+        },
+        {
+          "name": "Gift & Waqf",
+          "items": [
+            "Hiba — essentials and types",
+            "Musha — gift of undivided share",
+            "Waqf — creation and types",
+            "Waqf Board and administration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_03",
+      "code": "03",
+      "name": "Indian Succession Act 1925",
+      "description": "Testamentary succession for Christians and Parsis, intestate succession, probate, and letters of administration.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Testamentary Succession",
+          "items": [
+            "Will — essentials and execution",
+            "Privileged and unprivileged will",
+            "Revocation of will",
+            "Codicil and its effect"
+          ]
+        },
+        {
+          "name": "Intestate & Probate",
+          "items": [
+            "Christian intestate succession",
+            "Parsi intestate succession",
+            "Probate — when required",
+            "Letters of administration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_04",
+      "code": "04",
+      "name": "Guardianship Laws",
+      "description": "Hindu Minority and Guardianship Act, Guardians and Wards Act, custody disputes, and welfare principle.",
+      "estimatedHours": 2,
+      "subTopics": [
+        {
+          "name": "HMGA 1956",
+          "items": [
+            "Natural guardian — father, mother, husband",
+            "Powers and limitations of natural guardian",
+            "Alienation of minor's property",
+            "Testamentary guardian"
+          ]
+        },
+        {
+          "name": "Custody Disputes",
+          "items": [
+            "Welfare of child as paramount principle",
+            "Visitation rights",
+            "International child abduction — Hague Convention",
+            "Surrogacy and custody"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_05",
+      "code": "05",
+      "name": "Property Rights of Women",
+      "description": "Stridhan, women's estate, 2005 HSA amendment, domestic violence Act property rights.",
+      "estimatedHours": 2,
+      "subTopics": [
+        {
+          "name": "Stridhan & Women's Estate",
+          "items": [
+            "Definition of stridhan",
+            "Absolute ownership of stridhan",
+            "Limited estate — widow's estate",
+            "Conversion to absolute estate — HSA 1956"
+          ]
+        },
+        {
+          "name": "Modern Property Rights",
+          "items": [
+            "DV Act 2005 — shared household right",
+            "Maintenance and permanent alimony",
+            "Matrimonial property reform proposals",
+            "Women's property rights — international comparison"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_06",
+      "code": "06",
+      "name": "Wills, Codicils & Succession Planning",
+      "description": "Making a valid will, attestation, revocation, lapsed legacies, and succession planning in India.",
+      "estimatedHours": 2,
+      "subTopics": [
+        {
+          "name": "Wills",
+          "items": [
+            "Capacity and freedom of testation",
+            "Essential formalities",
+            "Attestation requirements",
+            "Mutual wills and secret trusts"
+          ]
+        },
+        {
+          "name": "Legacies & Succession",
+          "items": [
+            "Specific and general legacies",
+            "Lapse and ademption",
+            "Conditional legacies",
+            "Living wills and advance directives"
+          ]
+        }
+      ]
+    }
+  ]
+}

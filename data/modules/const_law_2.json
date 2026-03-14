@@ -1,0 +1,167 @@
+{
+  "subject": "const_law_2",
+  "modules": [
+    {
+      "id": "module_01",
+      "code": "01",
+      "name": "Union Executive",
+      "description": "President, Vice-President, Prime Minister, Council of Ministers, and Attorney General.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "President of India",
+          "items": [
+            "Election and qualification — Art 52–58",
+            "Powers — executive, legislative, judicial, emergency",
+            "Pardoning power — Art 72",
+            "Impeachment — Art 61"
+          ]
+        },
+        {
+          "name": "Prime Minister & Cabinet",
+          "items": [
+            "Appointment and role of PM",
+            "Collective responsibility — Art 75",
+            "Council of Ministers composition",
+            "Attorney General — Art 76"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_02",
+      "code": "02",
+      "name": "Parliament & Legislation",
+      "description": "Composition of Parliament, anti-defection, legislative procedure, joint sitting, and privilege.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Houses of Parliament",
+          "items": [
+            "Lok Sabha — composition and dissolution",
+            "Rajya Sabha — permanent house",
+            "Qualifications and disqualifications",
+            "Anti-defection law — 10th Schedule"
+          ]
+        },
+        {
+          "name": "Legislative Procedure",
+          "items": [
+            "Ordinary and Money Bills",
+            "Joint sitting — Art 108",
+            "Speaker's role and casting vote",
+            "Parliamentary privileges — Art 105"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_03",
+      "code": "03",
+      "name": "State Executive & Legislature",
+      "description": "Governor, Chief Minister, State Legislature, Vidhan Sabha, and Vidhan Parishad.",
+      "estimatedHours": 2,
+      "subTopics": [
+        {
+          "name": "State Executive",
+          "items": [
+            "Governor — appointment and discretionary powers",
+            "Chief Minister and Council of Ministers",
+            "Advocate General of State",
+            "State public services"
+          ]
+        },
+        {
+          "name": "State Legislature",
+          "items": [
+            "Unicameral and bicameral states",
+            "Money Bill in state legislature",
+            "Qualification of MLAs and MLCs",
+            "State legislative privileges"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_04",
+      "code": "04",
+      "name": "Centre-State Relations",
+      "description": "Legislative, administrative, and financial relations between Union and States, doctrine of repugnancy.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Legislative Relations",
+          "items": [
+            "Art 245–255 — distribution of powers",
+            "Union, State and Concurrent Lists",
+            "Doctrine of repugnancy — Art 254",
+            "Residuary powers — Art 248"
+          ]
+        },
+        {
+          "name": "Financial Relations",
+          "items": [
+            "Finance Commission — Art 280",
+            "GST Council",
+            "Grants-in-aid — Art 275",
+            "Borrowing powers of states — Art 293"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_05",
+      "code": "05",
+      "name": "Emergency Provisions",
+      "description": "National emergency, President's Rule, and Financial Emergency — proclamation and safeguards.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "National Emergency — Art 352",
+          "items": [
+            "Grounds for proclamation",
+            "Parliamentary approval requirements",
+            "Effect on Fundamental Rights",
+            "44th Amendment safeguards"
+          ]
+        },
+        {
+          "name": "State Emergency & Financial Emergency",
+          "items": [
+            "President's Rule — Art 356",
+            "S.R. Bommai case — judicial review",
+            "Financial Emergency — Art 360",
+            "Satpal v State of Punjab"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_06",
+      "code": "06",
+      "name": "Constitutional Bodies & Amendment",
+      "description": "Election Commission, UPSC, CAG, Finance Commission, and the process of constitutional amendment.",
+      "estimatedHours": 2,
+      "subTopics": [
+        {
+          "name": "Constitutional Bodies",
+          "items": [
+            "Election Commission — independence",
+            "UPSC and State PSCs",
+            "Comptroller and Auditor General",
+            "Finance Commission — composition"
+          ]
+        },
+        {
+          "name": "Constitutional Amendment",
+          "items": [
+            "Art 368 — types of amendment",
+            "Simple majority, special majority, ratification",
+            "Basic structure doctrine post-Kesavananda",
+            "24th, 42nd, 44th Amendments"
+          ]
+        }
+      ]
+    }
+  ]
+}

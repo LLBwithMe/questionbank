@@ -1,0 +1,167 @@
+{
+  "subject": "jurisprudence",
+  "modules": [
+    {
+      "id": "module_01",
+      "code": "01",
+      "name": "Nature & Sources of Law",
+      "description": "Meaning, nature, definition, and sources of law including legislation, precedent, and custom.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Nature of Law",
+          "items": [
+            "Meaning and definitions",
+            "Law and morality",
+            "Relation between law and justice",
+            "Functions of law in society"
+          ]
+        },
+        {
+          "name": "Sources of Law",
+          "items": [
+            "Legislation — formal source",
+            "Precedent — judicial source",
+            "Custom as source — requisites",
+            "Juristic writings as persuasive source"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_02",
+      "code": "02",
+      "name": "Schools of Jurisprudence",
+      "description": "Analytical, natural law, historical, sociological, and realist schools and their key thinkers.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Analytical & Natural Law",
+          "items": [
+            "Austin's command theory",
+            "Hart's concept of law",
+            "Primary and secondary rules",
+            "Natural law — Aquinas, Fuller, Lon Fuller"
+          ]
+        },
+        {
+          "name": "Historical & Sociological",
+          "items": [
+            "Savigny — Volksgeist",
+            "Maine — status to contract",
+            "Ihering — social purpose of law",
+            "Roscoe Pound — social engineering"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_03",
+      "code": "03",
+      "name": "Legal Rights & Duties",
+      "description": "Hohfeld's analysis of rights, duties, privileges, powers, immunities and their jural correlatives.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Hohfeld's Analysis",
+          "items": [
+            "Rights and duties — jural correlatives",
+            "Privilege and no-right",
+            "Power and liability",
+            "Immunity and disability"
+          ]
+        },
+        {
+          "name": "Theory of Rights",
+          "items": [
+            "Will theory and interest theory",
+            "Legal personality — corporations",
+            "Status and capacity",
+            "Natural and legal persons"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_04",
+      "code": "04",
+      "name": "Ownership & Possession",
+      "description": "Theories of ownership, types of ownership, acquisition of possession, and their legal significance.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Ownership",
+          "items": [
+            "Definition and characteristics",
+            "Absolute and limited ownership",
+            "Corporeal and incorporeal property",
+            "Salmond and Austin on ownership"
+          ]
+        },
+        {
+          "name": "Possession",
+          "items": [
+            "Corpus and animus possidendi",
+            "Possession in fact and in law",
+            "Savigny vs Ihering on possession",
+            "Acquisition and loss of possession"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_05",
+      "code": "05",
+      "name": "Liability in Jurisprudence",
+      "description": "Civil and criminal liability, negligence, strict and absolute liability, vicarious liability, and mens rea.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Theories of Liability",
+          "items": [
+            "Strict and absolute liability",
+            "Vicarious liability",
+            "Joint and several liability",
+            "Respondeat superior"
+          ]
+        },
+        {
+          "name": "Mental Element",
+          "items": [
+            "Intention, recklessness, negligence",
+            "Malice in law and fact",
+            "Constructive liability",
+            "Austin on obligation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_06",
+      "code": "06",
+      "name": "Justice, Sovereignty & Legal Theory",
+      "description": "Theories of justice, sovereignty, Kelsen's Grundnorm, Hart-Fuller debate, and law as social control.",
+      "estimatedHours": 2,
+      "subTopics": [
+        {
+          "name": "Justice & Sovereignty",
+          "items": [
+            "Commutative and distributive justice",
+            "Rawls' theory of justice",
+            "Austin and Bodin on sovereignty",
+            "Monistic and pluralistic theories"
+          ]
+        },
+        {
+          "name": "Modern Legal Theory",
+          "items": [
+            "Kelsen's pure theory of law",
+            "Grundnorm concept",
+            "Hart-Fuller debate — Nazi laws",
+            "Critical Legal Studies and Feminist jurisprudence"
+          ]
+        }
+      ]
+    }
+  ]
+}

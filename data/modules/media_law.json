@@ -1,0 +1,167 @@
+{
+  "subject": "media_law",
+  "modules": [
+    {
+      "id": "module_01",
+      "code": "01",
+      "name": "Freedom of Press & Speech",
+      "description": "Constitutional basis of press freedom under Article 19, reasonable restrictions, and pre-censorship.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Constitutional Basis",
+          "items": [
+            "Art 19(1)(a) — freedom of speech and expression",
+            "Press freedom as implicit right",
+            "Brij Bhushan case — prior restraint",
+            "Indian Express v Union of India"
+          ]
+        },
+        {
+          "name": "Reasonable Restrictions",
+          "items": [
+            "Art 19(2) — grounds of restriction",
+            "Security of state and public order",
+            "Defamation and contempt as restrictions",
+            "Hate speech laws and Art 19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_02",
+      "code": "02",
+      "name": "Defamation & Privacy Law",
+      "description": "Civil and criminal defamation, libel, slander, qualified privilege, and right to privacy in media.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Defamation Law",
+          "items": [
+            "Civil defamation — tort law",
+            "Criminal defamation — Section 499 IPC / BNS",
+            "Exceptions and qualified privilege",
+            "Defamation in online media"
+          ]
+        },
+        {
+          "name": "Privacy in Media",
+          "items": [
+            "Right to privacy — Puttaswamy judgment",
+            "Privacy vs press freedom",
+            "Publication of private information",
+            "Revenge porn and intimate image laws"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_03",
+      "code": "03",
+      "name": "Broadcasting & Telecom Regulation",
+      "description": "Prasar Bharati, cable TV regulation, TRAI, and the Broadcasting Services Regulation Bill.",
+      "estimatedHours": 2,
+      "subTopics": [
+        {
+          "name": "Broadcasting Framework",
+          "items": [
+            "Prasar Bharati Act 1990",
+            "Cable Television Networks Act 1995",
+            "Content Code and Programme Code",
+            "Uplinking and downlinking guidelines"
+          ]
+        },
+        {
+          "name": "Telecom Regulation",
+          "items": [
+            "TRAI Act 1997 — powers",
+            "Telecom sector disputes",
+            "Broadcasting Services Regulation Bill 2023",
+            "OTT regulation debate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_04",
+      "code": "04",
+      "name": "Information Technology & Cyber Law",
+      "description": "IT Act 2000, intermediary liability, data protection, cybercrimes, and DPDP Act 2023.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "IT Act 2000",
+          "items": [
+            "Electronic documents and signatures",
+            "Intermediary liability — Section 66A struck down",
+            "Shreya Singhal v Union of India",
+            "Social media and safe harbour"
+          ]
+        },
+        {
+          "name": "Data Protection",
+          "items": [
+            "DPDP Act 2023 — framework",
+            "Data principal and data fiduciary",
+            "Consent and legitimate uses",
+            "Penalties and Data Protection Board"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_05",
+      "code": "05",
+      "name": "Copyright in Media",
+      "description": "Broadcast reproduction right, fair dealing for news reporting, and licensing of media content.",
+      "estimatedHours": 2,
+      "subTopics": [
+        {
+          "name": "Media Copyright",
+          "items": [
+            "Broadcast reproduction right — Section 37",
+            "News reporting and fair dealing",
+            "Hot news doctrine",
+            "Photograph copyright in journalism"
+          ]
+        },
+        {
+          "name": "Licensing & Collective Management",
+          "items": [
+            "Performing rights societies",
+            "IPRS and PPL — role",
+            "Creative Commons licensing",
+            "Copyright in social media content"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_06",
+      "code": "06",
+      "name": "Contempt, Sedition & Press Offences",
+      "description": "Contempt of court, seditious publications, official secrets, and restrictions on court reporting.",
+      "estimatedHours": 2,
+      "subTopics": [
+        {
+          "name": "Contempt of Court",
+          "items": [
+            "Civil and criminal contempt",
+            "Contempt of Courts Act 1971",
+            "Scandalising the court",
+            "Truth as defence post-2006 amendment"
+          ]
+        },
+        {
+          "name": "Press Offences",
+          "items": [
+            "Sedition — Section 152 BNS replacement",
+            "Official Secrets Act 1923",
+            "Press Council Act — self-regulation",
+            "Reporting restrictions on court proceedings"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,220 +1,159 @@
 {
   "subject": "ipr",
-  "subjectName": "Intellectual Property Rights",
-  "semester": "sem1",
-  "totalModules": 7,
   "modules": [
     {
       "id": "module_01",
       "code": "01",
-      "subject": "ipr",
-      "semester": "sem1",
-      "name": "Understanding Intellectual Property",
-      "description": "Introduction to intellectual property, its theories, history, and international framework.",
-      "displayOrder": 1,
+      "name": "Introduction to IPR & TRIPS",
+      "description": "Nature of intellectual property, international framework, WIPO, and TRIPS Agreement obligations.",
+      "estimatedHours": 2,
       "subTopics": [
         {
-          "id": "subtopic_01_01",
-          "name": "Fundamentals of IP",
-          "items": ["Meaning of intellectual property", "Theories for justification of IP", "History and origins"]
+          "name": "IPR Fundamentals",
+          "items": [
+            "Meaning and types of IP",
+            "Justifications — labour theory, personality theory",
+            "IPR and development",
+            "IP as intangible property"
+          ]
         },
         {
-          "id": "subtopic_01_02",
-          "name": "Internationalization of IP",
-          "items": ["Paris Convention", "Berne Convention", "TRIPS Agreement", "National Treatment and MFN principles"]
-        },
-        {
-          "id": "subtopic_01_03",
-          "name": "International Agencies",
-          "items": ["WIPO", "WTO and IP", "Doctrine of exhaustion"]
+          "name": "International Framework",
+          "items": [
+            "Paris Convention 1883",
+            "Berne Convention 1886",
+            "WIPO — structure and role",
+            "TRIPS Agreement — India's compliance"
+          ]
         }
-      ],
-      "questionCount": 6,
-      "estimatedHours": 3
+      ]
     },
     {
       "id": "module_02",
       "code": "02",
-      "subject": "ipr",
-      "semester": "sem1",
-      "name": "Copyright and Neighbouring Rights",
-      "description": "Copyright protection, neighbouring rights, and related aspects under Indian Copyright Act.",
-      "displayOrder": 2,
+      "name": "Patent Law",
+      "description": "Patentability criteria, procedure for grant, compulsory licensing, and patent infringement.",
+      "estimatedHours": 3,
       "subTopics": [
         {
-          "id": "subtopic_02_01",
-          "name": "Copyright Fundamentals",
-          "items": ["Originality requirement", "Idea-expression dichotomy", "Works in which copyright subsists", "Authorship and ownership"]
+          "name": "Patents Act 1970",
+          "items": [
+            "Patentable and non-patentable inventions",
+            "Novelty, inventive step, industrial applicability",
+            "Section 3(d) — Novartis case",
+            "Product vs process patent"
+          ]
         },
         {
-          "id": "subtopic_02_02",
-          "name": "Indian Copyright Act 1957",
-          "items": ["Definitions and subject matter", "Registration and term", "Licensing and copyright societies"]
-        },
-        {
-          "id": "subtopic_02_03",
-          "name": "Rights and Exceptions",
-          "items": ["Economic rights", "Moral rights", "Fair use and fair dealing", "Exceptions to copyright"]
-        },
-        {
-          "id": "subtopic_02_04",
-          "name": "Infringement",
-          "items": ["Direct and indirect infringement", "Plagiarism vs infringement", "Remedies"]
+          "name": "Patent Procedure",
+          "items": [
+            "Application and examination",
+            "Publication and opposition",
+            "Grant and term of patent",
+            "Compulsory licensing — Section 84",
+            "Revocation of patents"
+          ]
         }
-      ],
-      "questionCount": 10,
-      "estimatedHours": 4
+      ]
     },
     {
       "id": "module_03",
       "code": "03",
-      "subject": "ipr",
-      "semester": "sem1",
-      "name": "Patents",
-      "description": "Patent protection, registration process, and rights under Patents Act 1970.",
-      "displayOrder": 3,
+      "name": "Copyright Law",
+      "description": "Original works, authorship, ownership, fair dealing, moral rights, and copyright infringement.",
+      "estimatedHours": 3,
       "subTopics": [
         {
-          "id": "subtopic_03_01",
-          "name": "Understanding Patents",
-          "items": ["Meaning and eligibility", "Patentable and non-patentable subject matter", "Types of patents"]
+          "name": "Copyright Act 1957",
+          "items": [
+            "Original literary, dramatic, musical, artistic works",
+            "Authorship and ownership",
+            "Term of copyright",
+            "Assignment and licensing"
+          ]
         },
         {
-          "id": "subtopic_03_02",
-          "name": "International Framework",
-          "items": ["TRIPS on patents", "Convention and PCT applications", "Budapest Treaty"]
-        },
-        {
-          "id": "subtopic_03_03",
-          "name": "Patents Act 1970",
-          "items": ["Grant procedure and registration", "Opposition proceedings", "Term and patent of addition"]
-        },
-        {
-          "id": "subtopic_03_04",
-          "name": "Licensing and Infringement",
-          "items": ["Compulsory licenses", "Revocation and surrender", "Infringement and remedies"]
-        },
-        {
-          "id": "subtopic_03_05",
-          "name": "Biodiversity Interface",
-          "items": ["Protection of biodiversity", "National Biodiversity Board"]
+          "name": "Infringement & Defences",
+          "items": [
+            "Direct and contributory infringement",
+            "Fair dealing — Section 52",
+            "Moral rights of author",
+            "Remedies for infringement"
+          ]
         }
-      ],
-      "questionCount": 11,
-      "estimatedHours": 4
+      ]
     },
     {
       "id": "module_04",
       "code": "04",
-      "subject": "ipr",
-      "semester": "sem1",
-      "name": "Trademarks",
-      "description": "Trademark protection, registration, and enforcement under Trademarks Act 1999.",
-      "displayOrder": 4,
+      "name": "Trademark Law",
+      "description": "Registration, distinctiveness, well-known marks, passing off, and trademark infringement.",
+      "estimatedHours": 2,
       "subTopics": [
         {
-          "id": "subtopic_04_01",
-          "name": "Understanding Trademarks",
-          "items": ["Meaning and functions", "Eligibility for registration", "Absolute and relative grounds of refusal"]
-        },
-        {
-          "id": "subtopic_04_02",
           "name": "Trademarks Act 1999",
-          "items": ["Registration process", "Duration and renewal", "Well-known marks", "Non-conventional trademarks", "Domain names as trademark"]
-        },
-        {
-          "id": "subtopic_04_03",
-          "name": "Infringement and Remedies",
-          "items": ["Effect of registration", "Infringement and passing-off", "Exceptions and remedies"]
+          "items": [
+            "Absolute and relative grounds for refusal",
+            "Registration procedure and opposition",
+            "Well-known trade marks",
+            "Madrid Protocol"
+          ]
         }
-      ],
-      "questionCount": 9,
-      "estimatedHours": 4
+      ]
     },
     {
       "id": "module_05",
       "code": "05",
-      "subject": "ipr",
-      "semester": "sem1",
-      "name": "Industrial Designs",
-      "description": "Protection of industrial designs under Designs Act 2000.",
-      "displayOrder": 5,
+      "name": "Designs & Geographical Indications",
+      "description": "Designs Act 2000, registration of designs, GI Act 1999, and Darjeeling tea as GI case study.",
+      "estimatedHours": 2,
       "subTopics": [
         {
-          "id": "subtopic_05_01",
-          "name": "Understanding Industrial Designs",
-          "items": ["Definition and significance", "TRIPS on industrial designs", "Hague Agreement"]
-        },
-        {
-          "id": "subtopic_05_02",
           "name": "Designs Act 2000",
-          "items": ["Registration requirements and procedure", "Term of protection", "Restoration and cancellation"]
+          "items": [
+            "Registrability of designs",
+            "Procedure for registration",
+            "Piracy of registered design",
+            "Cancellation of design registration"
+          ]
         },
         {
-          "id": "subtopic_05_03",
-          "name": "Rights and Remedies",
-          "items": ["Rights of design holder", "Piracy of registered designs", "Remedies"]
+          "name": "Geographical Indications",
+          "items": [
+            "GI Act 1999",
+            "Registration requirements",
+            "GI tags in India",
+            "Basmati rice, Darjeeling tea disputes"
+          ]
         }
-      ],
-      "questionCount": 5,
-      "estimatedHours": 2
+      ]
     },
     {
       "id": "module_06",
       "code": "06",
-      "subject": "ipr",
-      "semester": "sem1",
-      "name": "Geographical Indications",
-      "description": "Protection of geographical indications under GI Act 1999.",
-      "displayOrder": 6,
+      "name": "Digital IPR & Emerging Issues",
+      "description": "Software patents, internet copyright, domain names, and IP in artificial intelligence.",
+      "estimatedHours": 2,
       "subTopics": [
         {
-          "id": "subtopic_06_01",
-          "name": "Understanding GI",
-          "items": ["Meaning and definition", "Eligibility criteria", "Difference from trademarks", "Appellations of origin vs GI"]
+          "name": "Digital Copyright",
+          "items": [
+            "Software as copyright subject matter",
+            "Digital Rights Management",
+            "Section 65A and 65B — anti-circumvention",
+            "Online piracy and intermediary liability"
+          ]
         },
         {
-          "id": "subtopic_06_02",
-          "name": "GI Act 1999",
-          "items": ["Registration of GI", "Authorised user registration", "Effect of registration", "Rights and remedies"]
+          "name": "Emerging Issues",
+          "items": [
+            "AI-generated works and ownership",
+            "Domain name disputes — UDRP",
+            "Traditional knowledge protection",
+            "Biodiversity and IP — Nagoya Protocol"
+          ]
         }
-      ],
-      "questionCount": 5,
-      "estimatedHours": 2
-    },
-    {
-      "id": "module_07",
-      "code": "07",
-      "subject": "ipr",
-      "semester": "sem1",
-      "name": "Protection of Other IP Rights",
-      "description": "Other forms of IP including layout designs, plant varieties, trade secrets, and traditional knowledge.",
-      "displayOrder": 7,
-      "subTopics": [
-        {
-          "id": "subtopic_07_01",
-          "name": "Layout Designs",
-          "items": ["Layout designs of semiconductor integrated circuits", "Protection framework"]
-        },
-        {
-          "id": "subtopic_07_02",
-          "name": "Plant Varieties",
-          "items": ["Plant Varieties and Farmers Rights Act (PPVFRA)", "Eligibility and registration"]
-        },
-        {
-          "id": "subtopic_07_03",
-          "name": "Trade Secrets",
-          "items": ["Confidential information", "Trade secrets protection", "Importance in business"]
-        },
-        {
-          "id": "subtopic_07_04",
-          "name": "Traditional Knowledge",
-          "items": ["Traditional Knowledge Digital Library (TKDL)", "Biodiversity protection"]
-        }
-      ],
-      "questionCount": 2,
-      "estimatedHours": 2
+      ]
     }
   ]
 }
-

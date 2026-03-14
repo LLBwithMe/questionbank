@@ -1,0 +1,167 @@
+{
+  "subject": "penology_victimology",
+  "modules": [
+    {
+      "id": "module_01",
+      "code": "01",
+      "name": "Theories of Punishment",
+      "description": "Retributive, deterrent, preventive, reformative, and utilitarian theories and their critique.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Classical Theories",
+          "items": [
+            "Retributive theory — Kant",
+            "Deterrent theory — Beccaria, Bentham",
+            "Preventive theory",
+            "Expiation or expiatory theory"
+          ]
+        },
+        {
+          "name": "Modern Theories",
+          "items": [
+            "Reformative theory",
+            "Rehabilitative approach",
+            "Incapacitation",
+            "Restorative justice — Braithwaite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_02",
+      "code": "02",
+      "name": "Capital Punishment & Sentencing",
+      "description": "Death penalty jurisprudence in India, sentencing guidelines, minimum and mandatory sentences.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Capital Punishment",
+          "items": [
+            "Constitutional validity — Bachan Singh v State of Punjab",
+            "Rarest of rare doctrine",
+            "Death row jurisprudence",
+            "Abolition debate — global trends"
+          ]
+        },
+        {
+          "name": "Sentencing Policy",
+          "items": [
+            "Judicial discretion in sentencing",
+            "Aggravating and mitigating circumstances",
+            "Victim impact statements",
+            "Life imprisonment — actual duration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_03",
+      "code": "03",
+      "name": "Prison System & Reforms",
+      "description": "Prison laws, conditions of imprisonment, open prisons, reformation programmes, and prison reform reports.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Prison Administration",
+          "items": [
+            "Prisons Act 1894 — outdated provisions",
+            "Model Prison Manual 2016",
+            "Classification of prisoners",
+            "Undertrial prisoner rights"
+          ]
+        },
+        {
+          "name": "Prison Reforms",
+          "items": [
+            "Mulla Committee Report",
+            "Solitary confinement — judicial view",
+            "Open prisons in India — Rajasthan model",
+            "Recidivism and reintegration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_04",
+      "code": "04",
+      "name": "Probation, Parole & Alternatives",
+      "description": "Probation of Offenders Act, parole system, remission, community service, and diversion programmes.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Probation",
+          "items": [
+            "Probation of Offenders Act 1958",
+            "Conditions of probation",
+            "Breach of probation — consequences",
+            "Juvenile offenders and probation"
+          ]
+        },
+        {
+          "name": "Parole & Remission",
+          "items": [
+            "Parole — types and conditions",
+            "Remission under prison rules",
+            "Furlough vs parole distinction",
+            "Plea bargaining — Chapter XXIA CrPC"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_05",
+      "code": "05",
+      "name": "Victimology — Concepts & Rights",
+      "description": "Victimology as discipline, victim typologies, trauma, compensation, and witness protection.",
+      "estimatedHours": 3,
+      "subTopics": [
+        {
+          "name": "Victimology Foundations",
+          "items": [
+            "Historical development",
+            "Victim precipitation — Wolfgang",
+            "Mendelsohn's typology",
+            "Routine activities theory"
+          ]
+        },
+        {
+          "name": "Victim Rights & Compensation",
+          "items": [
+            "CPCR — compensation schemes",
+            "SC Legal Services Authority scheme",
+            "Witness protection scheme 2018",
+            "Restorative justice programmes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module_06",
+      "code": "06",
+      "name": "Restorative Justice & Modern Trends",
+      "description": "Restorative justice models, community mediation, POCSO special courts, and global trends in penology.",
+      "estimatedHours": 2,
+      "subTopics": [
+        {
+          "name": "Restorative Justice",
+          "items": [
+            "Victim-offender mediation",
+            "Community conferencing",
+            "Circle sentencing",
+            "Reintegrative shaming — Braithwaite"
+          ]
+        },
+        {
+          "name": "Modern Trends",
+          "items": [
+            "Decriminalisation debates",
+            "Mental health and criminal justice",
+            "Reforming juvenile justice — JJ Act 2015",
+            "White-collar crime sentencing"
+          ]
+        }
+      ]
+    }
+  ]
+}
