@@ -1,0 +1,81 @@
+{
+  "platform": {
+    "name": "LLBwithMe Question Bank",
+    "tagline": "Your Complete Law Examination Preparation Platform",
+    "version": "2.0.0",
+    "buildDate": "2025-12-07",
+    "lastUpdated": "2025-12-07"
+  },
+  "statistics": {
+    "totalSemesters": 6,
+    "activeSemesters": 1,
+    "totalSubjects": 6,
+    "totalQuestions": 284,
+    "questionsByMarks": {
+      "15": 88,
+      "10": 106,
+      "5": 90
+    },
+    "questionsByType": {
+      "long": 88,
+      "medium": 106,
+      "short": 90
+    },
+    "questionsByDifficulty": {
+      "easy": 71,
+      "medium": 142,
+      "hard": 71
+    }
+  },
+  "examSessions": [
+    "April 2025",
+    "December 2024",
+    "June 2024",
+    "January 2024"
+  ],
+  "roadmap": {
+    "nextLaunch": {
+      "semester": "sem2",
+      "name": "Semester 2",
+      "date": "2026-04-15",
+      "estimatedQuestions": 300
+    },
+    "upcoming": [
+      {
+        "semester": "sem3",
+        "date": "2026-08-01",
+        "status": "coming_soon"
+      },
+      {
+        "semester": "sem4",
+        "date": "2026-12-01",
+        "status": "coming_soon"
+      },
+      {
+        "semester": "sem5",
+        "date": "2027-04-01",
+        "status": "planned"
+      },
+      {
+        "semester": "sem6",
+        "date": "2027-08-01",
+        "status": "planned"
+      }
+    ]
+  },
+  "features": {
+    "search": true,
+    "filters": true,
+    "bookmarks": true,
+    "progress": true,
+    "darkMode": true,
+    "export": true,
+    "admin": true,
+    "charts": true
+  },
+  "contact": {
+    "email": "support@llbwithme.com",
+    "website": "https://llbwithme.com"
+  }
+}
+

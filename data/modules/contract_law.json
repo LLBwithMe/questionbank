@@ -1,0 +1,331 @@
+{
+  "subject": "contract_law",
+  "subjectName": "Law of Contract I",
+  "semester": "sem1",
+  "totalModules": 8,
+  "modules": [
+    {
+      "id": "module_01",
+      "code": "01",
+      "subject": "contract_law",
+      "semester": "sem1",
+      "name": "Introduction and Formation of Contract",
+      "description": "Fundamentals of contract law including offer, acceptance, and essential elements of valid contracts.",
+      "displayOrder": 1,
+      "subTopics": [
+        {
+          "id": "subtopic_01_01",
+          "name": "Introduction to Contract",
+          "items": [
+            "Meaning, nature and scope of contract",
+            "Essential elements of valid contract"
+          ]
+        },
+        {
+          "id": "subtopic_01_02",
+          "name": "Offer/Proposal",
+          "items": [
+            "Definition of offer",
+            "Elements of valid proposal",
+            "Communication of proposal",
+            "Revocation of proposal",
+            "Types of offers"
+          ]
+        },
+        {
+          "id": "subtopic_01_03",
+          "name": "Acceptance",
+          "items": [
+            "Definition of acceptance",
+            "Elements of valid acceptance",
+            "Communication of acceptance"
+          ]
+        },
+        {
+          "id": "subtopic_01_04",
+          "name": "Modes of Communication",
+          "items": [
+            "Postal acceptance rule",
+            "Telephonic contracts",
+            "Email and electronic contracts",
+            "Online contracts and standard forms"
+          ]
+        }
+      ],
+      "questionCount": 9,
+      "estimatedHours": 4
+    },
+    {
+      "id": "module_02",
+      "code": "02",
+      "subject": "contract_law",
+      "semester": "sem1",
+      "name": "Competency of Parties",
+      "description": "Capacity to contract under Sections 10-12 of Indian Contract Act.",
+      "displayOrder": 2,
+      "subTopics": [
+        {
+          "id": "subtopic_02_01",
+          "name": "Capacity to Contract",
+          "items": [
+            "Who is competent to contract",
+            "Age of majority (Indian Majority Act 1875)"
+          ]
+        },
+        {
+          "id": "subtopic_02_02",
+          "name": "Minor's Contracts",
+          "items": [
+            "Contracts with minors",
+            "Effects of minor's agreements",
+            "Necessaries supplied to minor (Section 68)"
+          ]
+        },
+        {
+          "id": "subtopic_02_03",
+          "name": "Other Incapacities",
+          "items": [
+            "Soundness of mind",
+            "Legal disqualifications",
+            "Prisoners, married women, aliens, insolvents"
+          ]
+        }
+      ],
+      "questionCount": 4,
+      "estimatedHours": 2
+    },
+    {
+      "id": "module_03",
+      "code": "03",
+      "subject": "contract_law",
+      "semester": "sem1",
+      "name": "Free Consent",
+      "description": "Elements vitiating free consent under Sections 13-22 of Indian Contract Act.",
+      "displayOrder": 3,
+      "subTopics": [
+        {
+          "id": "subtopic_03_01",
+          "name": "Consent and Free Consent",
+          "items": [
+            "Definition of consent",
+            "What constitutes free consent",
+            "Consensus ad idem"
+          ]
+        },
+        {
+          "id": "subtopic_03_02",
+          "name": "Vitiating Factors",
+          "items": [
+            "Coercion (Section 15, 19)",
+            "Undue influence (Section 16, 19A)",
+            "Misrepresentation (Section 18, 19)",
+            "Fraud (Section 17, 19)",
+            "Mistake (Sections 20-22)"
+          ]
+        },
+        {
+          "id": "subtopic_03_03",
+          "name": "Remedies",
+          "items": [
+            "Rescission of contract",
+            "Restoration and restitution"
+          ]
+        }
+      ],
+      "questionCount": 7,
+      "estimatedHours": 3
+    },
+    {
+      "id": "module_04",
+      "code": "04",
+      "subject": "contract_law",
+      "semester": "sem1",
+      "name": "Consideration",
+      "description": "Law relating to consideration under Section 2(d) of Indian Contract Act.",
+      "displayOrder": 4,
+      "subTopics": [
+        {
+          "id": "subtopic_04_01",
+          "name": "Fundamentals of Consideration",
+          "items": [
+            "Definition and meaning (Section 2d)",
+            "Importance of consideration",
+            "Essential elements"
+          ]
+        },
+        {
+          "id": "subtopic_04_02",
+          "name": "Types of Consideration",
+          "items": [
+            "Act, forbearance, promise",
+            "Present, past, future consideration",
+            "Adequacy and inadequacy"
+          ]
+        },
+        {
+          "id": "subtopic_04_03",
+          "name": "Privity of Contract",
+          "items": [
+            "Doctrine of Privity",
+            "Exceptions to Privity rule"
+          ]
+        }
+      ],
+      "questionCount": 5,
+      "estimatedHours": 2
+    },
+    {
+      "id": "module_05",
+      "code": "05",
+      "subject": "contract_law",
+      "semester": "sem1",
+      "name": "Void Agreements",
+      "description": "Agreements declared void under Sections 23-30 of Indian Contract Act.",
+      "displayOrder": 5,
+      "subTopics": [
+        {
+          "id": "subtopic_05_01",
+          "name": "Unlawful Agreements",
+          "items": [
+            "Unlawful consideration (Sections 23-24)",
+            "Agreements opposed to public policy"
+          ]
+        },
+        {
+          "id": "subtopic_05_02",
+          "name": "Types of Void Agreements",
+          "items": [
+            "Agreements in restraint of marriage",
+            "Agreements in restraint of trade",
+            "Agreements in restraint of legal proceedings",
+            "Uncertain agreements",
+            "Wagering agreements"
+          ]
+        }
+      ],
+      "questionCount": 4,
+      "estimatedHours": 2
+    },
+    {
+      "id": "module_06",
+      "code": "06",
+      "subject": "contract_law",
+      "semester": "sem1",
+      "name": "Contingent Contracts and Quasi-Contracts",
+      "description": "Contingent contracts (Sections 31-36) and quasi-contracts (Sections 68-72).",
+      "displayOrder": 6,
+      "subTopics": [
+        {
+          "id": "subtopic_06_01",
+          "name": "Contingent Contracts",
+          "items": [
+            "Definition and nature (Sections 31-36)",
+            "Obligations on happening/non-happening of event",
+            "Enforcement of contingent contracts"
+          ]
+        },
+        {
+          "id": "subtopic_06_02",
+          "name": "Quasi-Contracts",
+          "items": [
+            "Definition and nature (Sections 68-72)",
+            "Five kinds of quasi-contracts",
+            "Doctrine of restitution"
+          ]
+        }
+      ],
+      "questionCount": 8,
+      "estimatedHours": 3
+    },
+    {
+      "id": "module_07",
+      "code": "07",
+      "subject": "contract_law",
+      "semester": "sem1",
+      "name": "Performance and Discharge of Contract",
+      "description": "Rules of performance and modes of discharge of contracts.",
+      "displayOrder": 7,
+      "subTopics": [
+        {
+          "id": "subtopic_07_01",
+          "name": "Performance of Contract",
+          "items": [
+            "Obligation to perform (Sections 37-41)",
+            "Who must perform",
+            "Time and place of performance (Sections 46-50)"
+          ]
+        },
+        {
+          "id": "subtopic_07_02",
+          "name": "Reciprocal Promises",
+          "items": [
+            "Sections 51-54",
+            "Performance of reciprocal promises"
+          ]
+        },
+        {
+          "id": "subtopic_07_03",
+          "name": "Discharge of Contract",
+          "items": [
+            "Discharge by performance",
+            "Discharge by breach (including anticipatory breach)",
+            "Discharge by impossibility",
+            "Discharge by agreement (novation, alteration)"
+          ]
+        }
+      ],
+      "questionCount": 11,
+      "estimatedHours": 4
+    },
+    {
+      "id": "module_08",
+      "code": "08",
+      "subject": "contract_law",
+      "semester": "sem1",
+      "name": "Contract Remedies",
+      "description": "Remedies for breach of contract under Indian Contract Act and Specific Relief Act.",
+      "displayOrder": 8,
+      "subTopics": [
+        {
+          "id": "subtopic_08_01",
+          "name": "Damages",
+          "items": [
+            "Damages under Contract Act (Sections 73-74)",
+            "General and special damages",
+            "Liquidated and unliquidated damages",
+            "Quantum meruit"
+          ]
+        },
+        {
+          "id": "subtopic_08_02",
+          "name": "Specific Relief",
+          "items": [
+            "Specific performance (Sections 10, 14-20)",
+            "Cases where specific performance can/cannot be granted"
+          ]
+        },
+        {
+          "id": "subtopic_08_03",
+          "name": "Injunctions",
+          "items": [
+            "Temporary and perpetual injunctions (Sections 36-42)",
+            "When injunction can be granted",
+            "When injunction cannot be granted"
+          ]
+        },
+        {
+          "id": "subtopic_08_04",
+          "name": "Other Reliefs",
+          "items": [
+            "Rescission (Sections 27, 30)",
+            "Rectification (Section 26)",
+            "Cancellation (Sections 31, 33)"
+          ]
+        }
+      ],
+      "questionCount": 11,
+      "estimatedHours": 4
+    }
+  ]
+}
+

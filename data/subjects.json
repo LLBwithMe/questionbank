@@ -1,0 +1,269 @@
+{
+  "subjects": [
+    {
+      "id": "crim_psych",
+      "name": "Criminal Psychology & Criminal Sociology",
+      "shortName": "Criminal Psychology",
+      "code": "LP101",
+      "semester": "sem1",
+      "description": "Study of criminal behavior, criminological theories, psychological approaches to crime, and sociological perspectives on criminal conduct.",
+      "color": "#d4af37",
+      "icon": "brain",
+      "questionCount": 26,
+      "topics": [
+        "Classical School of Criminology",
+        "Positivist Approach",
+        "Forensic Psychology",
+        "Criminal Profiling",
+        "Social Structure Theory",
+        "Labelling Theory",
+        "Differential Association Theory"
+      ],
+      "createdDate": "2025-11-15"
+    },
+    {
+      "id": "const_law",
+      "name": "Constitutional Law I",
+      "shortName": "Constitutional Law",
+      "code": "LP102",
+      "semester": "sem1",
+      "description": "Fundamental principles of the Indian Constitution, Fundamental Rights, Directive Principles, and constitutional interpretation.",
+      "color": "#e74c3c",
+      "icon": "constitution",
+      "questionCount": 47,
+      "topics": [
+        "Preamble",
+        "Fundamental Rights (Articles 12-35)",
+        "Right to Equality",
+        "Right to Freedom",
+        "Right against Exploitation",
+        "Right to Freedom of Religion",
+        "Cultural and Educational Rights",
+        "Constitutional Remedies",
+        "Directive Principles",
+        "Citizenship"
+      ],
+      "createdDate": "2025-11-15"
+    },
+    {
+      "id": "contract_law",
+      "name": "Law of Contract I",
+      "shortName": "Contract Law",
+      "code": "LP103",
+      "semester": "sem1",
+      "description": "Formation, validity, performance, and discharge of contracts under the Indian Contract Act, 1872 and Specific Relief Act, 1963.",
+      "color": "#3498db",
+      "icon": "handshake",
+      "questionCount": 59,
+      "topics": [
+        "Essential Elements of Contract",
+        "Offer and Acceptance",
+        "Consideration",
+        "Capacity to Contract",
+        "Free Consent",
+        "Void and Voidable Contracts",
+        "Performance of Contracts",
+        "Discharge of Contracts",
+        "Remedies for Breach",
+        "Specific Performance",
+        "Quasi-Contracts"
+      ],
+      "createdDate": "2025-11-15"
+    },
+    {
+      "id": "family_law",
+      "name": "Family Law I",
+      "shortName": "Family Law",
+      "code": "LP104",
+      "semester": "sem1",
+      "description": "Personal laws governing marriage, divorce, adoption, and maintenance across Hindu, Muslim, Christian, and Parsi communities.",
+      "color": "#9b59b6",
+      "icon": "family",
+      "questionCount": 52,
+      "topics": [
+        "Hindu Marriage Act",
+        "Muslim Marriage Law",
+        "Christian Marriage Act",
+        "Special Marriage Act",
+        "Adoption Laws",
+        "Maintenance",
+        "Dower",
+        "Divorce Grounds",
+        "Restitution of Conjugal Rights",
+        "Family Courts"
+      ],
+      "createdDate": "2025-11-15"
+    },
+    {
+      "id": "crimes",
+      "name": "Law of Crimes",
+      "shortName": "Criminal Law",
+      "code": "LP105",
+      "semester": "sem1",
+      "description": "Study of criminal offences, liability, punishments, and defenses under the Bharatiya Nyaya Sanhita, 2023 (BNS).",
+      "color": "#c0392b",
+      "icon": "gavel",
+      "questionCount": 52,
+      "topics": [
+        "Criminal Liability",
+        "Mens Rea and Actus Reus",
+        "General Exceptions",
+        "Stages of Crime",
+        "Culpable Homicide & Murder",
+        "Offences Against Property",
+        "Offences Against Women",
+        "Abetment and Conspiracy",
+        "Right of Private Defence",
+        "Offences Against State"
+      ],
+      "createdDate": "2025-11-15"
+    },
+    {
+      "id": "ipr",
+      "name": "Intellectual Property Rights",
+      "shortName": "IPR",
+      "code": "LP106",
+      "semester": "sem1",
+      "description": "Legal framework for protection of patents, copyrights, trademarks, designs, and geographical indications.",
+      "color": "#1abc9c",
+      "icon": "lightbulb",
+      "questionCount": 48,
+      "topics": [
+        "Patents Act, 1970",
+        "Copyright Act, 1957",
+        "Trademarks Act, 1999",
+        "Designs Act, 2000",
+        "Geographical Indications",
+        "WIPO",
+        "TRIPS Agreement",
+        "Patent Infringement",
+        "Copyright Ownership",
+        "Trademark Registration"
+      ],
+      "createdDate": "2025-11-15"
+    },
+    {
+      "id": "const_law_2",
+      "name": "Constitutional Law II",
+      "shortName": "Constitutional Law II",
+      "code": "LP201",
+      "semester": "sem2",
+      "description": "Advanced constitutional law covering federal structure, Parliament, State Legislature, emergency provisions, and constitutional bodies.",
+      "color": "#e74c3c",
+      "icon": "constitution",
+      "questionCount": 80,
+      "topics": [
+        "Union Executive",
+        "Parliament and Legislation",
+        "State Executive and Legislature",
+        "Centre-State Relations",
+        "Emergency Provisions",
+        "Constitutional Bodies",
+        "Amendment and Basic Structure"
+      ],
+      "createdDate": "2026-03-14"
+    },
+    {
+      "id": "contract_law_2",
+      "name": "Law of Contract II",
+      "shortName": "Contract Law II",
+      "code": "LP202",
+      "semester": "sem2",
+      "description": "Special contracts including indemnity, guarantee, bailment, pledge, agency, sale of goods, partnership, and negotiable instruments.",
+      "color": "#3498db",
+      "icon": "handshake",
+      "questionCount": 80,
+      "topics": [
+        "Indemnity and Guarantee",
+        "Bailment and Pledge",
+        "Law of Agency",
+        "Sale of Goods Act",
+        "Partnership Act",
+        "Negotiable Instruments Act"
+      ],
+      "createdDate": "2026-03-14"
+    },
+    {
+      "id": "family_law_2",
+      "name": "Family Law II",
+      "shortName": "Family Law II",
+      "code": "LP203",
+      "semester": "sem2",
+      "description": "Succession laws across Hindu, Muslim, Christian, and Parsi communities, guardianship, women's property rights, and wills.",
+      "color": "#9b59b6",
+      "icon": "family",
+      "questionCount": 80,
+      "topics": [
+        "Hindu Succession Act",
+        "Muslim Law of Inheritance",
+        "Christian and Parsi Succession",
+        "Indian Succession Act",
+        "Guardianship Laws",
+        "Property Rights of Women",
+        "Wills and Testaments"
+      ],
+      "createdDate": "2026-03-14"
+    },
+    {
+      "id": "penology_victimology",
+      "name": "Penology & Victimology",
+      "shortName": "Penology",
+      "code": "LP204",
+      "semester": "sem2",
+      "description": "Theories of punishment, prison reforms, probation, parole, victimology, victim rights, and restorative justice.",
+      "color": "#c0392b",
+      "icon": "gavel",
+      "questionCount": 80,
+      "topics": [
+        "Theories of Punishment",
+        "Capital Punishment",
+        "Prison System and Reforms",
+        "Probation and Parole",
+        "Victimology",
+        "Victim Rights and Compensation",
+        "Restorative Justice"
+      ],
+      "createdDate": "2026-03-14"
+    },
+    {
+      "id": "jurisprudence",
+      "name": "Jurisprudence",
+      "shortName": "Jurisprudence",
+      "code": "LP205",
+      "semester": "sem2",
+      "description": "Nature and sources of law, schools of jurisprudence, legal rights and duties, ownership, possession, liability, and justice.",
+      "color": "#d4af37",
+      "icon": "lightbulb",
+      "questionCount": 79,
+      "topics": [
+        "Nature and Sources of Law",
+        "Schools of Jurisprudence",
+        "Legal Rights and Duties",
+        "Ownership and Possession",
+        "Liability in Jurisprudence",
+        "Justice and Sovereignty"
+      ],
+      "createdDate": "2026-03-14"
+    },
+    {
+      "id": "media_law",
+      "name": "Media Law",
+      "shortName": "Media Law",
+      "code": "LP206",
+      "semester": "sem2",
+      "description": "Freedom of press, defamation, broadcasting regulations, information technology law, copyright in media, and press offences.",
+      "color": "#1abc9c",
+      "icon": "broadcast",
+      "questionCount": 52,
+      "topics": [
+        "Freedom of Press and Speech",
+        "Defamation Law",
+        "Broadcasting Regulations",
+        "Information Technology Act",
+        "Copyright in Media",
+        "Contempt and Sedition"
+      ],
+      "createdDate": "2026-03-14"
+    }
+  ]
+}
