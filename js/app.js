@@ -1,6 +1,6 @@
 /**
  * LLBwithMe Question Bank - Main Application
- * Version 2.1.0
+ * Version 3.0.0
  * A comprehensive law exam question bank platform
  */
 
@@ -101,40 +101,89 @@ const App = {
 
   async loadData() {
     try {
-      // Load semesters
-      const semestersResponse = await fetch('data/semesters.json');
-      const semestersData = await semestersResponse.json();
-      this.state.semesters = semestersData.semesters;
-
-      // Load subjects
-      const subjectsResponse = await fetch('data/subjects.json');
-      const subjectsData = await subjectsResponse.json();
-      this.state.allSubjects = subjectsData.subjects;  // FIX: store all
-
-      // FIX: Build question file list dynamically from subjects
+      // ── Single source of truth: curriculum.json ──────────────────────────
+      // Supports both file:// (local) and http:// (server/Vercel) protocols.
       const cacheBuster = Date.now();
-      const allSubjectIds = [...new Set(this.state.allSubjects.map(s => s.id))];
-      
+      const isFileProtocol = location.protocol === 'file:';
+
+      // Resolve base path so relative fetches work whether index.html is in
+      // the root or opened from any directory depth on file://
+      const basePath = isFileProtocol
+        ? location.href.substring(0, location.href.lastIndexOf('/') + 1)
+        : '';
+
+      const fetchData = (path) =>
+        fetch(isFileProtocol ? `${basePath}${path}` : `${path}?v=${cacheBuster}`)
+          .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status} for ${path}`); return r.json(); });
+
+      const curriculum = await fetchData('data/curriculum.json');
+
+      // ── Populate semesters ───────────────────────────────────────────────
+      // Map the nested curriculum shape back to the flat arrays the rest of
+      // the app already expects, so zero other code needs to change.
+      this.state.semesters = curriculum.semesters.map(sem => ({
+        id:          sem.id,
+        name:        sem.name,
+        displayName: sem.displayName,
+        year:        sem.year,
+        sequence:    sem.sequence,
+        active:      sem.status === 'active',
+        status:      sem.status,
+        launchDate:  sem.launchDate,
+        endDate:     sem.endDate,
+        color:       sem.color,
+        icon:        sem.icon,
+        description: sem.description,
+        stats:       sem.stats,
+        // keep the flat subject-id list that applyCurrentSemester() uses
+        subjects:    sem.subjects.map(s => s.id),
+      }));
+
+      // ── Populate allSubjects (flat list, same shape as old subjects.json) ─
+      this.state.allSubjects = curriculum.semesters.flatMap(sem =>
+        sem.subjects.map(s => ({
+          id:            s.id,
+          semesterId:    sem.id,
+          semester:      sem.id,   // legacy field still used in applyCurrentSemester
+          name:          s.name,
+          shortName:     s.shortName,
+          code:          s.code,
+          color:         s.color,
+          icon:          s.icon,
+          questionCount: s.questionCount,
+          description:   s.description,
+          questionFile:  s.questionFile,
+        }))
+      );
+
+      // ── Populate modules (keyed by subjectId, same shape as old loadModules) ─
+      curriculum.semesters.forEach(sem => {
+        sem.subjects.forEach(s => {
+          if (s.modules && s.modules.length > 0) {
+            this.state.modules[s.id] = s.modules;
+          }
+        });
+      });
+      console.log('📦 Modules loaded for:', Object.keys(this.state.modules));
+
+      // ── Lazy-load question files (one per subject, unchanged) ────────────
+      const allSubjectIds = this.state.allSubjects
+        .filter(s => s.questionFile)   // skip subjects with no file yet (future sems)
+        .map(s => s.id);
+
       const questionPromises = allSubjectIds.map(subjectId =>
-        fetch(`data/questions/${subjectId}.json?v=${cacheBuster}`)
-          .then(res => {
-            if (!res.ok) throw new Error(`HTTP ${res.status} for ${subjectId}.json`);
-            return res.json();
-          })
+        fetchData(`data/questions/${subjectId}.json`)
           .then(data => data.questions || [])
           .catch(err => {
             console.warn(`Could not load questions for ${subjectId}:`, err.message);
             return [];
           })
       );
-      
+
       const questionsData = await Promise.all(questionPromises);
       this.state.allQuestions = questionsData.flat();
 
       console.log(`✅ Loaded ${this.state.allQuestions.length} total questions across ${allSubjectIds.length} subjects`);
-
-      // Load modules
-      await this.loadModules();
 
     } catch (error) {
       console.error('Error loading data:', error);
@@ -142,7 +191,6 @@ const App = {
     }
   },
 
-  // FIX: Apply semester filter to questions and subjects
   applyCurrentSemester() {
     const semId = this.state.currentSemester;
     const semester = this.state.semesters.find(s => s.id === semId);
@@ -151,8 +199,8 @@ const App = {
       // Filter subjects to only those belonging to this semester
       this.state.subjects = this.state.allSubjects.filter(s => semester.subjects.includes(s.id));
     } else {
-      // Fallback: filter by semester field on subject object
-      this.state.subjects = this.state.allSubjects.filter(s => s.semester === semId);
+      // Fallback: filter by semester field on subject object (both 'semester' and 'semesterId' supported)
+      this.state.subjects = this.state.allSubjects.filter(s => (s.semester || s.semesterId) === semId);
     }
 
     // Filter questions to this semester
@@ -172,9 +220,7 @@ const App = {
     const totalS    = this.state.allSubjects.length;
     const totalSems = activeSemesters.length;
     const totalSessions = [...new Set(
-      this.state.allQuestions
-        .map(q => q.source)
-        .filter(Boolean)
+      this.state.allQuestions.map(q => q.source).filter(Boolean)
     )].length;
 
     const set = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
@@ -182,28 +228,19 @@ const App = {
     set('heroTotalSubjects',  totalS);
     set('heroActiveSems',     totalSems);
     set('studiedCount',       this.state.studied.size);
+
+    // Subject count label under section header
+    const semSubjects = this.state.subjects.length;
+    set('subjectCount', `${semSubjects} subject${semSubjects !== 1 ? 's' : ''}`);
+
+    // Admin panel stats
+    set('adminTotalQuestions', totalQ.toLocaleString());
+    set('adminTotalSubjects',  totalS);
+    set('adminActiveSems',     totalSems);
   },
 
-  async loadModules() {
-    try {
-      const allSubjectIds = this.state.allSubjects.map(s => s.id);
-      
-      const modulePromises = allSubjectIds.map(async (subjectId) => {
-        try {
-          const response = await fetch(`data/modules/${subjectId}.json`);
-          const data = await response.json();
-          this.state.modules[subjectId] = data.modules;
-        } catch (err) {
-          // Modules are optional — silently skip if not found
-        }
-      });
-      
-      await Promise.all(modulePromises);
-      console.log('Loaded modules for subjects:', Object.keys(this.state.modules));
-    } catch (error) {
-      console.error('Error loading modules:', error);
-    }
-  },
+  // loadModules() removed in v3.0.0 — modules are now embedded in curriculum.json
+  // and populated directly inside loadData(). No separate fetch needed.
 
   // ============================================
   // Storage Management
@@ -329,19 +366,23 @@ const App = {
     const container = document.getElementById('semesterTabs');
     if (!container) return;
 
-    container.innerHTML = this.state.semesters.map(sem => `
-      <button 
-        class="semester-tab ${sem.active ? (sem.id === this.state.currentSemester ? 'active selected' : 'active') : 'disabled'}"
-        onclick="${sem.active ? `App.selectSemester('${sem.id}')` : ''}"
-        ${!sem.active ? 'disabled' : ''}
-        style="${sem.id === this.state.currentSemester ? `border-bottom: 3px solid ${sem.color || 'var(--color-primary)'}` : ''}"
-      >
-        <span class="semester-tab-name">${sem.name}</span>
-        <span class="semester-tab-status">
-          ${sem.active ? (sem.id === this.state.currentSemester ? '● Active' : '✓ Available') : this.formatDate(sem.launchDate)}
-        </span>
-      </button>
-    `).join('');
+    container.innerHTML = this.state.semesters.map(sem => {
+      const isActive   = sem.active;   // true only for 'active' status
+      const isSelected = sem.id === this.state.currentSemester;
+      return `
+        <button 
+          class="semester-tab ${isActive ? (isSelected ? 'active selected' : 'active') : 'disabled'}"
+          onclick="${isActive ? `App.selectSemester('${sem.id}')` : ''}"
+          ${!isActive ? 'disabled' : ''}
+          style="${isSelected ? `border-bottom: 3px solid ${sem.color || 'var(--color-primary)'}` : ''}"
+        >
+          <span class="semester-tab-name">${sem.name}</span>
+          <span class="semester-tab-status">
+            ${isActive ? (isSelected ? '● Active' : '✓ Available') : this.formatDate(sem.launchDate)}
+          </span>
+        </button>
+      `;
+    }).join('');
   },
 
   renderSubjectsGrid() {
@@ -419,26 +460,26 @@ const App = {
     if (!container) return;
 
     container.innerHTML = this.state.semesters.map(sem => {
-      // FIX: compute subjects/questions count per semester dynamically
-      const semSubjects = this.state.allSubjects.filter(s => 
-        sem.subjects?.includes(s.id) || s.semester === sem.id
+      const semSubjects  = this.state.allSubjects.filter(s =>
+        sem.subjects?.includes(s.id) || (s.semester || s.semesterId) === sem.id
       );
       const semQuestions = this.state.allQuestions.filter(q => q.semester === sem.id);
-      const isCurrent = sem.id === this.state.currentSemester;
+      const isCurrent    = sem.id === this.state.currentSemester;
+      const isActive     = sem.active;
 
       return `
-        <div class="roadmap-item ${sem.active ? 'active' : sem.status || ''} ${isCurrent ? 'current' : ''}">
+        <div class="roadmap-item ${isActive ? 'active' : sem.status || ''} ${isCurrent ? 'current' : ''}">
           <div class="roadmap-marker"></div>
           <div class="roadmap-content">
             <div class="roadmap-title">
               ${sem.displayName}
               ${isCurrent ? '<span class="badge badge-active">Current</span>' : ''}
-              ${sem.active && !isCurrent ? '<span class="badge badge-active">Active</span>' : ''}
+              ${isActive && !isCurrent ? '<span class="badge badge-active">Active</span>' : ''}
               ${sem.status === 'coming_soon' ? '<span class="badge badge-coming-soon">Coming Soon</span>' : ''}
               ${sem.status === 'planned' ? '<span class="badge badge-planned">Planned</span>' : ''}
             </div>
             <div class="roadmap-date">
-              ${sem.active 
+              ${isActive
                 ? `${semSubjects.length} subjects • ${semQuestions.length} questions`
                 : `Launch: ${this.formatDate(sem.launchDate)}`}
             </div>
@@ -711,7 +752,7 @@ const App = {
 
   // Populate subject dropdown based on currently selected semester filter
   updateSubjectFilterForSemester() {
-    const semFilter    = document.getElementById('filterSemester')?.value || '';
+    const semFilter     = document.getElementById('filterSemester')?.value || '';
     const subjectSelect = document.getElementById('filterSubject');
     if (!subjectSelect) return;
 
@@ -720,11 +761,11 @@ const App = {
       const sem = this.state.semesters.find(s => s.id === semFilter);
       subjectsToShow = sem?.subjects?.length
         ? this.state.allSubjects.filter(s => sem.subjects.includes(s.id))
-        : this.state.allSubjects.filter(s => s.semester === semFilter);
+        : this.state.allSubjects.filter(s => (s.semester || s.semesterId) === semFilter);
     } else {
       // All active-semester subjects
       const activeSemIds = this.state.semesters.filter(s => s.active).map(s => s.id);
-      subjectsToShow = this.state.allSubjects.filter(s => activeSemIds.includes(s.semester));
+      subjectsToShow = this.state.allSubjects.filter(s => activeSemIds.includes(s.semester || s.semesterId));
     }
 
     const current = subjectSelect.value;
@@ -1678,6 +1719,10 @@ const App = {
     const sf = document.getElementById('filterSemester');
     if (sf) sf.value = semesterId;
     this.updateSubjectFilterForSemester();
+
+    // Subject count label
+    const sc = document.getElementById('subjectCount');
+    if (sc) sc.textContent = `${this.state.subjects.length} subject${this.state.subjects.length !== 1 ? 's' : ''}`;
 
     const sem = this.state.semesters.find(s => s.id === semesterId);
     this.showToast(`Switched to ${sem?.name || semesterId}`, 'success');

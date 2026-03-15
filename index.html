@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="LLBwithMe - Your Complete Law Examination Preparation Platform. Access 284+ curated exam questions across 6 subjects for Semester 1.">
+  <meta name="description" content="LLBwithMe - Your Complete Law Examination Preparation Platform. Access 735+ curated exam questions across 12 subjects for Semester 1 and Semester 2."&gt;
   <meta name="keywords" content="LLB, law exam, question bank, legal education, constitutional law, contract law, criminal law">
   <meta name="author" content="LLBwithMe">
   <meta name="theme-color" content="#1a4d5e">
@@ -1027,7 +1027,7 @@
           <section class="section">
             <div class="section-header">
               <h2 class="section-title">Subjects</h2>
-              <span class="text-sm text-muted" id="subjectCount">6 subjects</span>
+              <span class="text-sm text-muted" id="subjectCount"></span>
             </div>
             <div class="grid grid-cols-3" id="subjectsGrid">
               <!-- Rendered by JS -->
@@ -1163,7 +1163,7 @@
               </div>
             </div>
             <div class="active-filters" id="activeFilters"></div>
-            <div class="filter-result-count" id="filterResultCount">Showing 284 questions</div>
+            <div class="filter-result-count" id="filterResultCount">Loading questions...</div>
           </div>
           
           <!-- Question List -->
@@ -1319,7 +1319,7 @@
                 <div class="progress-bar-fill" id="overallProgressBar" style="width: 0%"></div>
               </div>
               <div class="progress-text">
-                <span id="progressLabel">0 / 284 questions</span>
+                <span id="progressLabel">0 / 0 questions</span>
                 <span id="progressPercent">0%</span>
               </div>
             </div>
@@ -1393,15 +1393,15 @@
             <div id="adminOverview" class="mt-6">
               <div class="stats-grid">
                 <div class="card stat-card">
-                  <div class="stat-card-value">284</div>
+                  <div class="stat-card-value" id="adminTotalQuestions">—</div>
                   <div class="stat-card-label">Total Questions</div>
                 </div>
                 <div class="card stat-card">
-                  <div class="stat-card-value">6</div>
+                  <div class="stat-card-value" id="adminTotalSubjects">—</div>
                   <div class="stat-card-label">Total Subjects</div>
                 </div>
                 <div class="card stat-card">
-                  <div class="stat-card-value">1</div>
+                  <div class="stat-card-value" id="adminActiveSems">—</div>
                   <div class="stat-card-label">Active Semesters</div>
                 </div>
               </div>
@@ -1524,7 +1524,7 @@
         </div>
         <div class="footer-bottom">
           <p>&copy; 2026 LLBwithMe. All questions extracted from actual examination papers.</p>
-          <p style="margin-top: var(--space-2);">Version 2.0.0 | Built with care for law students</p>
+          <p style="margin-top: var(--space-2);">Version 3.0.0 | Built with care for law students</p>
         </div>
       </div>
     </footer>

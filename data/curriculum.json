@@ -1,0 +1,1318 @@
+{
+  "version": "2.0.0",
+  "lastUpdated": "2026-03-15",
+  "description": "LLBwithMe question bank \u2014 complete curriculum structure for all semesters. Each subject's questions live in data/questions/<subject_id>.json. This file is the single source of truth for semester, subject, and module metadata.",
+  "semesters": [
+    {
+      "id": "sem1",
+      "name": "Semester 1",
+      "displayName": "First Year \u2014 Semester I",
+      "year": 1,
+      "sequence": 1,
+      "status": "active",
+      "launchDate": "2025-12-01",
+      "endDate": "2026-04-30",
+      "color": "#1a4d5e",
+      "icon": "book",
+      "description": "Foundation courses covering criminal psychology, constitutional law, contract law, family law, law of crimes, and intellectual property rights.",
+      "stats": {
+        "totalQuestions": 284,
+        "questionsByMarks": {
+          "5": 90,
+          "10": 106,
+          "15": 88
+        },
+        "questionsByType": {
+          "long": 88,
+          "medium": 106,
+          "short": 90
+        }
+      },
+      "subjects": [
+        {
+          "id": "crim_psych",
+          "semesterId": "sem1",
+          "name": "Criminal Psychology & Criminal Sociology",
+          "shortName": "Criminal Psychology",
+          "code": "LCC 0101",
+          "color": "#d4af37",
+          "icon": "brain",
+          "questionCount": 26,
+          "description": "Study of criminal behavior, criminological theories, psychological approaches to crime, and sociological perspectives on criminal conduct.",
+          "questionFile": "data/questions/crim_psych.json",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "Crime, Criminal and Criminology",
+              "questionCount": 6,
+              "subTopics": []
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "Psychology and Crime",
+              "questionCount": 7,
+              "subTopics": []
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "Psychometric Tests and Criminal Profiling",
+              "questionCount": 2,
+              "subTopics": []
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "Forensic Psychology",
+              "questionCount": 4,
+              "subTopics": []
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "Sociological Theories - Crime and Social Structure",
+              "questionCount": 2,
+              "subTopics": []
+            },
+            {
+              "id": "module_06",
+              "code": "06",
+              "name": "Subcultural Theories",
+              "questionCount": 1,
+              "subTopics": []
+            },
+            {
+              "id": "module_07",
+              "code": "07",
+              "name": "Crime and Social Process",
+              "questionCount": 4,
+              "subTopics": []
+            }
+          ]
+        },
+        {
+          "id": "const_law",
+          "semesterId": "sem1",
+          "name": "Constitutional Law I",
+          "shortName": "Constitutional Law I",
+          "code": "LCC 0102",
+          "color": "#e74c3c",
+          "icon": "constitution",
+          "questionCount": 47,
+          "description": "Fundamental principles of the Indian Constitution, Fundamental Rights, Directive Principles, and constitutional interpretation.",
+          "questionFile": "data/questions/const_law.json",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "Introduction to the Indian Constitution",
+              "questionCount": 6,
+              "subTopics": []
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "Territory of India, Citizenship & General Principles Relating to Fundamental Rights (Articles 12 and 13)",
+              "questionCount": 8,
+              "subTopics": []
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "Right to Equality (Article 14 to 18)",
+              "questionCount": 5,
+              "subTopics": []
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "Right to Freedom I (Article 19)",
+              "questionCount": 4,
+              "subTopics": []
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "Right to Freedom II (Articles 20 to 22)",
+              "questionCount": 12,
+              "subTopics": []
+            },
+            {
+              "id": "module_06",
+              "code": "06",
+              "name": "Right against Exploitation (Articles 23 and 24)",
+              "questionCount": 1,
+              "subTopics": []
+            },
+            {
+              "id": "module_07",
+              "code": "07",
+              "name": "Right to Freedom of Religion (Articles 25 to 28) and Cultural and Educational Rights (Articles 29 to 30)",
+              "questionCount": 5,
+              "subTopics": []
+            },
+            {
+              "id": "module_08",
+              "code": "08",
+              "name": "Right to Constitutional Remedies",
+              "questionCount": 4,
+              "subTopics": []
+            },
+            {
+              "id": "module_09",
+              "code": "09",
+              "name": "Directive Principles of State Policy (Articles 36 to 51) and Fundamental Duties (Article 51A)",
+              "questionCount": 2,
+              "subTopics": []
+            },
+            {
+              "id": "module_OUT_OF_SYLLABUS",
+              "code": "OUT",
+              "name": "Out of Syllabus",
+              "description": "Questions that appear in examination papers but cover topics outside the defined syllabus scope for this subject. Retained for reference.",
+              "outOfSyllabus": true,
+              "questionCount": 3,
+              "estimatedHours": 0,
+              "subTopics": []
+            }
+          ]
+        },
+        {
+          "id": "contract_law",
+          "semesterId": "sem1",
+          "name": "Law of Contract I",
+          "shortName": "Contract Law I",
+          "code": "LCC 0103",
+          "color": "#3498db",
+          "icon": "handshake",
+          "questionCount": 59,
+          "description": "Formation, validity, performance, and discharge of contracts under the Indian Contract Act, 1872 and Specific Relief Act, 1963.",
+          "questionFile": "data/questions/contract_law.json",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "Introduction and Formation of Contract",
+              "questionCount": 10,
+              "subTopics": []
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "Competency of Parties",
+              "questionCount": 3,
+              "subTopics": []
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "Free Consent",
+              "questionCount": 6,
+              "subTopics": []
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "Consideration",
+              "questionCount": 4,
+              "subTopics": []
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "Void Agreements",
+              "questionCount": 3,
+              "subTopics": []
+            },
+            {
+              "id": "module_06",
+              "code": "06",
+              "name": "Contingent Contracts and Quasi-Contracts",
+              "questionCount": 8,
+              "subTopics": []
+            },
+            {
+              "id": "module_07",
+              "code": "07",
+              "name": "Performance and Discharge of Contract",
+              "questionCount": 11,
+              "subTopics": []
+            },
+            {
+              "id": "module_08",
+              "code": "08",
+              "name": "Contract Remedies",
+              "questionCount": 14,
+              "subTopics": []
+            },
+            {
+              "id": "module_OUT_OF_SYLLABUS",
+              "code": "OUT",
+              "name": "Out of Syllabus",
+              "description": "Questions that appear in examination papers but cover topics outside the defined syllabus scope for this subject. Retained for reference.",
+              "outOfSyllabus": true,
+              "questionCount": 2,
+              "estimatedHours": 0,
+              "subTopics": []
+            }
+          ]
+        },
+        {
+          "id": "family_law",
+          "semesterId": "sem1",
+          "name": "Family Law I",
+          "shortName": "Family Law I",
+          "code": "LCC 0104",
+          "color": "#9b59b6",
+          "icon": "family",
+          "questionCount": 52,
+          "description": "Personal laws governing marriage, divorce, adoption, and maintenance across Hindu, Muslim, Christian, and Parsi communities.",
+          "questionFile": "data/questions/family_law.json",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "Introduction to Hindu and Muslim Law",
+              "questionCount": 3,
+              "subTopics": []
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "Marriage and Matrimonial Reliefs under Hindu Law",
+              "questionCount": 13,
+              "subTopics": []
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "Marriage and Matrimonial Reliefs under Muslim Law",
+              "questionCount": 9,
+              "subTopics": []
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "Marriage under Other Laws",
+              "questionCount": 13,
+              "subTopics": []
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "Alimony and Maintenance",
+              "questionCount": 6,
+              "subTopics": []
+            },
+            {
+              "id": "module_06",
+              "code": "06",
+              "name": "Adoption and Guardianship",
+              "questionCount": 8,
+              "subTopics": []
+            },
+            {
+              "id": "module_OUT_OF_SYLLABUS",
+              "code": "OUT",
+              "name": "Out of Syllabus",
+              "description": "Questions that appear in examination papers but cover topics outside the defined syllabus scope for this subject. Retained for reference.",
+              "outOfSyllabus": true,
+              "questionCount": 2,
+              "estimatedHours": 0,
+              "subTopics": []
+            }
+          ]
+        },
+        {
+          "id": "crimes",
+          "semesterId": "sem1",
+          "name": "Law of Crimes",
+          "shortName": "Criminal Law",
+          "code": "LCC 0105",
+          "color": "#c0392b",
+          "icon": "gavel",
+          "questionCount": 52,
+          "description": "Study of criminal offences, liability, punishments, and defenses under the Bharatiya Nyaya Sanhita, 2023 (BNS).",
+          "questionFile": "data/questions/crimes.json",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "Introduction to Bharatiya Nyaya Sanhita 2023",
+              "questionCount": 8,
+              "subTopics": []
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "General Exceptions",
+              "questionCount": 4,
+              "subTopics": []
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "Inchoate Crimes",
+              "questionCount": 13,
+              "subTopics": []
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "Offences Against Human Body",
+              "questionCount": 10,
+              "subTopics": []
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "Offences Against Women",
+              "questionCount": 5,
+              "subTopics": []
+            },
+            {
+              "id": "module_06",
+              "code": "06",
+              "name": "Offences Against Property",
+              "questionCount": 9,
+              "subTopics": []
+            },
+            {
+              "id": "module_07",
+              "code": "07",
+              "name": "Offences Against Public Tranquility",
+              "questionCount": 1,
+              "subTopics": []
+            },
+            {
+              "id": "module_08",
+              "code": "08",
+              "name": "Offences Against the State",
+              "questionCount": 2,
+              "subTopics": []
+            },
+            {
+              "id": "module_OUT_OF_SYLLABUS",
+              "code": "OUT",
+              "name": "Out of Syllabus",
+              "description": "Questions that appear in examination papers but cover topics outside the defined syllabus scope for this subject. Retained for reference.",
+              "outOfSyllabus": true,
+              "questionCount": 3,
+              "estimatedHours": 0,
+              "subTopics": []
+            }
+          ]
+        },
+        {
+          "id": "ipr",
+          "semesterId": "sem1",
+          "name": "Intellectual Property Rights",
+          "shortName": "IPR",
+          "code": "LCC 0106",
+          "color": "#1abc9c",
+          "icon": "lightbulb",
+          "questionCount": 48,
+          "description": "Legal framework for protection of patents, copyrights, trademarks, designs, and geographical indications.",
+          "questionFile": "data/questions/ipr.json",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "Understanding Intellectual Property",
+              "questionCount": 6,
+              "subTopics": []
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "Copyright and Neighbouring Rights",
+              "questionCount": 9,
+              "subTopics": []
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "Patents",
+              "questionCount": 11,
+              "subTopics": []
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "Trademarks",
+              "questionCount": 8,
+              "subTopics": []
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "Industrial Designs",
+              "questionCount": 4,
+              "subTopics": []
+            },
+            {
+              "id": "module_06",
+              "code": "06",
+              "name": "Geographical Indications",
+              "questionCount": 6,
+              "subTopics": []
+            },
+            {
+              "id": "module_07",
+              "code": "07",
+              "name": "Protection of Other IP Rights",
+              "questionCount": 4,
+              "subTopics": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem2",
+      "name": "Semester 2",
+      "displayName": "First Year \u2014 Semester II",
+      "year": 1,
+      "sequence": 2,
+      "status": "active",
+      "launchDate": "2026-03-14",
+      "endDate": "2026-08-31",
+      "color": "#2a8fa3",
+      "icon": "scale",
+      "description": "Advanced legal studies covering Constitutional Law II, Contract Law II, Family Law II, Penology & Victimology, Jurisprudence, and Media Law.",
+      "stats": {
+        "totalQuestions": 451,
+        "questionsByMarks": {
+          "5": 145,
+          "10": 160,
+          "15": 146
+        },
+        "questionsByType": {
+          "long": 146,
+          "medium": 160,
+          "short": 145
+        }
+      },
+      "subjects": [
+        {
+          "id": "const_law_2",
+          "semesterId": "sem2",
+          "name": "Constitutional Law II",
+          "shortName": "Constitutional Law II",
+          "code": "LCC 0601",
+          "color": "#e74c3c",
+          "icon": "constitution",
+          "questionCount": 80,
+          "description": "Federal structure of India, distribution of legislative and executive powers, Union and State legislatures, emergency provisions, constitutional bodies, and the Basic Structure Doctrine.",
+          "questionFile": "data/questions/const_law_2.json",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "Nature of Indian Federalism",
+              "description": "Essential characteristics of Indian Federalism, comparison with American Federalism, and the relationship between Federalism and the Basic Structure Doctrine.",
+              "topics": [
+                "Essential characteristics of Indian Federalism",
+                "Indian Federalism distinguished from American Federalism",
+                "Federalism and Basic Structure Doctrine"
+              ],
+              "questionCount": 7,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "Distribution of Legislative and Executive Powers",
+              "description": "The scheme of distribution of legislative powers, territorial extent, limitations on Parliament, legislative subjects, residuary powers, expansion of Union powers, interpretation of lists, executive powers, Centre-State coordination, and inter-governmental delegation.",
+              "topics": [
+                "The Scheme of Distribution of Legislative powers",
+                "Territorial extent of Union and State Legislature",
+                "Limitations to the territorial jurisdiction of the Parliament",
+                "Distribution of Legislative subjects",
+                "Residuary powers",
+                "Expansion of Legislative powers of the Union under different circumstances",
+                "Interpretation of Legislative lists",
+                "Distribution of Executive powers",
+                "Centre-State Co-ordination",
+                "Inter-Governmental Delegation of Powers",
+                "Delegation by the Centre",
+                "Entrustment of State's Power to the Centre",
+                "Centre's direction to the State",
+                "All India Services",
+                "Inter-State Council"
+              ],
+              "questionCount": 10,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "Distribution of Financial Powers",
+              "description": "Allocation of taxing powers, restrictions on States' taxing powers, distribution of revenue between Union and States, and grant-in-aid.",
+              "topics": [
+                "Allocation of Taxing Powers",
+                "Restriction of State's Power to levy Taxes",
+                "Distribution of Revenue between the Union and the States",
+                "Assignment of Union Revenue to the State",
+                "Compulsory Tax Sharing",
+                "Permissive Sharing of Taxes",
+                "Grant-in-Aid"
+              ],
+              "questionCount": 4,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "Structure, Powers and Functions of Union and State Legislature",
+              "description": "Bicameral legislature, composition/powers/functions of Parliament and State Legislatures, qualifications/disqualifications/privileges of members, anti-defection law, and law-making procedure including types of bills.",
+              "topics": [
+                "Bicameral Legislature",
+                "Composition, Powers and Functions of Union Legislature",
+                "Composition, Powers and Functions of State Legislature",
+                "Qualification, Disqualification and Privileges of Members of Parliament",
+                "Members of Legislative Assembly",
+                "Anti-Defection Law",
+                "Law making procedure \u2014 Types of Bills: Ordinary, Financial, Money, Appropriation, Private Member Bills, Government/Public Bills"
+              ],
+              "questionCount": 17,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "Structure, Powers and Functions of Supreme Court, High Court and Tribunals",
+              "description": "Judicial independence, appointment of judges, structure, jurisdiction, powers and functions of the Supreme Court, High Courts and Subordinate Courts, Tribunals, and judicial accountability.",
+              "topics": [
+                "Independence of Judiciary and Judicial Activism",
+                "Appointment of Judges, Structure, Jurisdiction, Power and Functions of Supreme Court",
+                "Appointment of Judges, Structure, Jurisdiction, Power and Functions of High Court and Subordinate Courts",
+                "Tribunals \u2014 Administrative tribunals, Tribunals for other matters",
+                "Judicial accountability and demand of National Judicial Appointments Commission"
+              ],
+              "questionCount": 14,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_06",
+              "code": "06",
+              "name": "Structure, Powers and Functions of Union and State Executive",
+              "description": "Union Executive \u2014 President, Vice-President, Council of Ministers. State Executive \u2014 Governor, State Council of Ministers. Interaction between executive and legislature, and conduct of government business.",
+              "topics": [
+                "Union Executive \u2014 Appointment, Qualification, Powers and Functions of President and Vice-President, Union Council of Ministers",
+                "State Executive \u2014 Appointment, Qualification, Powers and Functions of Governor, State Council of Ministers",
+                "Interaction between the Executives and the Legislature",
+                "Conduct of Government Business"
+              ],
+              "questionCount": 15,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_07",
+              "code": "07",
+              "name": "Other Constitutional Institutions / Authorities",
+              "description": "UPSC, Attorney General, Election Commission, CAG, Local Self-Governing Bodies (Panchayats and Municipalities), and National Commissions for SC/ST/Backward Classes.",
+              "topics": [
+                "UPSC and State Public Service Commission",
+                "Attorney General, Advocate General",
+                "Election Commission of India",
+                "Comptroller and Auditor General of India",
+                "Local Self-Governing Bodies: Panchayats and Municipalities, Co-operative Societies",
+                "National Commissions for SC, ST and Backward Classes"
+              ],
+              "questionCount": 8,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_08",
+              "code": "08",
+              "name": "Emergency Provisions",
+              "description": "National Emergency, failure of constitutional machinery in a State, and Financial Emergency.",
+              "topics": [
+                "National Emergency",
+                "Failure of Constitutional Machinery in a State",
+                "Financial Emergency"
+              ],
+              "questionCount": 4,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_OUT_OF_SYLLABUS",
+              "code": "OUT",
+              "name": "Out of Syllabus",
+              "description": "Questions from exam papers that fall outside the defined SPPU syllabus scope.",
+              "outOfSyllabus": true,
+              "topics": [],
+              "questionCount": 1,
+              "estimatedHours": 0
+            }
+          ]
+        },
+        {
+          "id": "contract_law_2",
+          "semesterId": "sem2",
+          "name": "Law of Contract II",
+          "shortName": "Contract Law II",
+          "code": "LCC 0603",
+          "color": "#3498db",
+          "icon": "handshake",
+          "questionCount": 80,
+          "description": "Special contracts under the Indian Contract Act, 1872 \u2014 Indemnity (Ss.124-125), Guarantee (Ss.126-147), and Bailment (Ss.148-171). Examination papers also cover Agency, Sale of Goods, and Partnership.",
+          "questionFile": "data/questions/contract_law_2.json",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "Contracts of Indemnity",
+              "description": "Contracts of Indemnity under Sections 124-125 of the Indian Contract Act, 1872.",
+              "topics": [
+                "Principle of indemnity in general",
+                "Meaning and definition of the contract of indemnity",
+                "Formation and essential features",
+                "Nature and extent of liability of the indemnifier",
+                "Commencement of liability of the indemnifier",
+                "Examples: duplicate share certificate; bank deposit receipt; local authority commencement certificate; publisher-printer clause; sale deed assurance of title"
+              ],
+              "questionCount": 6,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "Contracts of Guarantee",
+              "description": "Contracts of Guarantee under Sections 126-147 of the Indian Contract Act, 1872.",
+              "topics": [
+                "Definition of a contract of guarantee and kinds of guarantee",
+                "Formation, essential features and parties",
+                "Contract of guarantee distinguished from indemnity",
+                "Consideration for a contract of guarantee",
+                "Continuing guarantee and its revocation",
+                "Nature and extent of surety's liability \u2014 commencement, duration, termination and discharge",
+                "Surety's rights against the principal debtor",
+                "Surety's rights against the creditor",
+                "Letters of credit and bank guarantees",
+                "Co-surety and manner of sharing liabilities and rights"
+              ],
+              "questionCount": 5,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "Contracts of Bailment",
+              "description": "Contracts of Bailment under Sections 71, 148-171, 180-181 of the Indian Contract Act, 1872.",
+              "topics": [
+                "Definition of a contract of Bailment",
+                "Formation, essential features and parties",
+                "Kinds of Bailment",
+                "Examples: for benefit of bailor, for benefit of bailee",
+                "Rights, duties, disabilities and liabilities of bailor and bailee vis-\u00e0-vis third parties and true owner",
+                "Termination of bailment and consequences",
+                "Finder of goods as a bailee"
+              ],
+              "questionCount": 8,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "Contracts of Pledge",
+              "description": "Contracts of Pledge under Sections 172-179 of the Indian Contract Act, 1872.",
+              "topics": [
+                "Meaning and definition of a contract of Pledge",
+                "Essential features and parties",
+                "Creation of a contract of pledge",
+                "Distinction between pledge, bailment and hypothecation",
+                "Rights, liabilities, duties and disabilities of the pawnor",
+                "Rights, liabilities, duties and disabilities of the pawnee",
+                "Pledge by certain specified persons: Sections 178, 178A, 179 of ICA"
+              ],
+              "questionCount": 6,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "Contracts of Agency",
+              "description": "Contracts of Agency under Sections 182-238 of the Indian Contract Act, 1872.",
+              "topics": [
+                "Meaning and definition of a contract of Agency",
+                "Essential features; parties; kinds of agents and agencies",
+                "Creation of agency",
+                "Distinction between agent, servant/employee, and independent contractor",
+                "Agent's authority \u2014 express, implied, apparent/ostensible, emergency, restrictions",
+                "Delegation of authority; principal, agent, sub-agent and substituted agents",
+                "Rights, duties, immunities, disabilities and liabilities of an agent",
+                "Rights, duties, immunities, disabilities and liabilities of a principal",
+                "Personal liability of agent; Pretended agent; Undisclosed principal",
+                "Revocation and other modes of termination; Irrevocable agency; Effect of termination"
+              ],
+              "questionCount": 16,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_06",
+              "code": "06",
+              "name": "Contracts of Sale of Goods",
+              "description": "The Sale of Goods Act, 1930.",
+              "topics": [
+                "Definition of a contract of Sale of Goods",
+                "Essential features; parties, goods, price, delivery, risk and property",
+                "Sale as transfer of property; sale and agreement to sell; effect of perishing of goods",
+                "Goods \u2014 meaning, existing and future, specific, ascertained, unascertained and contingent",
+                "Implied and express conditions and warranties",
+                "The rule of caveat emptor and exceptions",
+                "Transfer of title; Nemo Dat Quod Non Habet and passing of risk",
+                "Rules as to delivery; modes of delivery; inspection and rejection of goods",
+                "Rights and liabilities of buyer and seller; Unpaid seller and his rights",
+                "Remedies for price and breach; interest and taxes",
+                "Auction sales"
+              ],
+              "questionCount": 19,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_07",
+              "code": "07",
+              "name": "Contracts of Partnership",
+              "description": "The Indian Partnership Act, 1932 and The Limited Liability Partnership Act, 2008.",
+              "topics": [
+                "Meaning and definition of a contract of partnership",
+                "Essential features; firm; firm name; business; property; Minor as a partner",
+                "Kinds of partnership",
+                "Relations of partners inter se \u2014 rights, liabilities, duties, immunities, disabilities",
+                "Relations of partners to third parties; partner as agent of firm; liability for acts of partners",
+                "Change in constitution of firm; admission, retirement, expulsion, death, insolvency",
+                "Dissolution of a firm \u2014 modes, effect, agreements in restraint of trade",
+                "Registration of firms \u2014 procedure and effect of non-registration",
+                "Limited Liability Partnership \u2014 essential features; distinction from ordinary partnership"
+              ],
+              "questionCount": 20,
+              "estimatedHours": 0
+            }
+          ]
+        },
+        {
+          "id": "family_law_2",
+          "semesterId": "sem2",
+          "name": "Family Law II",
+          "shortName": "Family Law II",
+          "code": "LCC 0602",
+          "color": "#9b59b6",
+          "icon": "family",
+          "questionCount": 80,
+          "description": "Hindu Joint Family System, coparcenary, Karta, partition, and intestate succession under HSA 1956, Muslim law, and the Indian Succession Act 1925.",
+          "questionFile": "data/questions/family_law_2.json",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "Hindu Joint Family System",
+              "description": "Evolution and institution of the Hindu joint family, coparcenary under Mitakshara and Dayabhaga, Karta's position and powers, alienation of coparcenary property, and partition.",
+              "topics": [
+                "Evolution of joint family system in India",
+                "Institution of Hindu joint family and joint family property; family arrangement; separate or self-acquired property",
+                "Coparcenary, Mitakshara and Dayabhaga coparcenary; Women as coparceners; Rights and powers of coparceners; sole surviving coparcener; Effect of amendments to HSA 1956",
+                "Karta \u2014 position, powers and duties; Father's powers of alienation; Alienee's rights and remedies",
+                "Partition \u2014 under Dayabhaga and Mitakshara systems; subject matter; persons entitled; kinds of partition; principle of survivorship and representation; Reopening and Reunion"
+              ],
+              "questionCount": 11,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "Intestate Succession",
+              "description": "Rules of intestate succession under the Hindu Succession Act 1956, Muslim law (Sunni and Shia), and the Indian Succession Act 1925 (Parsis, Christians, domicile).",
+              "topics": [
+                "Hindu Succession Act 1956 \u2014 Application of Act; succession to property of Hindu male; succession to property of Hindu female; stridhana and women's estate; general provisions; disqualifications from inheritance; Escheat",
+                "General principles of inheritance under Muslim law; law applicable to Sunnis and Shias; distinction between the two; disqualifications",
+                "Indian Succession Act 1925 \u2014 Domicile and its relevance in succession; consanguinity; intestate succession applicable to Parsis and persons other than Parsis; general principles of succession; rules of devolution"
+              ],
+              "questionCount": 30,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "Testamentary Succession",
+              "description": "Wills and codicils under the Indian Succession Act 1925, Hindu testamentary succession, and Wasiyat (will under Muslim law).",
+              "topics": [
+                "Indian Succession Act 1925 \u2014 Wills and codicils; competence of testator; execution of privileged and unprivileged will; attestation; revocation, alteration and revival; construction of wills",
+                "Indian Succession Act 1925 \u2014 Vesting of legacies; void, onerous, contingent and conditional bequests; specific and demonstrative legacies; ademption; lapse; election; gifts in contemplation of death",
+                "Hindu Succession Act 1956 \u2014 Testamentary succession",
+                "Will under Muslim law (Wasiyat)"
+              ],
+              "questionCount": 24,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "Right of Pre-emption",
+              "description": "Pre-emption under Muslim law (Shufa) and under Hindu law.",
+              "topics": [
+                "Pre-emption under Muslim law (Shufa) \u2014 meaning, nature, who can claim; subject matter; formalities and legal effect; legal devices of evading; loss of the right",
+                "Pre-emption under Hindu Law"
+              ],
+              "questionCount": 4,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "Gifts under Muslim Law (Hiba)",
+              "description": "Nature, characteristics, types, essentials, and revocation of Hiba.",
+              "topics": [
+                "Nature and characteristics of Hiba; types of Hiba; donor and donee; what may be given in gift",
+                "Essentials of valid gift; exceptions; oral gift and validity; registration; kinds of gifts; gifts involving return; Marz-ul-mauth (death-bed gift)",
+                "Revocation and revival of gift"
+              ],
+              "questionCount": 6,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_06",
+              "code": "06",
+              "name": "Wakf",
+              "description": "Origin, development, definition, characteristics, kinds, and administration of Wakf.",
+              "topics": [
+                "Origin and Development of Wakf",
+                "Importance, Meaning and Definition, Characteristics",
+                "Essentials, Kinds, formalities for creation, the Wakif, Objects and Purposes of the Wakf",
+                "Administration of Wakf under the Wakf Act; Appointment, Removal, Powers and Duties of Mutawalli"
+              ],
+              "questionCount": 5,
+              "estimatedHours": 0
+            }
+          ]
+        },
+        {
+          "id": "penology_victimology",
+          "semesterId": "sem2",
+          "name": "Penology & Victimology",
+          "shortName": "Penology",
+          "code": "LDSE 0607",
+          "color": "#c0392b",
+          "icon": "gavel",
+          "questionCount": 80,
+          "description": "Definition and scope of Penology, crime control mechanisms (Police, Courts, Prosecutors, Jails, Open Prisons), theories and forms of punishment, and penal policy in India.",
+          "questionFile": "data/questions/penology_victimology.json",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "Penology \u2014 Introduction",
+              "description": "Definition, nature and scope of Penology; overview of Crime Control Mechanism \u2014 Police, Court, Public Prosecutor, Jail Administration, Open Prison.",
+              "topics": [
+                "Definition, nature and scope of Penology",
+                "Crime Control Mechanism \u2014 Police; Court; Public Prosecutor; Jail Administration; Open Prison"
+              ],
+              "questionCount": 5,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "Punishment",
+              "description": "Concept of punishment, theories of punishment (Deterrent, Retributive, Preventive, Reformative), forms of punishment, and penal policy in India.",
+              "topics": [
+                "Concept of Punishment",
+                "Theories of Punishment \u2014 Deterrent Theory; Retributive Theory; Preventive Theory; Reformative Theory",
+                "Forms of Punishment",
+                "Penal Policy in India"
+              ],
+              "questionCount": 13,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "Police System in India",
+              "description": "Origin, development, police force in India, nature and objectives, state/central police organizations, principles of policing, legal functions, law relating to police administration, police reforms, NHRC guidelines.",
+              "topics": [
+                "Origin of Police",
+                "Development of Police Organization",
+                "Police Force in India",
+                "Nature and Objectives of Indian Police System",
+                "Police organization under the State Government",
+                "Police organization under the Central Government",
+                "Principles of Policing",
+                "Legal functions of police",
+                "Law Relating to Police Administration",
+                "Police Reforms; Legislative Trends; Judicial Approaches",
+                "NHRC guidelines on Police-Public Relations"
+              ],
+              "questionCount": 16,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "Prison System in India",
+              "description": "History of prison system, prison in British India, role in modern penology, types of prisons and prisoners, problems of prisons, and prison reforms.",
+              "topics": [
+                "History of Prison System",
+                "Prison in British India",
+                "Role of Prison in Modern Penology",
+                "Types of Prisons and Prisoners",
+                "Problems of Prisons \u2014 Over Crowding; Basic Amenities; Prison Discipline; Prisoner's Health; Criminality in Prison; Problems of Under-trials",
+                "Prison Reforms \u2014 Commission on Prison Reforms; Jurisprudence of Prison Reforms; Legislative Trends; Judicial Trends"
+              ],
+              "questionCount": 11,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "Open Prisons",
+              "description": "Definition and origin of Open Prison, the philosophy underlying it, main characteristics, advantages, and critical appreciation of its working.",
+              "topics": [
+                "Definition and Origin of Open Prison",
+                "The Philosophy underlying the Open Prison",
+                "Main Characteristics of Open Prisons",
+                "Advantages of Open Prison",
+                "Critical Appreciation of the working of Open Prison"
+              ],
+              "questionCount": 3,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_06",
+              "code": "06",
+              "name": "Parole",
+              "description": "Definition and concept of Parole, distinction from indeterminate sentence/furlough/probation, Parole in India, Parole Boards, conditions, essentials of an ideal Parole system, judicial trend, and Parole violation.",
+              "topics": [
+                "Meaning and Definition of Parole",
+                "Concept of Parole",
+                "Distinction between Parole and Indeterminate Sentence",
+                "Distinction between Parole and Furlough",
+                "Comparison between Parole and Probation",
+                "Parole in India",
+                "Structural setup of Parole Boards and their Functions",
+                "Conditions of Parole",
+                "Essentials of an Ideal Parole System",
+                "Judicial Trend in India",
+                "Parole Violation"
+              ],
+              "questionCount": 12,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_07",
+              "code": "07",
+              "name": "Victimology \u2014 Victim and Victimization",
+              "description": "Meaning and kinds of victim, impact of victimization, secondary victimization, definition/nature/scope of victimology, and theories of victimology.",
+              "topics": [
+                "Victim \u2014 Meaning and Kinds",
+                "Impact of Victimization \u2014 Physical, Economic and Psychological",
+                "Double / Secondary Victimization",
+                "Victimology \u2014 Definition, Nature and Scope",
+                "Theories of Victimology \u2014 The Precipitation Theory; Life-style Theory; Deviant Place Theory; Routine Activity Theory"
+              ],
+              "questionCount": 10,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_08",
+              "code": "08",
+              "name": "Legal Perspectives of Victim Assistance",
+              "description": "Victim Assistance Program, victim rights at international and municipal level, UN Declaration, Constitution and statutory provisions; access to justice \u2014 compensation, rights during trial, legal assistance, bail, and right to appeal.",
+              "topics": [
+                "Victim Assistance Program \u2014 Evolution; Victim's Rights at International and Municipal Jurisdiction; UN Declaration on Victims' Rights; Constitution of India and Rights of Victims; Statutory Provisions \u2014 CrPC, Probation of Offenders Act",
+                "Access to Justice \u2014 Compensation to victims; Rights of victims during trial; Legal assistance; Role of victim at time of granting bail; Right of victim to appeal"
+              ],
+              "questionCount": 10,
+              "estimatedHours": 0
+            }
+          ]
+        },
+        {
+          "id": "jurisprudence",
+          "semesterId": "sem2",
+          "name": "Jurisprudence",
+          "shortName": "Jurisprudence",
+          "code": "LCC 0604",
+          "color": "#d4af37",
+          "icon": "lightbulb",
+          "questionCount": 79,
+          "description": "Introduction to Jurisprudence \u2014 meaning, nature, utility, schools of thought, law and morality \u2014 and Sources of Law: Custom, Legislation, Precedent, and Juristic Writings.",
+          "questionFile": "data/questions/jurisprudence.json",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "Introduction to Jurisprudence",
+              "description": "Meaning, nature and utility of jurisprudence; characteristics, purposes and classification of law; and the relationship between law and morality.",
+              "topics": [
+                "Jurisprudence \u2014 Meaning, Nature and Utility",
+                "Characteristics, Purposes and Classification of Law",
+                "Relationship between Law and Morality"
+              ],
+              "questionCount": 7,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "Sources of Law",
+              "description": "Custom, Legislation, Precedent (including Doctrine of Stare Decisis, Art.141, ratio decidendi, obiter dicta, prospective overruling), and Juristic Writings.",
+              "topics": [
+                "Custom \u2014 Meaning, nature, essential conditions, kinds, concept of Volkgeist",
+                "Legislation \u2014 Meaning, nature, kinds, merits and demerits, relation with other sources",
+                "Precedent \u2014 Meaning, nature, theories of Precedent, Doctrine of Stare Decisis, Article 141, kinds, ratio decidendi, obiter dicta, prospective overruling, circumstances destroying binding force, relation with other sources",
+                "Juristic Writings \u2014 Meaning, nature and significance"
+              ],
+              "questionCount": 14,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "Natural Law Theories and Revival of Natural Law",
+              "description": "Classical Natural Law (Plato to Aquinas), Natural Law and Social Contract Theory (Grotius, Hobbes, Locke, Rousseau), and the Revival of Natural Law (Lon Fuller, HLA Hart, John Finnis).",
+              "topics": [
+                "Classical Natural Law theory: Plato to St. Thomas Aquinas",
+                "Natural law and Social Contract Theory: Hugo Grotius and International Law, Hobbes, Locke, Rousseau",
+                "Revival of Natural Law: Lon Fuller and the Morality of Law; HLA Hart on Natural Law; John Finnis and the Restatement of Natural Law"
+              ],
+              "questionCount": 5,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "Legal Positivism",
+              "description": "Bentham and Austin's command theory, HLA Hart's concept of law (Rules of Recognition, Change and Adjudication), and Kelsen's Pure Theory of Law and Grundnorm.",
+              "topics": [
+                "Bentham and John Austin's theory of positivism",
+                "Hart's concept of law",
+                "Kelsen's Pure Theory of Law"
+              ],
+              "questionCount": 7,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "Sociological, Realist, Historical Schools and Critical Legal Studies",
+              "description": "Sociological school (Roscoe Pound), American Realism (Holmes, Llewellyn, Frank), Historical school (Savigny, Maine), and Critical Legal Studies (Feminist Legal Theory, Critical Race Theory).",
+              "topics": [
+                "Sociological school of law \u2014 Roscoe Pound",
+                "Realist school of law \u2014 American Realism: W. Holmes, Karl Llewellyn, Jerome Frank",
+                "Historical school of jurisprudence \u2014 Savigny and Maine; Comparison of Historical and Analytical School",
+                "Critical Legal Studies \u2014 (1) Feminist Legal Theory and (2) Critical Race Theory"
+              ],
+              "questionCount": 10,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_06",
+              "code": "06",
+              "name": "Concept of Person, Right and Duties",
+              "description": "Nature of personality (natural and legal), kinds of legal persons, theories of legal personality, and the concept of legal rights (Hohfeld's classification, kinds and theories of rights).",
+              "topics": [
+                "Nature of Personality \u2014 Natural and Legal; Legal Status of Lower Animals, Dead persons, Unborn Persons; Kinds of Legal Persons; Uses and Purposes of Incorporation; Theories of Legal Personality",
+                "Meaning of Wrong, Duty and Right; Characteristics of Legal Rights; Kinds of Legal Rights; Theories of Legal Rights; Hohfeldian Classification of Legal Rights"
+              ],
+              "questionCount": 11,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_07",
+              "code": "07",
+              "name": "Concepts of Ownership, Possession and Title",
+              "description": "Meaning, characteristics, kinds and modes of acquiring ownership; meaning, kinds, modes and possessory remedies for possession; and the definition, classification and nature of title.",
+              "topics": [
+                "Meaning of Ownership; Characteristic of Ownership; Subject-matter of Ownership; Kinds of Ownership; Modes of acquiring Ownership",
+                "Meaning of Possession; Kinds of Possession; Modes of acquiring Possession; Possessory Remedies; Comparison between Ownership and Possession",
+                "Definition and Nature of Title; Classification of Titles; Importance of Agreements; Kinds of Agreements; Validity of Agreement"
+              ],
+              "questionCount": 12,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_08",
+              "code": "08",
+              "name": "Obligations and Liability",
+              "description": "Definition, sources and kinds of obligation; nature, kinds and conditions of liability; strict and absolute liability; vicarious liability in civil and criminal law; and liability of corporations.",
+              "topics": [
+                "Definition of Obligation; Solitary Obligations; Sources of Obligations",
+                "Nature of Liability; Kinds of Liability; General Conditions of Liability; Measure of Penal Liability; Measure of Civil Liability; Theory of Strict and Absolute Liability; Vicarious Liability in Civil and Criminal Law; Liability of Corporations"
+              ],
+              "questionCount": 13,
+              "estimatedHours": 0
+            }
+          ]
+        },
+        {
+          "id": "media_law",
+          "semesterId": "sem2",
+          "name": "Media Law",
+          "shortName": "Media Law",
+          "code": "LGE 0605",
+          "color": "#1abc9c",
+          "icon": "broadcast",
+          "questionCount": 52,
+          "description": "Introduction to media and communication, historical foundations of media laws in UK/USA/India, international law and freedom of media, six theories of the press, and statutory regulatory framework.",
+          "questionFile": "data/questions/media_law.json",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "Introduction",
+              "description": "Introduction to media and communication, importance of media in democracy, kinds of media, and functions of media.",
+              "topics": [
+                "Introduction to Media and Communication",
+                "Importance of Media in Democracy",
+                "Kinds of Media",
+                "Functions of Media \u2014 Information, Surveillance, Service the economic system, hold society together, Entertain, Act as a community forum, Service the political system"
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "History of Press and Theories of Press",
+              "description": "Historical foundations of media laws in UK, USA and India (pre and post-independence), international law and freedom of media, and the six theories of press.",
+              "topics": [
+                "Historical Foundations of Media Laws in UK, USA and India (Pre and Post-Independence)",
+                "International Law and Freedom of Media (UDHR, ICCPR, ECOSOC etc.)",
+                "Theories of Press \u2014 Authoritarian Theory; Libertarian Theory; Communist Theory; Theory of Social Responsibility; Development Media Theory; Democratic Participant Media Theory"
+              ],
+              "questionCount": 4,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "Constitutional Framework of Freedom of Media in India",
+              "description": "Free speech and constituent assembly debates, facets of freedom of speech and expression (Art. 19), Law Commission 101st Report, reasonable restrictions, legislative privileges, privacy and media.",
+              "topics": [
+                "Free Speech and Constituent Assembly Debates in India",
+                "Freedom of Speech and Expression in Indian Constitution",
+                "Facets of Freedom of Speech and Expression: Freedom of Press; Right to Circulation; Right to Receive Information; Right to Advertise; Right to Telecast/Broadcast; Censorship",
+                "Law Commission of India: 101st Report on Freedom of Speech and Expression under Article 19 \u2014 Overview",
+                "Reasonable Restrictions",
+                "Legislative Privileges and Media",
+                "Right to Privacy and Media",
+                "Freedom of Media during emergency"
+              ],
+              "questionCount": 10,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "Legal Dimensions of Media",
+              "description": "Media and criminal law (sedition, obscenity, defamation), law of torts (defamation, negligence), contempt of court, RTI/Official Secrets Act, and Working Journalists Act.",
+              "topics": [
+                "Media and Criminal Law (Sedition, Obscenity and Defamation)",
+                "Media and Law of Torts (Civil Law of Defamation and Negligence)",
+                "Media and Judiciary (Contempt of Court)",
+                "Media and Executive \u2014 Overview (The Official Secrets Act 1923, The Right to Information Act 2005)",
+                "Media and Journalists \u2014 Overview (The Working Journalists (Conditions of Service) Act 1955)"
+              ],
+              "questionCount": 18,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "Regulatory Framework of Media",
+              "description": "Methods of regulation, Cinematograph Act, Cable TV Networks Act, Prasar Bharati Act, Press Council Act, TRAI Act, ASCI codes, Indecent Representation of Women Act, and free speech and fair trial.",
+              "topics": [
+                "Methods of Regulation (Self-Regulation and Statutory Regulation)",
+                "The Cinematograph Act, 1952",
+                "The Cable Television Networks (Regulation) Act, 1995",
+                "The Prasar Bharati Act, 1990",
+                "The Press Council of India Act, 1978",
+                "The Telecom Regulatory Authority of India Act, 1997",
+                "Advertising Standards Council of India and its codes",
+                "The Indecent Representation of Women Act, 1986",
+                "Free Speech and Fair Trial; Sting Operations; Broadcasting Rights; Media and Convergence; Infringement of IPR; Internet and freedom of media; Violence against Media persons; Role of media in electoral process"
+              ],
+              "questionCount": 19,
+              "estimatedHours": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem3",
+      "name": "Semester 3",
+      "displayName": "Second Year \u2014 Semester I",
+      "year": 2,
+      "sequence": 3,
+      "status": "coming_soon",
+      "launchDate": "2026-08-01",
+      "color": "#27ae60",
+      "icon": "gavel",
+      "description": "Second year studies focusing on specialized legal areas and advanced constitutional principles.",
+      "stats": {
+        "totalQuestions": 0,
+        "questionsByMarks": {},
+        "questionsByType": {}
+      },
+      "subjects": []
+    },
+    {
+      "id": "sem4",
+      "name": "Semester 4",
+      "displayName": "Second Year \u2014 Semester II",
+      "year": 2,
+      "sequence": 4,
+      "status": "coming_soon",
+      "launchDate": "2026-12-01",
+      "color": "#9b59b6",
+      "icon": "document",
+      "description": "Continuing second year legal education with focus on procedural aspects and specialized subjects.",
+      "stats": {
+        "totalQuestions": 0,
+        "questionsByMarks": {},
+        "questionsByType": {}
+      },
+      "subjects": []
+    },
+    {
+      "id": "sem5",
+      "name": "Semester 5",
+      "displayName": "Third Year \u2014 Semester I",
+      "year": 3,
+      "sequence": 5,
+      "status": "planned",
+      "launchDate": "2027-04-01",
+      "color": "#e67e22",
+      "icon": "briefcase",
+      "description": "Third year studies with advanced electives and professional legal skills.",
+      "stats": {
+        "totalQuestions": 0,
+        "questionsByMarks": {},
+        "questionsByType": {}
+      },
+      "subjects": []
+    },
+    {
+      "id": "sem6",
+      "name": "Semester 6",
+      "displayName": "Third Year \u2014 Semester II",
+      "year": 3,
+      "sequence": 6,
+      "status": "planned",
+      "launchDate": "2027-08-01",
+      "color": "#e74c3c",
+      "icon": "graduation",
+      "description": "Final semester covering advanced topics and comprehensive legal preparation.",
+      "stats": {
+        "totalQuestions": 0,
+        "questionsByMarks": {},
+        "questionsByType": {}
+      },
+      "subjects": []
+    }
+  ]
+}
