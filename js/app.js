@@ -51,6 +51,12 @@ const App = {
       studied: 'llb_studied',
       theme: 'llb_theme',
       progress: 'llb_progress'
+    },
+    audioResources: {
+      const_law_2: {
+        title: 'Constitutional Law II Audio Revision',
+        url: 'https://www.youtube.com/playlist?list=PLST7A-xg5QmhT8fSVSqO4Uuw4Qq6_B3_I'
+      }
     }
   },
 
@@ -81,6 +87,7 @@ const App = {
     
     // Render initial UI
     this.renderSemesterTabs();
+    this.renderAudioResourcesGrid();
     this.renderSubjectsGrid();
     this.renderStatistics();
     this.renderRoadmap();
@@ -402,24 +409,90 @@ const App = {
       return;
     }
 
-    container.innerHTML = semesterSubjects.map(subject => `
-      <div 
-        class="card subject-card" 
-        style="--subject-color: ${subject.color}"
-        onclick="App.filterBySubject('${subject.id}')"
-      >
-        <div class="card-body">
-          <div class="subject-card-icon" style="background: ${subject.color}">
-            ${this.getSubjectIcon(subject.id)}
-          </div>
-          <h3 class="subject-card-name">${subject.shortName || subject.name}</h3>
-          <p class="subject-card-count">${subject.questionCount} questions</p>
-          <div class="progress-bar" style="margin-top: var(--space-3); height: 4px;">
-            <div class="progress-bar-fill" style="width: ${this.getSubjectProgress(subject.id)}%"></div>
+    const subjectCards = semesterSubjects.map(subject => {
+      const audioResource = this.config.audioResources[subject.id];
+      const audioCard = audioResource ? `
+        <a
+          class="subject-audio-link"
+          href="${audioResource.url}"
+          target="_blank"
+          rel="noopener noreferrer"
+          onclick="event.stopPropagation()"
+          aria-label="Open ${audioResource.title} YouTube playlist"
+        >
+          <span class="subject-audio-icon">▶</span>
+          <span>
+            <strong>${audioResource.title}</strong>
+            <small>Listen on YouTube</small>
+          </span>
+        </a>
+      ` : '';
+
+      return `
+        <div
+          class="card subject-card"
+          style="--subject-color: ${subject.color}"
+          onclick="App.filterBySubject('${subject.id}')"
+        >
+          <div class="card-body">
+            <div class="subject-card-icon" style="background: ${subject.color}">
+              ${this.getSubjectIcon(subject.id)}
+            </div>
+            <h3 class="subject-card-name">${subject.shortName || subject.name}</h3>
+            <p class="subject-card-count">${subject.questionCount} questions</p>
+            <div class="progress-bar" style="margin-top: var(--space-3); height: 4px;">
+              <div class="progress-bar-fill" style="width: ${this.getSubjectProgress(subject.id)}%"></div>
+            </div>
+            ${audioCard}
           </div>
         </div>
-      </div>
-    `).join('');
+      `;
+    });
+
+    container.innerHTML = subjectCards.join('');
+  },
+
+  renderAudioResourcesGrid() {
+    const section = document.getElementById('audioResourcesSection');
+    const container = document.getElementById('audioResourcesGrid');
+    if (!section || !container) return;
+
+    const semesterSubjects = this.state.subjects;
+    const audioResourceCards = semesterSubjects
+      .filter(subject => this.config.audioResources[subject.id])
+      .map(subject => this.renderAudioResourceCard(subject, this.config.audioResources[subject.id]));
+
+    if (audioResourceCards.length === 0) {
+      container.innerHTML = '';
+      section.classList.add('hidden');
+      return;
+    }
+
+    container.innerHTML = audioResourceCards.join('');
+    section.classList.remove('hidden');
+  },
+
+  renderAudioResourceCard(subject, audioResource) {
+    return `
+      <a
+        class="card subject-audio-card"
+        href="${audioResource.url}"
+        target="_blank"
+        rel="noopener noreferrer"
+        style="--subject-color: ${subject.color}"
+        aria-label="Open ${audioResource.title} YouTube playlist"
+      >
+        <div class="card-body">
+          <div class="subject-audio-card-kicker">Audio Playlist</div>
+          <h3 class="subject-audio-card-title">${audioResource.title}</h3>
+          <p class="subject-audio-card-text">${subject.shortName || subject.name} revision audios are available on YouTube.</p>
+          <span class="subject-audio-card-cta">
+            <span class="subject-audio-icon">▶</span>
+            Listen on YouTube
+          </span>
+        </div>
+      </a>
+    `;
   },
 
   renderStatistics() {
@@ -1700,6 +1773,7 @@ const App = {
     
     // Re-render everything
     this.renderSemesterTabs();
+    this.renderAudioResourcesGrid();
     this.renderSubjectsGrid();
     this.renderStatistics();
     this.renderRoadmap();
