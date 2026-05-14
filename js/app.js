@@ -56,6 +56,10 @@ const App = {
       const_law_2: {
         title: 'Constitutional Law II Audio Revision',
         url: 'https://www.youtube.com/playlist?list=PLST7A-xg5QmhT8fSVSqO4Uuw4Qq6_B3_I'
+      },
+      contract_law_2: {
+        title: 'Law of Contract II Audio Revision',
+        url: 'https://www.youtube.com/playlist?list=PLST7A-xg5Qmi6p-7crE5McDOSONUC14l1'
       }
     }
   },
