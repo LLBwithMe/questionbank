@@ -60,6 +60,10 @@ const App = {
       contract_law_2: {
         title: 'Law of Contract II Audio Revision',
         url: 'https://www.youtube.com/playlist?list=PLST7A-xg5Qmi6p-7crE5McDOSONUC14l1'
+      },
+      penology_victimology: {
+        title: 'Penology & Victimology Audio Revision',
+        url: 'https://www.youtube.com/watch?v=8VJCb6ry6T0'
       }
     }
   },
