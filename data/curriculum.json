@@ -1,12 +1,12 @@
 {
   "version": "2.0.0",
-  "lastUpdated": "2026-03-15",
-  "description": "LLBwithMe question bank \u2014 complete curriculum structure for all semesters. Each subject's questions live in data/questions/<subject_id>.json. This file is the single source of truth for semester, subject, and module metadata.",
+  "lastUpdated": "2026-07-14",
+  "description": "LLBwithMe question bank — complete curriculum structure for all semesters. Each subject's questions live in data/questions/<subject_id>.json. This file is the single source of truth for semester, subject, and module metadata.",
   "semesters": [
     {
       "id": "sem1",
       "name": "Semester 1",
-      "displayName": "First Year \u2014 Semester I",
+      "displayName": "First Year — Semester I",
       "year": 1,
       "sequence": 1,
       "status": "active",
@@ -473,7 +473,7 @@
     {
       "id": "sem2",
       "name": "Semester 2",
-      "displayName": "First Year \u2014 Semester II",
+      "displayName": "First Year — Semester II",
       "year": 1,
       "sequence": 2,
       "status": "active",
@@ -575,7 +575,7 @@
                 "Qualification, Disqualification and Privileges of Members of Parliament",
                 "Members of Legislative Assembly",
                 "Anti-Defection Law",
-                "Law making procedure \u2014 Types of Bills: Ordinary, Financial, Money, Appropriation, Private Member Bills, Government/Public Bills"
+                "Law making procedure — Types of Bills: Ordinary, Financial, Money, Appropriation, Private Member Bills, Government/Public Bills"
               ],
               "questionCount": 17,
               "estimatedHours": 0
@@ -589,7 +589,7 @@
                 "Independence of Judiciary and Judicial Activism",
                 "Appointment of Judges, Structure, Jurisdiction, Power and Functions of Supreme Court",
                 "Appointment of Judges, Structure, Jurisdiction, Power and Functions of High Court and Subordinate Courts",
-                "Tribunals \u2014 Administrative tribunals, Tribunals for other matters",
+                "Tribunals — Administrative tribunals, Tribunals for other matters",
                 "Judicial accountability and demand of National Judicial Appointments Commission"
               ],
               "questionCount": 14,
@@ -599,10 +599,10 @@
               "id": "module_06",
               "code": "06",
               "name": "Structure, Powers and Functions of Union and State Executive",
-              "description": "Union Executive \u2014 President, Vice-President, Council of Ministers. State Executive \u2014 Governor, State Council of Ministers. Interaction between executive and legislature, and conduct of government business.",
+              "description": "Union Executive — President, Vice-President, Council of Ministers. State Executive — Governor, State Council of Ministers. Interaction between executive and legislature, and conduct of government business.",
               "topics": [
-                "Union Executive \u2014 Appointment, Qualification, Powers and Functions of President and Vice-President, Union Council of Ministers",
-                "State Executive \u2014 Appointment, Qualification, Powers and Functions of Governor, State Council of Ministers",
+                "Union Executive — Appointment, Qualification, Powers and Functions of President and Vice-President, Union Council of Ministers",
+                "State Executive — Appointment, Qualification, Powers and Functions of Governor, State Council of Ministers",
                 "Interaction between the Executives and the Legislature",
                 "Conduct of Government Business"
               ],
@@ -659,7 +659,7 @@
           "color": "#3498db",
           "icon": "handshake",
           "questionCount": 80,
-          "description": "Special contracts under the Indian Contract Act, 1872 \u2014 Indemnity (Ss.124-125), Guarantee (Ss.126-147), and Bailment (Ss.148-171). Examination papers also cover Agency, Sale of Goods, and Partnership.",
+          "description": "Special contracts under the Indian Contract Act, 1872 — Indemnity (Ss.124-125), Guarantee (Ss.126-147), and Bailment (Ss.148-171). Examination papers also cover Agency, Sale of Goods, and Partnership.",
           "questionFile": "data/questions/contract_law_2.json",
           "modules": [
             {
@@ -689,7 +689,7 @@
                 "Contract of guarantee distinguished from indemnity",
                 "Consideration for a contract of guarantee",
                 "Continuing guarantee and its revocation",
-                "Nature and extent of surety's liability \u2014 commencement, duration, termination and discharge",
+                "Nature and extent of surety's liability — commencement, duration, termination and discharge",
                 "Surety's rights against the principal debtor",
                 "Surety's rights against the creditor",
                 "Letters of credit and bank guarantees",
@@ -708,7 +708,7 @@
                 "Formation, essential features and parties",
                 "Kinds of Bailment",
                 "Examples: for benefit of bailor, for benefit of bailee",
-                "Rights, duties, disabilities and liabilities of bailor and bailee vis-\u00e0-vis third parties and true owner",
+                "Rights, duties, disabilities and liabilities of bailor and bailee vis-à-vis third parties and true owner",
                 "Termination of bailment and consequences",
                 "Finder of goods as a bailee"
               ],
@@ -742,7 +742,7 @@
                 "Essential features; parties; kinds of agents and agencies",
                 "Creation of agency",
                 "Distinction between agent, servant/employee, and independent contractor",
-                "Agent's authority \u2014 express, implied, apparent/ostensible, emergency, restrictions",
+                "Agent's authority — express, implied, apparent/ostensible, emergency, restrictions",
                 "Delegation of authority; principal, agent, sub-agent and substituted agents",
                 "Rights, duties, immunities, disabilities and liabilities of an agent",
                 "Rights, duties, immunities, disabilities and liabilities of a principal",
@@ -761,7 +761,7 @@
                 "Definition of a contract of Sale of Goods",
                 "Essential features; parties, goods, price, delivery, risk and property",
                 "Sale as transfer of property; sale and agreement to sell; effect of perishing of goods",
-                "Goods \u2014 meaning, existing and future, specific, ascertained, unascertained and contingent",
+                "Goods — meaning, existing and future, specific, ascertained, unascertained and contingent",
                 "Implied and express conditions and warranties",
                 "The rule of caveat emptor and exceptions",
                 "Transfer of title; Nemo Dat Quod Non Habet and passing of risk",
@@ -782,12 +782,12 @@
                 "Meaning and definition of a contract of partnership",
                 "Essential features; firm; firm name; business; property; Minor as a partner",
                 "Kinds of partnership",
-                "Relations of partners inter se \u2014 rights, liabilities, duties, immunities, disabilities",
+                "Relations of partners inter se — rights, liabilities, duties, immunities, disabilities",
                 "Relations of partners to third parties; partner as agent of firm; liability for acts of partners",
                 "Change in constitution of firm; admission, retirement, expulsion, death, insolvency",
-                "Dissolution of a firm \u2014 modes, effect, agreements in restraint of trade",
-                "Registration of firms \u2014 procedure and effect of non-registration",
-                "Limited Liability Partnership \u2014 essential features; distinction from ordinary partnership"
+                "Dissolution of a firm — modes, effect, agreements in restraint of trade",
+                "Registration of firms — procedure and effect of non-registration",
+                "Limited Liability Partnership — essential features; distinction from ordinary partnership"
               ],
               "questionCount": 20,
               "estimatedHours": 0
@@ -815,8 +815,8 @@
                 "Evolution of joint family system in India",
                 "Institution of Hindu joint family and joint family property; family arrangement; separate or self-acquired property",
                 "Coparcenary, Mitakshara and Dayabhaga coparcenary; Women as coparceners; Rights and powers of coparceners; sole surviving coparcener; Effect of amendments to HSA 1956",
-                "Karta \u2014 position, powers and duties; Father's powers of alienation; Alienee's rights and remedies",
-                "Partition \u2014 under Dayabhaga and Mitakshara systems; subject matter; persons entitled; kinds of partition; principle of survivorship and representation; Reopening and Reunion"
+                "Karta — position, powers and duties; Father's powers of alienation; Alienee's rights and remedies",
+                "Partition — under Dayabhaga and Mitakshara systems; subject matter; persons entitled; kinds of partition; principle of survivorship and representation; Reopening and Reunion"
               ],
               "questionCount": 11,
               "estimatedHours": 0
@@ -827,9 +827,9 @@
               "name": "Intestate Succession",
               "description": "Rules of intestate succession under the Hindu Succession Act 1956, Muslim law (Sunni and Shia), and the Indian Succession Act 1925 (Parsis, Christians, domicile).",
               "topics": [
-                "Hindu Succession Act 1956 \u2014 Application of Act; succession to property of Hindu male; succession to property of Hindu female; stridhana and women's estate; general provisions; disqualifications from inheritance; Escheat",
+                "Hindu Succession Act 1956 — Application of Act; succession to property of Hindu male; succession to property of Hindu female; stridhana and women's estate; general provisions; disqualifications from inheritance; Escheat",
                 "General principles of inheritance under Muslim law; law applicable to Sunnis and Shias; distinction between the two; disqualifications",
-                "Indian Succession Act 1925 \u2014 Domicile and its relevance in succession; consanguinity; intestate succession applicable to Parsis and persons other than Parsis; general principles of succession; rules of devolution"
+                "Indian Succession Act 1925 — Domicile and its relevance in succession; consanguinity; intestate succession applicable to Parsis and persons other than Parsis; general principles of succession; rules of devolution"
               ],
               "questionCount": 30,
               "estimatedHours": 0
@@ -840,9 +840,9 @@
               "name": "Testamentary Succession",
               "description": "Wills and codicils under the Indian Succession Act 1925, Hindu testamentary succession, and Wasiyat (will under Muslim law).",
               "topics": [
-                "Indian Succession Act 1925 \u2014 Wills and codicils; competence of testator; execution of privileged and unprivileged will; attestation; revocation, alteration and revival; construction of wills",
-                "Indian Succession Act 1925 \u2014 Vesting of legacies; void, onerous, contingent and conditional bequests; specific and demonstrative legacies; ademption; lapse; election; gifts in contemplation of death",
-                "Hindu Succession Act 1956 \u2014 Testamentary succession",
+                "Indian Succession Act 1925 — Wills and codicils; competence of testator; execution of privileged and unprivileged will; attestation; revocation, alteration and revival; construction of wills",
+                "Indian Succession Act 1925 — Vesting of legacies; void, onerous, contingent and conditional bequests; specific and demonstrative legacies; ademption; lapse; election; gifts in contemplation of death",
+                "Hindu Succession Act 1956 — Testamentary succession",
                 "Will under Muslim law (Wasiyat)"
               ],
               "questionCount": 24,
@@ -854,7 +854,7 @@
               "name": "Right of Pre-emption",
               "description": "Pre-emption under Muslim law (Shufa) and under Hindu law.",
               "topics": [
-                "Pre-emption under Muslim law (Shufa) \u2014 meaning, nature, who can claim; subject matter; formalities and legal effect; legal devices of evading; loss of the right",
+                "Pre-emption under Muslim law (Shufa) — meaning, nature, who can claim; subject matter; formalities and legal effect; legal devices of evading; loss of the right",
                 "Pre-emption under Hindu Law"
               ],
               "questionCount": 4,
@@ -904,11 +904,11 @@
             {
               "id": "module_01",
               "code": "01",
-              "name": "Penology \u2014 Introduction",
-              "description": "Definition, nature and scope of Penology; overview of Crime Control Mechanism \u2014 Police, Court, Public Prosecutor, Jail Administration, Open Prison.",
+              "name": "Penology — Introduction",
+              "description": "Definition, nature and scope of Penology; overview of Crime Control Mechanism — Police, Court, Public Prosecutor, Jail Administration, Open Prison.",
               "topics": [
                 "Definition, nature and scope of Penology",
-                "Crime Control Mechanism \u2014 Police; Court; Public Prosecutor; Jail Administration; Open Prison"
+                "Crime Control Mechanism — Police; Court; Public Prosecutor; Jail Administration; Open Prison"
               ],
               "questionCount": 5,
               "estimatedHours": 0
@@ -920,7 +920,7 @@
               "description": "Concept of punishment, theories of punishment (Deterrent, Retributive, Preventive, Reformative), forms of punishment, and penal policy in India.",
               "topics": [
                 "Concept of Punishment",
-                "Theories of Punishment \u2014 Deterrent Theory; Retributive Theory; Preventive Theory; Reformative Theory",
+                "Theories of Punishment — Deterrent Theory; Retributive Theory; Preventive Theory; Reformative Theory",
                 "Forms of Punishment",
                 "Penal Policy in India"
               ],
@@ -958,8 +958,8 @@
                 "Prison in British India",
                 "Role of Prison in Modern Penology",
                 "Types of Prisons and Prisoners",
-                "Problems of Prisons \u2014 Over Crowding; Basic Amenities; Prison Discipline; Prisoner's Health; Criminality in Prison; Problems of Under-trials",
-                "Prison Reforms \u2014 Commission on Prison Reforms; Jurisprudence of Prison Reforms; Legislative Trends; Judicial Trends"
+                "Problems of Prisons — Over Crowding; Basic Amenities; Prison Discipline; Prisoner's Health; Criminality in Prison; Problems of Under-trials",
+                "Prison Reforms — Commission on Prison Reforms; Jurisprudence of Prison Reforms; Legislative Trends; Judicial Trends"
               ],
               "questionCount": 11,
               "estimatedHours": 0
@@ -1003,14 +1003,14 @@
             {
               "id": "module_07",
               "code": "07",
-              "name": "Victimology \u2014 Victim and Victimization",
+              "name": "Victimology — Victim and Victimization",
               "description": "Meaning and kinds of victim, impact of victimization, secondary victimization, definition/nature/scope of victimology, and theories of victimology.",
               "topics": [
-                "Victim \u2014 Meaning and Kinds",
-                "Impact of Victimization \u2014 Physical, Economic and Psychological",
+                "Victim — Meaning and Kinds",
+                "Impact of Victimization — Physical, Economic and Psychological",
                 "Double / Secondary Victimization",
-                "Victimology \u2014 Definition, Nature and Scope",
-                "Theories of Victimology \u2014 The Precipitation Theory; Life-style Theory; Deviant Place Theory; Routine Activity Theory"
+                "Victimology — Definition, Nature and Scope",
+                "Theories of Victimology — The Precipitation Theory; Life-style Theory; Deviant Place Theory; Routine Activity Theory"
               ],
               "questionCount": 10,
               "estimatedHours": 0
@@ -1019,10 +1019,10 @@
               "id": "module_08",
               "code": "08",
               "name": "Legal Perspectives of Victim Assistance",
-              "description": "Victim Assistance Program, victim rights at international and municipal level, UN Declaration, Constitution and statutory provisions; access to justice \u2014 compensation, rights during trial, legal assistance, bail, and right to appeal.",
+              "description": "Victim Assistance Program, victim rights at international and municipal level, UN Declaration, Constitution and statutory provisions; access to justice — compensation, rights during trial, legal assistance, bail, and right to appeal.",
               "topics": [
-                "Victim Assistance Program \u2014 Evolution; Victim's Rights at International and Municipal Jurisdiction; UN Declaration on Victims' Rights; Constitution of India and Rights of Victims; Statutory Provisions \u2014 CrPC, Probation of Offenders Act",
-                "Access to Justice \u2014 Compensation to victims; Rights of victims during trial; Legal assistance; Role of victim at time of granting bail; Right of victim to appeal"
+                "Victim Assistance Program — Evolution; Victim's Rights at International and Municipal Jurisdiction; UN Declaration on Victims' Rights; Constitution of India and Rights of Victims; Statutory Provisions — CrPC, Probation of Offenders Act",
+                "Access to Justice — Compensation to victims; Rights of victims during trial; Legal assistance; Role of victim at time of granting bail; Right of victim to appeal"
               ],
               "questionCount": 10,
               "estimatedHours": 0
@@ -1038,7 +1038,7 @@
           "color": "#d4af37",
           "icon": "lightbulb",
           "questionCount": 79,
-          "description": "Introduction to Jurisprudence \u2014 meaning, nature, utility, schools of thought, law and morality \u2014 and Sources of Law: Custom, Legislation, Precedent, and Juristic Writings.",
+          "description": "Introduction to Jurisprudence — meaning, nature, utility, schools of thought, law and morality — and Sources of Law: Custom, Legislation, Precedent, and Juristic Writings.",
           "questionFile": "data/questions/jurisprudence.json",
           "modules": [
             {
@@ -1047,7 +1047,7 @@
               "name": "Introduction to Jurisprudence",
               "description": "Meaning, nature and utility of jurisprudence; characteristics, purposes and classification of law; and the relationship between law and morality.",
               "topics": [
-                "Jurisprudence \u2014 Meaning, Nature and Utility",
+                "Jurisprudence — Meaning, Nature and Utility",
                 "Characteristics, Purposes and Classification of Law",
                 "Relationship between Law and Morality"
               ],
@@ -1060,10 +1060,10 @@
               "name": "Sources of Law",
               "description": "Custom, Legislation, Precedent (including Doctrine of Stare Decisis, Art.141, ratio decidendi, obiter dicta, prospective overruling), and Juristic Writings.",
               "topics": [
-                "Custom \u2014 Meaning, nature, essential conditions, kinds, concept of Volkgeist",
-                "Legislation \u2014 Meaning, nature, kinds, merits and demerits, relation with other sources",
-                "Precedent \u2014 Meaning, nature, theories of Precedent, Doctrine of Stare Decisis, Article 141, kinds, ratio decidendi, obiter dicta, prospective overruling, circumstances destroying binding force, relation with other sources",
-                "Juristic Writings \u2014 Meaning, nature and significance"
+                "Custom — Meaning, nature, essential conditions, kinds, concept of Volkgeist",
+                "Legislation — Meaning, nature, kinds, merits and demerits, relation with other sources",
+                "Precedent — Meaning, nature, theories of Precedent, Doctrine of Stare Decisis, Article 141, kinds, ratio decidendi, obiter dicta, prospective overruling, circumstances destroying binding force, relation with other sources",
+                "Juristic Writings — Meaning, nature and significance"
               ],
               "questionCount": 14,
               "estimatedHours": 0
@@ -1100,10 +1100,10 @@
               "name": "Sociological, Realist, Historical Schools and Critical Legal Studies",
               "description": "Sociological school (Roscoe Pound), American Realism (Holmes, Llewellyn, Frank), Historical school (Savigny, Maine), and Critical Legal Studies (Feminist Legal Theory, Critical Race Theory).",
               "topics": [
-                "Sociological school of law \u2014 Roscoe Pound",
-                "Realist school of law \u2014 American Realism: W. Holmes, Karl Llewellyn, Jerome Frank",
-                "Historical school of jurisprudence \u2014 Savigny and Maine; Comparison of Historical and Analytical School",
-                "Critical Legal Studies \u2014 (1) Feminist Legal Theory and (2) Critical Race Theory"
+                "Sociological school of law — Roscoe Pound",
+                "Realist school of law — American Realism: W. Holmes, Karl Llewellyn, Jerome Frank",
+                "Historical school of jurisprudence — Savigny and Maine; Comparison of Historical and Analytical School",
+                "Critical Legal Studies — (1) Feminist Legal Theory and (2) Critical Race Theory"
               ],
               "questionCount": 10,
               "estimatedHours": 0
@@ -1114,7 +1114,7 @@
               "name": "Concept of Person, Right and Duties",
               "description": "Nature of personality (natural and legal), kinds of legal persons, theories of legal personality, and the concept of legal rights (Hohfeld's classification, kinds and theories of rights).",
               "topics": [
-                "Nature of Personality \u2014 Natural and Legal; Legal Status of Lower Animals, Dead persons, Unborn Persons; Kinds of Legal Persons; Uses and Purposes of Incorporation; Theories of Legal Personality",
+                "Nature of Personality — Natural and Legal; Legal Status of Lower Animals, Dead persons, Unborn Persons; Kinds of Legal Persons; Uses and Purposes of Incorporation; Theories of Legal Personality",
                 "Meaning of Wrong, Duty and Right; Characteristics of Legal Rights; Kinds of Legal Rights; Theories of Legal Rights; Hohfeldian Classification of Legal Rights"
               ],
               "questionCount": 11,
@@ -1168,7 +1168,7 @@
                 "Introduction to Media and Communication",
                 "Importance of Media in Democracy",
                 "Kinds of Media",
-                "Functions of Media \u2014 Information, Surveillance, Service the economic system, hold society together, Entertain, Act as a community forum, Service the political system"
+                "Functions of Media — Information, Surveillance, Service the economic system, hold society together, Entertain, Act as a community forum, Service the political system"
               ],
               "questionCount": 1,
               "estimatedHours": 0
@@ -1181,7 +1181,7 @@
               "topics": [
                 "Historical Foundations of Media Laws in UK, USA and India (Pre and Post-Independence)",
                 "International Law and Freedom of Media (UDHR, ICCPR, ECOSOC etc.)",
-                "Theories of Press \u2014 Authoritarian Theory; Libertarian Theory; Communist Theory; Theory of Social Responsibility; Development Media Theory; Democratic Participant Media Theory"
+                "Theories of Press — Authoritarian Theory; Libertarian Theory; Communist Theory; Theory of Social Responsibility; Development Media Theory; Democratic Participant Media Theory"
               ],
               "questionCount": 4,
               "estimatedHours": 0
@@ -1195,7 +1195,7 @@
                 "Free Speech and Constituent Assembly Debates in India",
                 "Freedom of Speech and Expression in Indian Constitution",
                 "Facets of Freedom of Speech and Expression: Freedom of Press; Right to Circulation; Right to Receive Information; Right to Advertise; Right to Telecast/Broadcast; Censorship",
-                "Law Commission of India: 101st Report on Freedom of Speech and Expression under Article 19 \u2014 Overview",
+                "Law Commission of India: 101st Report on Freedom of Speech and Expression under Article 19 — Overview",
                 "Reasonable Restrictions",
                 "Legislative Privileges and Media",
                 "Right to Privacy and Media",
@@ -1213,8 +1213,8 @@
                 "Media and Criminal Law (Sedition, Obscenity and Defamation)",
                 "Media and Law of Torts (Civil Law of Defamation and Negligence)",
                 "Media and Judiciary (Contempt of Court)",
-                "Media and Executive \u2014 Overview (The Official Secrets Act 1923, The Right to Information Act 2005)",
-                "Media and Journalists \u2014 Overview (The Working Journalists (Conditions of Service) Act 1955)"
+                "Media and Executive — Overview (The Official Secrets Act 1923, The Right to Information Act 2005)",
+                "Media and Journalists — Overview (The Working Journalists (Conditions of Service) Act 1955)"
               ],
               "questionCount": 18,
               "estimatedHours": 0
@@ -1245,25 +1245,1240 @@
     {
       "id": "sem3",
       "name": "Semester 3",
-      "displayName": "Second Year \u2014 Semester I",
+      "displayName": "Second Year — Semester III",
       "year": 2,
       "sequence": 3,
-      "status": "coming_soon",
-      "launchDate": "2026-08-01",
-      "color": "#27ae60",
-      "icon": "gavel",
-      "description": "Second year studies focusing on specialized legal areas and advanced constitutional principles.",
+      "status": "active",
+      "launchDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "color": "#34495e",
+      "icon": "graduation-cap",
+      "description": "Second Year LL.B. Semester III curriculum covering criminal procedure, evidence, interpretation of statutes, professional ethics and elective law papers.",
       "stats": {
-        "totalQuestions": 0,
-        "questionsByMarks": {},
-        "questionsByType": {}
+        "totalQuestions": 156,
+        "questionsByMarks": {
+          "5": 37,
+          "10": 55,
+          "12": 5,
+          "15": 55
+        },
+        "questionsByType": {
+          "long": 60,
+          "medium": 59,
+          "short": 37
+        }
       },
-      "subjects": []
+      "subjects": [
+        {
+          "id": "criminal_procedure",
+          "name": "Law of Criminal Procedure",
+          "shortName": "Criminal Procedure",
+          "code": "LCC 0701",
+          "color": "#c0392b",
+          "icon": "gavel",
+          "description": "Procedural framework governing criminal trials, investigation and the criminal justice system under the Bharatiya Nagarik Suraksha Sanhita, 2023.",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "Introduction to BNSS, 2023",
+              "description": "Introduction to BNSS, 2023",
+              "topics": [
+                "Criminal justice system: Inquisitorial and Adversary/Accusatorial",
+                "International norms regarding the basic principles of criminal justice system; Constitutional perspectives - Articles 14, 20, 21 & 22",
+                "The rationale of criminal procedure; Salient features of the BNSS, 2023; The organization of police, prosecution & defence and prison authorities — duties, functions and powers",
+                "Object, scope, and significance of Bharatiya Nagarik Suraksha Sanhita, 2023.",
+                "Definitions under Section 2 of Bharatiya Nagarik Suraksha Sanhita, 2023",
+                "Hierarchy and powers of criminal courts Secs. 6-17 and Secs. 21-29",
+                "Powers of police Officers and Aid to the Magistrates and the Police Secs. 30-",
+                "Public Prosecutors and their functions Secs. 18-20"
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "Jurisdiction of Criminal Courts in Inquiry and trials",
+              "description": "Jurisdiction of Criminal Courts in Inquiry and trials",
+              "topics": [
+                "Inquiry proceedings: General principle of jurisdiction of criminal court, powers of police, magistrate, and courts Jurisdiction of Courts, Secs. 197-209",
+                "Initiation of Inquiry proceedings Secs. 210-214",
+                "Exceptions to the general principle of moving criminal courts Secs. 215-222",
+                "Complaint to magistrates Secs. 223-226",
+                "Inquiry proceedings before magistrates Secs. 227-232"
+              ],
+              "questionCount": 0,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "Information to the Police and their Powers to Investigate and Inquiry",
+              "description": "Information to the Police and their Powers to Investigate and Inquiry",
+              "topics": [
+                "proceedings",
+                "Initiation of investigation proceedings Secs. 173-178; evidentiary value of FIR and statements made to police officer",
+                "Complaint to Magistrate Secs. 223-226",
+                "Interrogation powers of police officer Secs.179-193",
+                "Arrest with and without a warrant: exercise of power and execution rules, proclamation and attachments Secs. 35-46 and 62, Sec. 72-75, 79-83 and Secs. 84 to 93",
+                "Police to report apprehension, discharge of person pursue and retake person secs. 59-61",
+                "Rights of arrested person Secs. 47-58, 77-78, 340-341 & the Constitution of India Article 22",
+                "Preventive powers of the Police Secs. 168-172",
+                "Search and Seizure Secs. 49, 96-110, 185-186",
+                "Recording of confessions and statements Sec. 183",
+                "Special remand order Sec. 187",
+                "Police diary Sec. 192",
+                "Police report Sec. 193",
+                "Inquest proceedings Secs. 194-196."
+              ],
+              "questionCount": 6,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "Bail and Bond, Security and Maintenance proceedings",
+              "description": "Bail and Bond, Security and Maintenance proceedings",
+              "topics": [
+                "Bail, anticipatory bail, conditions for granting bail, rights of arrested persons Bail provisions Secs. 478-496",
+                "Security for keeping peace and for good behavior Secs. 125-143",
+                "Maintenance of Public order and tranquility: Unlawful Assemblies Secs. 148- 151",
+                "Public Nuisance Secs. 152-163",
+                "Disputes as to immovable property Secs. 164-167",
+                "Maintenance of wives, children and parents: Order of maintenance Secs. 144- 145",
+                "Maintenance of wives under the Muslim Women (Protection of Rights on Divorce) Act, 1986)",
+                "Procedure, alteration and enforcement Secs. 146-147."
+              ],
+              "questionCount": 2,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "Charge, Trial and Investigation Procedures",
+              "description": "Charge, Trial and Investigation Procedures",
+              "topics": [
+                "Concept of fair trial: Presumption of innocence, right of silence & right to speedy trial",
+                "Taking Cognizance Secs. 210-222, Limitations to take cognizance of offences Secs. 513-519 and Commencement of proceedings before Magistrate Sec. 227- 233",
+                "Charge: Content and form Secs. 234-240, and 247",
+                "General principle to be tried separately for every charge and its exceptions Secs. 241-246",
+                "Trial before a court of session Secs. 248-260",
+                "Trial of warrant cases before magistrates – Based on police report Secs. 261- 166 and other than police report Secs. 267-270; Conclusion of trial Sec 271-",
+                "Trial of summons cases Secs. 274-282",
+                "Summary trials Secs. 283-288",
+                "Evidence in inquires and trials Secs. 307-318, commission for examination of witnesses secs. 319-336",
+                "Plea bargaining and limitations to bar trail Secs. 289-300",
+                "Principle of Autrefois acquit and autrefois convict Sec. 337 & the Constitution of India Article 20",
+                "Compounding of offences Sec. 359, Withdrawal from prosecution Sec. 360",
+                "Irregular proceedings Secs. 506-512, 520, 525-527",
+                "Inherent powers of High Court sec. 528"
+              ],
+              "questionCount": 7,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_06",
+              "code": "06",
+              "name": "Judgment, Probation and Parole of offenders, Appeals, Reference, Revision",
+              "description": "Judgment, Probation and Parole of offenders, Appeals, Reference, Revision",
+              "topics": [
+                "and Execution:",
+                "Judgment: Mode and other provisions Secs. 392-406; Confirmation of death sentence Secs. 407-412",
+                "Probation of offenders and Parole under Probation of Offenders Act 1958, Role of probation officers; Role of Judiciary in the implementation of the Act, Parole system: Concept and distinction with the probation system.",
+                "Appeals Secs. 413-435",
+                "Reference and Revision Secs. 436-445",
+                "Transfer of criminal cases Secs. 446-452",
+                "Execution, suspension, remission and commutation of sentences Secs. 453- 477.",
+                "Tender of pardon Secs. 344-345",
+                "Provisions as to Accused persons of unsound mind Secs. 367-378."
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_07",
+              "code": "07",
+              "name": "Juvenile Justice Act, 1986",
+              "description": "Juvenile Justice Act, 1986",
+              "topics": [
+                "Juvenile Justice System: Concept of juvenile justice, Historical perspective of juvenile justice system, Provisions relating to juvenile offenders under BNS Secs. 20 & 21",
+                "Juvenile Justice (Care and Protection of Children) Act, 2015 — Distinction between child conflict with law and neglected juvenile; Constitution of Child welfare boards and juvenile courts",
+                "Children in Need of Care and Protection - Categories of children in need of care and protection, Child Welfare Committee (CWC) - Composition, powers, and functions. Rehabilitation and social reintegration measures, Role of Special Juvenile Police Units (SJPUs) and Childline services.",
+                "Institutional Mechanisms and Rehabilitation- Types of institutions: Observation Homes, Special Homes, Children's Homes, and Fit Facilities, Standards and conditions of care in institutions Inspection and monitoring of institutions.",
+                "Special Procedures for Adoption- Legal framework for adoption under the Juvenile Justice Act, Central Adoption Resource Authority (CARA): Role and functions, Inter-country adoption procedures and safeguards.",
+                "Bhartiya Nagrik Surakshya Sanhita, 2023",
+                "Ratanlal and Dirajlal, Code of Criminal Procedure, LexisNexis.",
+                "Woodroffe, Commentaries on Criminal Procedure Code, Universal Law Publishing, Delhi.",
+                "Chandrasekharan Pillai ed., Kelkar’s Lectures on Criminal Procedure, Eastern Book Company, Lucknow.",
+                "D. D. Basu, Criminal Procedure Code 1973, Vol I & II, LexisNexis (2017).",
+                "Sarkar on Criminal Procedure Code, Vol I & II, LexisNexis.",
+                "N.K. Chakrabarti, Probation System in the Administration of Criminal Justice, Deep & Deep Publications (1995).",
+                "Sarkar on Criminal Procedure Code, Vol I & II, LexisNexis",
+                "K.N. Chandrasekharan Pillai, Sreenivasan - Commentaries on The Code of Criminal Procedure, 1973",
+                "C.K. Thakker - Criminal Procedure Code",
+                "Chandrasekharan Pillai, (Ed.), Kelkar’s Outline of Criminal Procedure, Eastern Book Company, Lucknow",
+                "Juvenile Justice (Amendment) Act, 2000",
+                "The topics, cases and suggested readings given above are not exhaustive.",
+                "Teachers of the Course shall be at liberty to add the case/suggested readings.",
+                "Students are required to study/refer to the legislations as amended from time to time, and consult the latest editions of books on this course."
+              ],
+              "questionCount": 2,
+              "estimatedHours": 0
+            }
+          ],
+          "questionCount": 19,
+          "semesterId": "sem3",
+          "questionFile": "data/questions/criminal_procedure.json"
+        },
+        {
+          "id": "evidence_law",
+          "name": "Law of Evidence",
+          "shortName": "Evidence Law",
+          "code": "LCC 0702",
+          "color": "#8e44ad",
+          "icon": "balance-scale",
+          "description": "Rules of admissibility, relevancy, proof, documentary/electronic evidence, witnesses, burden of proof and estoppel under the Bharatiya Sakshya Sanhita, 2023.",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "Introduction to Law of Evidence",
+              "description": "Introduction to Law of Evidence",
+              "topics": [
+                "Overview of the Indian Evidence Act, historical background, objectives, and scope Central Conceptions in Law of Evidence",
+                "Bhartiya Sakshya Sanhita, 2023: Structure and Key Provisions",
+                "Definitions - Facts Sec. 2 (f), relevant facts Sec. 2 (k), facts in issue Sec. 2 (g)",
+                "Evidence Sec. 2 (e): Oral and documentary and real Primary and secondary evidence, Sec 2 (d), Circumstantial Evidence and Direct and indirect Evidence, Hearsay Evidence, Proved Sec. 2 (j), Not Proved Sec. 2 (i) and Disproving Sec. 2 (c), Witness Sec. 124",
+                "Appreciation of Evidence and Presumption – May Presume Sec. 2 (h), Shall Presume Sec. 2 (l) and Conclusive Proof Sec. 2 (b)"
+              ],
+              "questionCount": 4,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "Relevance and Admissibility",
+              "description": "Relevance and Admissibility",
+              "topics": [
+                "Concepts of relevance and admissibility, admissible and inadmissible evidence Sec. 3",
+                "The Doctrine of Res Gestae Secs. 4, 5, 6, Test identification parade Sec. 7, Evidence of Common Intention Sec. 8, The problems of relevancy of ‘Otherwise’ Irrelevant Facts Sec. 9, facts to determine amount of damages Sec. 10, Proof of Custom Sec. 11, Facts concerning state of body and mind Secs. 12, 13 & 14.",
+                "Admissions Secs. 15-21, General Principles concerning Admissions Sec. 25",
+                "Confessions Secs. 22-24 - Admissibility and Inadmissibility of confession made before a police officer, Confession by coaccused, the problems with the judicial action based on a \"retracted confession\", Differences between \"Admission\" and \"Confession\""
+              ],
+              "questionCount": 6,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "Statements by Persons",
+              "description": "Statements by Persons",
+              "topics": [
+                "Statement of persons who cannot be called as witnesses Secs. 26-27",
+                "Statement made under special circumstances Secs. 28-32, How much of a statement is to be proved Sec. 33",
+                "Judgments of courts when relevant Secs. 34-38",
+                "Relevancy of expert witness Secs. 39-45, The problems with expert testimony.",
+                "Evidence of character Secs. 46-50"
+              ],
+              "questionCount": 2,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "Documentary Evidence",
+              "description": "Documentary Evidence",
+              "topics": [
+                "Types of documents, admissibility of documents, proof of execution, secondary evidence Documentary evidence:",
+                "General Principles concerning documentary evidence Sec. 56, Primary and Secondary evidence, Secs. 57-60",
+                "Electronic and digital record Sec. 61, Admissibility and Relevancy of Electronic Records Secs. 62-63, relevant legal provisions under the Information Technology Act, 2000",
+                "Attested documents Secs. 65-73",
+                "Public document and private document Secs. 74-77, Presumptions regarding documents Secs. 78-93",
+                "General Principles Regarding Exclusion of Oral by Documentary Evidence Secs. 94-95",
+                "Ambiguous documents Secs. 96-103"
+              ],
+              "questionCount": 4,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "Witnesses",
+              "description": "Witnesses",
+              "topics": [
+                "Competency and compellability of witnesses, who may testify Sec. 124",
+                "Witness unable to communicate verbally Sec. 125",
+                "Examination of witnesses, Competency to testify Secs. 126-127",
+                "Privileges of communications: matrimonial privileges Secs. 128, State Privilege Sec. 129, Official Communications Sec. 130, Information as to commission of offences Sec. 131",
+                "Professional Privilege Sec. 132-134",
+                "Other provisions as to witness Sec. 135, 136 and 137",
+                "Accomplice and number of witnesses Sec. 138 and Sec. 139"
+              ],
+              "questionCount": 3,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_06",
+              "code": "06",
+              "name": "Burden of Proof",
+              "description": "Burden of Proof",
+              "topics": [
+                "Burden of proof and standard of proof, burden of proof in civil and criminal cases",
+                "The general conception of burden of proof Secs. 104-107",
+                "General and Special Exceptions to burden of proof Secs. 108-116",
+                "Court may presume existence of certain facts Secs. 117-120",
+                "The Scope or the doctrine of judicial notice Secs. 51-52",
+                "Facts admitted need not be proved Secs. 53"
+              ],
+              "questionCount": 2,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_07",
+              "code": "07",
+              "name": "Oral Evidence",
+              "description": "Oral Evidence",
+              "topics": [
+                "Oral evidence: general principles concerning Oral Evidence, exceptions to hearsay evidence.",
+                "Oral evidence: Examination-in-chief, cross-examination, re-examination, witness credibility - General Principles of Examination Secs. 140-168, Leading Questions Sec. 146, Lawful Questions in Cross-Examination Sec. 149, Hostile witness Sec. 157, Impeaching of the standing the credit of witnesses Sec. 158",
+                "Refreshing the memory Sec. 162."
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_08",
+              "code": "08",
+              "name": "Estoppel",
+              "description": "Estoppel",
+              "topics": [
+                "What is Estoppel? Estoppel, Res judicata and waiver; and presumption",
+                "Promissory Estoppel, Secs. 121-123",
+                "Effect of Improper admission and of witness in civil and criminal eases Sec.",
+                "C. D. Field’s Commentary on Law of Evidence, 13th ed, Delhi Law House, 2017",
+                "Peter Murphy and Richard Glover, Murphy on Evidence, Oxford University Press, 12th ed, 2011.",
+                "Ram Jethmalani and D. S .Chopra: The Law of Evidence : Commentary on Evidence Act, 1872, 2nd ed, Thomson Retures, 2016.",
+                "Sarkar’s Law of Evidence, 19th ed, Sudipto Sarkar and H R Jhingta (eds), LexisNexis",
+                "12. Y. H. Rao and Y R Rao, Expert Evidence - Medical and Non-Medical, 4th ed (Reprint 2011) LexisNexis, 2010.",
+                "V. Krishnama Chary: The Law of Evidence, S.Gogia & Company, Hyderabad 5. M. Monir: Principles and Digest of the Law of Evidence, the Universal Book Agency, Allahabad.",
+                "Ratanlal & Dhirajlal - The Law of Evidence",
+                "V. P. Sarathi’s Law of Evidence, 7th ed, Abhinandan Malik (ed), Eastern Book Company, 2017.",
+                "Sarkar on Criminal Procedure Code, Vol I & II, LexisNexis.",
+                "M. Monir, Textbook on the Law of Evidence, 10th ed (Reprint), Universal Law House, 2016.",
+                "Batuklal, Law of Evidence, Central Law Agency, Allahabad.",
+                "K. D. Gaur, Textbook on the Indian Evidence Act, Universal Law House, 2017. 17.",
+                "N. V. Paranjpe, Evidence in Criminal Trials, Thomson Reuters, 2017.",
+                "The topics, cases and suggested readings given above are not exhaustive.",
+                "Teachers of the Course shall be at liberty to add the case/suggested readings.",
+                "Students are required to study/refer to the legislations as amended from time to time, and"
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            }
+          ],
+          "questionCount": 23,
+          "semesterId": "sem3",
+          "questionFile": "data/questions/evidence_law.json"
+        },
+        {
+          "id": "interpretation_statute",
+          "name": "Interpretation of Statute",
+          "shortName": "Interpretation",
+          "code": "LCC 0703",
+          "color": "#16a085",
+          "icon": "book-open",
+          "description": "General principles, internal and external aids, constitutional interpretation, construction of penal/taxing/remedial statutes and repeal of statutes.",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "Introduction to Interpretation and role of General Clauses Act, 1897",
+              "description": "Introduction to Interpretation and role of General Clauses Act, 1897",
+              "topics": [
+                "Interpretation – Meaning, Need, and object",
+                "Difference between Interpretation and Construction",
+                "Concept and Classification of Statute",
+                "Introduction to General Clauses Act, 1897 – Preliminary, Definitions, General Rules of Construction, Power and functionaries, Provisions as to orders, rules etc. made under enactments"
+              ],
+              "questionCount": 5,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "General Principles and Rules of Interpretation",
+              "description": "General Principles and Rules of Interpretation",
+              "topics": [
+                "Mimansa Principle of Interpretation",
+                "Literal Construction",
+                "Golden Rule",
+                "Mischief Rule",
+                "Harmonious Construction",
+                "Rule of last antecedent",
+                "Non-obstante clause",
+                "Legal fiction",
+                "Conjunctive and disjunctive words ‘or’ and ‘and’",
+                "Construction of General Words (a) Rule of ejusdem generis (b) Rule of Noscitur a Socis (c) Reddendo Singula Singulis (d) Words of rank"
+              ],
+              "questionCount": 3,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "Internal and External Aids to Interpretation",
+              "description": "Internal and External Aids to Interpretation",
+              "topics": [
+                "Internal Aids: Preamble, Definitions, Sections, Headings, Illustrations, Proviso, Explanation, Schedule",
+                "External Aids: Parliamentary History, Debated and Proceedings of the legislatures, Socio, economic and technological developments, Reference to other statutes, International Conventions, Committee Reports"
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "Approaches, Restraints and Presumption in Interpretation",
+              "description": "Approaches, Restraints and Presumption in Interpretation",
+              "topics": [
+                "Theoretical or ideological approach to interpretation, judicial restraint, judicial activism, juristic restraint, juristic activism",
+                "Presumption regarding jurisdiction, presumptions against outing established jurisdiction, Presumptions against creating new and enlarging established jurisdiction, territorial extent of jurisdiction, presumption against violation of International Law."
+              ],
+              "questionCount": 2,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "Modes of Interpretation of Constitution",
+              "description": "Modes of Interpretation of Constitution",
+              "topics": [
+                "Constitutional interpretation different from statutory interpretation",
+                "Textualist and Originalist Interpretation, Harmonious construction, Historical Interpretation, Reference to constituent Assembly Debates, Structuralist interpretation pith and substance, occupied filed, residuary power, amending power, Moral Reasoning and National Ethos based interpretation Directive principles as source of constitutional interpretation stare decisis",
+                "Pragmatist interpretation, Techniques of innovation (Subversion) of stare decisis Supreme Court’s authority to overrule, retrospective overruling in India.",
+                "Advisory jurisdiction and its import on precedent, retrospective overruling in India",
+                "Objections to judicial review as anti-majoritarian."
+              ],
+              "questionCount": 2,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_06",
+              "code": "06",
+              "name": "Construction of Penal, Taxing and Remedial Statute",
+              "description": "Construction of Penal, Taxing and Remedial Statute",
+              "topics": [
+                "Rule of strict construction of taxing statutes",
+                "General principles of strict construction, Limits of rule of strict construction",
+                "Mens rea in statutory offences and BNS, 2023",
+                "Vicarious liability in statutory offences",
+                "Distinction between remedial and penal statutes",
+                "Liberal construction of remedial statutes"
+              ],
+              "questionCount": 3,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_07",
+              "code": "07",
+              "name": "Commencement, Operation, Expiry and Repeal of Statute",
+              "description": "Commencement, Operation, Expiry and Repeal of Statute",
+              "topics": [
+                "Commencement of statute",
+                "Prospective, Retrospective and Retro-active operation of statute",
+                "Perpetual and temporary statutes",
+                "Effect of expiry of temporary statutes",
+                "Express or implied repeal",
+                "Consequences of repeal",
+                "G.P. Singh, Interpretation of Statutes (LexisNexis, Butterworth Wadhwa).",
+                "D. D. Basu: Limited Government and Judicial Review",
+                "Bindra N.S., Interpretation of Statutes (LexisNexis, Butterworth Wadhwa).",
+                "Vepa Sarathi, Interpretation of Statutes (Eastern Book Company).",
+                "Maxwell, Interpretation of Statutes (Sweet and Maxwell).",
+                "Rupert Cross, Statutory Interpretation (Butterworth).",
+                "Avtar Singh, Introduction to Interpretation of Statutes (LexisNexis, Butterworth Wadhwa).",
+                "Battacharya T., Interpretation of Statutes (Central Law Agency).",
+                "R.D. Shrivastava, Textbook of Interpretation of Statutes (Central Law Publication)",
+                "Swarup, Legislation and interpretation (University Book Agency).",
+                "M.P. Tondon, Interpretation of Statutes (Allahabad Law Agency).",
+                "Chatterjee on Interpretation of Statutes, (Calcutta, De, B.C.)",
+                "S.P. Mitra and R.P. Kataria, Commentary on the General Clauses Act, 1897, Orient Publishing Company (2022)",
+                "Justice M.N. Rao, N.S. Bindra’s General Clauses Act, 1897, Lexisnexis",
+                "The Mimansa Principles of Interpretation by Justice Markandey Katju Cite as : (1993) 1 SCC (Jour) 16 Available at https://www.ebc-india.com/lawyer/articles/93v1a4.htm",
+                "Mimansa Rules of interpretation (Principal Commentators of Dharmasastra) S.K. Limay, New Bhartiya Book Corporation, 2017",
+                "Maxwell, Interpretation of Statutes (Sweet and Maxwell).",
+                "Jeremy Bentham: Theory of Legislation, Butterworths Publication"
+              ],
+              "questionCount": 3,
+              "estimatedHours": 0
+            }
+          ],
+          "questionCount": 19,
+          "semesterId": "sem3",
+          "questionFile": "data/questions/interpretation_statute.json"
+        },
+        {
+          "id": "prof_ethics_contempt",
+          "name": "Practical Training I - Professional Ethics and Contempt of Court Law",
+          "shortName": "Professional Ethics",
+          "code": "LAEC 0704",
+          "color": "#d35400",
+          "icon": "briefcase",
+          "description": "Professional ethics, Advocates Act, 1961, contempt of courts, e-Courts and journal-based practical training.",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "History of Legal Profession in India",
+              "description": "History of Legal Profession in India",
+              "topics": [
+                "Legal profession in India in ancient and medieval period",
+                "Changes underwent in Legal profession during British rule",
+                "Development of Legal Profession in India after Independence",
+                "Impact of globalization on legal profession in India"
+              ],
+              "questionCount": 3,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "Norms of Professional Ethics and Duties",
+              "description": "Norms of Professional Ethics and Duties",
+              "topics": [
+                "Need and necessity of Professional ethics in the legal profession",
+                "Professional ethics and duties of advocates towards his clients, Court, public, his fellow advocates, self, society, duty in imparting training, duty to render legal aid, etc.",
+                "Restrictions on other Employments",
+                "Restrictions on advertising",
+                "Form of Dresses or Robes to be worn by Advocate",
+                "Rules as to Vakalatnama"
+              ],
+              "questionCount": 7,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "Introduction and Authorities (the Advocates Act, 1961)",
+              "description": "Introduction and Authorities (the Advocates Act, 1961)",
+              "topics": [
+                "Objects of and definitions under the Act",
+                "Bar Council of State :",
+                "Establishment of Bar Councils for Each States and Union Territories",
+                "Composition of State Bar Council",
+                "System of Election",
+                "Term of office of Members of State Bar Council and Establishment of Special Committee",
+                "Disqualification of Member of Bar Council of State",
+                "Powers and Functions of Bar Council of State",
+                "Bar Council of India:",
+                "Composition of Bar Council of India",
+                "Term of office of Members of Bar Council of India",
+                "Disqualification of Member of Bar Council of India",
+                "Powers and Functions of Bar Council of India",
+                "Membership in International Bodies",
+                "Provisions Common to Bar Council of India and Bar Council of State:",
+                "Bar Council to be Body Corporate",
+                "Constitution of Committees of Bar Council",
+                "Transaction of Business, Staff and Audit of Accounts of Bar Council",
+                "Power of Bar Council to make Rule"
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "Admission and Enrolment of Advocates (the Advocates Act, 1961)",
+              "description": "Admission and Enrolment of Advocates (the Advocates Act, 1961)",
+              "topics": [
+                "Senior and other Advocates",
+                "Preparation of Roll of Advocates",
+                "Order of Seniority amongst the Advocates",
+                "Transfer of Name from one State Roll to another",
+                "Right of Pre-audience",
+                "Qualification for Admission of Person as Advocate on State Roll",
+                "Disqualification for Admission of Person as Advocate on State Roll",
+                "Disposal of Applications for Admission as Advocate",
+                "Power of State Bar Council to make rules"
+              ],
+              "questionCount": 4,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "Enrolment and Right to Practice and Limitations of such Right (the Advocates Act, 1961)",
+              "description": "Enrolment and Right to Practice and Limitations of such Right (the Advocates Act, 1961)",
+              "topics": [
+                "Right of Advocates to Practice",
+                "Power of Court to Permit Appearances in Particular Cases",
+                "Advocates alone entitled to Practice",
+                "Power of High Court to make rules",
+                "Skills essential for a lawyer to have a good practice and profession – qualities to succeed in legal profession - honesty, courage, industry, wit, eloquence, judgment, fellowship, etc.",
+                "Decisions of Courts on Advocate's right to strike",
+                "Role of advocate in the administration of justice and duty towards legal reforms"
+              ],
+              "questionCount": 3,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_06",
+              "code": "06",
+              "name": "Conduct of Advocates (the Advocates Act, 1961)",
+              "description": "Conduct of Advocates (the Advocates Act, 1961)",
+              "topics": [
+                "Complaint of Professional or other Misconduct",
+                "Punishments for Professional or other Misconduct",
+                "Disciplinary Powers of Bar Council of India and State Bar Council",
+                "Disposal of Disciplinary Proceedings",
+                "Review of Orders by Disciplinary Committee",
+                "Appeal to Bar Council of India",
+                "Appeal to Supreme Court",
+                "Stay of Order",
+                "Alteration in Roll of Advocates Cases Prescribed for Study on Professional Ethics:",
+                "Vishram Singh Raghubanshi v. State of UP, AIR 2011 SC 2275",
+                "Noratanmal Chaurasia vs. M.R. Murli (2004) 5 SCC 689",
+                "SJ Chaudhary v. State of Delhi, AIR 1984 SC 618",
+                "Chandra Shekhar Soni v. Bar Council of Rajasthan, AIR 1983 SC 1012",
+                "Ex-Capt Harish Uppal v. Union Of India, AIR 2003 SC 739",
+                "John D'Souza v. Edward Ani, AIR 1994 SC 975",
+                "Himalayan Cooperative Group Housing Society v. Balwan Singh, AIR 2015 SC 2867",
+                "Narain Pandey vs. Pannalal Pandey (2013) 11 SCC 435",
+                "A S Mohammed Rafi v. State of Tamil Nadu, AIR 2011 SC 308",
+                "D Saibaba v. Bar Council of India, AIR 2003 SC 2502"
+              ],
+              "questionCount": 5,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_07",
+              "code": "07",
+              "name": "The Contempt of Courts Act, 1971",
+              "description": "The Contempt of Courts Act, 1971",
+              "topics": [
+                "Historical development of law of contempt of court in India",
+                "Freedom of speech, Law of defamation and contempt of Court - Constitutional perspectives",
+                "Meaning of contempt - Civil contempt and Criminal contempt",
+                "Defenses for contempt - Civil and Criminal contempt",
+                "Punishments for contempt",
+                "Procedure for initiating contempt proceeding",
+                "Contempt by Judges, Magistrate, Lawyers, Companies and others",
+                "Contempt of Supreme Court, High Court and Subordinate Court",
+                "Remedies, Apology, Appeal and Review",
+                "Comparison with Order 39 Rule 2A of Civil Procedure Code Cases Prescribed for Study on Contempt of Court",
+                "In Re Arundhati Roy, AIR 2002 SC 1375",
+                "Pandurang Dattatraya Khandekar Vs. Bar Council of Maharashtra Bombay and Others (1984) 2 SCC 556.",
+                "LD Jaikwal v. State of UP, AIR 1984 SC 1734",
+                "Charan Lal Sahu v. Union of India, AIR 1988 SC 107",
+                "Bal Kishan Giri v. State of UP, AIR 2014 SC (Supp) 469",
+                "High Court of Judicature of Bombay v. Manisha Koirala, 2003 CriLJ 1634 (Bom HC)",
+                "Dr. Subramanian Swamy v. Arun Shourie, AIR 2014 SC 3020",
+                "In Re S Mulgaokar, AIR 1978 SC 717",
+                "In Re: Hon’ble Justice C S Karnan, AIR 2017 SC 3191",
+                "Re: Prashant Bhushan and Anr., Suo Motu Contempt Petition (CRL.) No. 1 of 2020, decided on 31.08.2020."
+              ],
+              "questionCount": 13,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_08",
+              "code": "08",
+              "name": "E-Courts in India and Digital Transformation of the Judiciary",
+              "description": "E-Courts in India and Digital Transformation of the Judiciary",
+              "topics": [
+                "Introduction to E-Courts - Evolution and Need for E-Courts: History and development of e-Courts in India.",
+                "Infrastructure and Technology in E-Courts - Components of E-Court Systems: Overview of hardware, software, and network infrastructure used in e-Courts, Digital Courtrooms: Features of digital courtrooms including video conferencing, e-filing, and digital evidence presentation, Case Management Systems: Understanding how case information is managed and accessed digitally.",
+                "Digital Court Procedures and Practices - E-Filing and E-Service: Procedures for electronic filing and service of legal documents, Virtual Hearings: Conducting court hearings via video conferencing platforms, Access to Justice: Enhancing access to justice through online portals and mobile apps.",
+                "Impact and Benefits of E-Courts - Efficiency and Transparency: How e-Courts improve judicial efficiency and transparency, Access to Justice: Role of e-Courts in making justice more accessible, particularly for marginalized communities, Reduction in Case Backlog: Assessing the impact of e-Courts on reducing case backlogs and speeding up judicial processes.",
+                "Challenges and Limitations - Technical and Infrastructure Challenges: Issues related to technology adoption, digital divide, and infrastructure limitations, Legal and Ethical Concerns: Addressing concerns related to fairness, due process, and the integrity of digital judicial proceedings.",
+                "Artificial Intelligence in Judiciary - Potential uses of AI in legal research, case analysis, and decision support, Blockchain and Digital Security: How blockchain and other technologies could enhance security and transparency in court processes, Global Perspectives: Comparative study of e-Court systems in other countries and lessons for India.",
+                "K.V. Krishnaswamy Iyer, Professional Conduct and Advocacy, Oxford University Press.",
+                "Dr. Kailash Rai, Legal Ethics – Accountancy for Lawyers and Bench - Bar Relations Central Law Publications, Allahabad, 2015.",
+                "B.R. Agarwala, Supreme Court Practice and Procedure, Eastern Book Co.",
+                "P. Ramanath Iyer, Advocate his Mind and Art, Wadhwa Nagpur, 2003.",
+                "Dr. S. P. Gupta, Professional Ethics, Accountancy for Lawyers and Bench-Bar Relations, Central Law Agency, Allahabad, 2004.",
+                "M.P. Jain, Outline of Indian Legal History, Chapter: Development of Legal Profession, LexisNexis, 2014.",
+                "M.R. Mallick, The Advocates Act, 1961 with Professional Ethics, Advocacy, and Bar- Bench Relationship. Kamal Law House, Calcutta, 2000.",
+                "Dr B Malik, The Art of a Lawyer the University Book Agency, Allahabad, 1999.",
+                "Raju Ramachandran: Professional Ethics for Lawyers, Changing Profession, Changing Ethics, LexisNexis, 2004.",
+                "Saadiya Suleman, Professional Ethics & Advertising by Lawyers, Universal Law Publishing, New Delhi, 2014.",
+                "M.K. Gandhi, The Law and the Lawyers, Navjeevan Publication, Ahmadabad.",
+                "Law Commission of India, Report No.274 on Review of the Contempt of Courts Act, 1971, April 2018.",
+                "Suraj S. Mandhare: E-Courts in India: Progress and Challenges",
+                "Ethan Katsh and Orna Rabinovich-Einy: Digital Justice: Technology and the Internet of Disputes",
+                "Government and Legal Documents - E-Courts Mission Mode Project (MMP) documents and official reports, Bar Council of India guidelines on digital legal practice, Judicial committee reports on the implementation of technology in courts",
+                "Online Resources and Portals - National Judicial Data Grid (NJDG) for data on case statuses and court performance, E-Courts project official website for updates and resources, Online tutorials and training modules on using e-Court tools and platforms. For Cases Prescribed for Study on Professional Ethics and Contempt of Cour",
+                "Respective Law Reporters",
+                "The topics, cases and suggested readings given above are not exhaustive.",
+                "Teachers of the Course shall be at liberty to add the case/suggested readings.",
+                "Students are required to study/refer to the legislations as amended from time to time, and consult the latest editions of books on this course. Note :",
+                "The college shall organize Interaction Session(s) of experts in the area of professional ethics, contempt of courts, etc. with the students.",
+                "The purpose of the interaction session(s) should be to provide or to enhance the practical knowledge of the students with respect to the course.",
+                "The concerned teacher is advised to orient the students, before organization of interaction session, as to purpose of interaction, concerned legal provisions, etc. Part B : Contents of Written Submissions (Journal) : The Written Submissions (Journal) shall contain the following:",
+                "Essay on the topic from law relating to Legal Profession in India, assigned by concerned teacher.",
+                "Essay on the topic from Law relating to Contempt of Court, assigned by concerned teacher.",
+                "Report on an Interaction Session(s) of experts with the students.",
+                "Case Comments on 2 cases on Professional Ethics, assigned by concerned teacher.",
+                "Case Comments on 2 cases on Contempt of Court, assigned by concerned teacher. Note :",
+                "A Report on interaction session shall consists of (a) Purpose of the Interaction, (b) Observations / Information Collected by the student"
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            }
+          ],
+          "questionCount": 37,
+          "semesterId": "sem3",
+          "questionFile": "data/questions/prof_ethics_contempt.json"
+        },
+        {
+          "id": "investment_securities",
+          "name": "Investment and Securities Law",
+          "shortName": "Securities Law",
+          "code": "LDSE 0705",
+          "color": "#2980b9",
+          "icon": "chart-line",
+          "description": "Regulatory framework for securities, securities markets, SEBI, depositories, stock exchanges, insider trading, takeover code, listing obligations and foreign investment laws.",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "Regulatory Framework to Govern Securities in India",
+              "description": "Regulatory Framework to Govern Securities in India",
+              "topics": [
+                "Historical evolution of Investment and Securities Laws",
+                "Concept of Securities",
+                "Kinds of Securities - Ownership instruments, Shares, Stocks",
+                "Debt instruments - Debentures and Bonds",
+                "Offered Documents – Prospectus",
+                "Norms of disclosure under different laws - the Companies Act, 2013, the Securities Contracts (Regulation) Act, 1956 and the Securities Exchange Board of India Act, 1992 (only relevant provisions)"
+              ],
+              "questionCount": 0,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "Concept of Securities Market and Securities Market Intermediaries",
+              "description": "Concept of Securities Market and Securities Market Intermediaries",
+              "topics": [
+                "Primary Market: Scheme of Primary Market, Advantages - Disadvantages to Companies and investors.",
+                "Provisions relating to IPO, FPO, Private placement, bonus issue, Qualified Institutional Placement under the SEBI (Issue of Capital and Disclosure Requirement) Regulations, 2018",
+                "Primary Market intermediaries - Merchant Banker, Managers to issue, Registrar and Share Transfer Agent, Bankers to the issue, Brokers, Syndicate Members",
+                "Secondary Market intermediaries - Registrar and Share Transfer Agent, Brokers / sub-brokers, Portfolio Managers, Investment Advisers, Research Analyst, Credit Rating Intermediaries, Clearing Corporations"
+              ],
+              "questionCount": 2,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "Securities and Exchange Board of India and the Depositories Act, 1996",
+              "description": "Securities and Exchange Board of India and the Depositories Act, 1996",
+              "topics": [
+                "Background and Introduction, Constitution of SEBI",
+                "SEBI - Power and Functions, Role of SEBI in securities market.",
+                "SEBI - Power to issue Informal Guidance",
+                "SEBI - Power to issue Regulations, Rules under Securities Market",
+                "Constitution of Securities Appellate Tribunal (SA), SAT- Power and Functions",
+                "The Depositories Act, 1996 - Rights and Obligations of depositories, Depository Participants, Issuers and beneficial owners, Penalties. Dematerialization and Rematerialisation of securities (Procedure, Advantages and Disadvantages)",
+                "Relevant provisions of the Companies Act, 2013"
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "Stock Exchange and Investor Protection",
+              "description": "Stock Exchange and Investor Protection",
+              "topics": [
+                "The Securities Contracts (Regulation) Act, 1956 - Recognized stock exchanges, listing of securities, penalties and procedure",
+                "Procedure for a stock exchange to be a recognized Stock Exchange, Power of Government, procedure for de- recognition of a stock exchange",
+                "Concept of Demutualization of stock exchanges and its impact on the Indian economy and the Regional stock exchanges",
+                "Minimum public shareholding and its advantages to shareholders and stakeholders",
+                "Trading, Spot delivery contract, Badla Contract, Future contracts, Options",
+                "Derivatives, Listing of Shares",
+                "Investors Protection mechanism under various statutes: Role and functions of SEBI Tribunal, the Companies Act, 2013 - Acceptance of deposits, Misstatement in prospectus, fraudulently inducing person to invest money, non-payment of dividend, right to demand financial statement, Investor",
+                "Education and Protection Fund, class action suits"
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "Insider Trading and Takeover Code",
+              "description": "Insider Trading and Takeover Code",
+              "topics": [
+                "Insider Trading:",
+                "Insider Trading: Meaning and Definition of Insider Trading. Insider, connected person, deemed to be connected, trading, Unpublished price sensitive information, generally available information, Chinese wall, Compliance Officer, Trading Window, Pre- clearance, Code of Conduct)",
+                "Penalty for Insider Trading 3. Position in UK and USA Takeover Code:",
+                "Meaning and definition of control, voting rights, shares, acquirer, target company, Person acting in concert, deemed to be connected person, acquisition of shares, open offer, public announcement, offer letter, offer price",
+                "Shareholding thresholds / Triggers under Takeover Code",
+                "Procedure of public announcement and open offer",
+                "Exemptions (general and specific exemptions)"
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_06",
+              "code": "06",
+              "name": "SEBI (Listing Obligations and Disclosure Requirement Regulations)",
+              "description": "SEBI (Listing Obligations and Disclosure Requirement Regulations)",
+              "topics": [
+                "Meaning and purpose of listing and delisting, advantages and disadvantages",
+                "Principles governing disclosures and obligations of listed entity",
+                "Listing Agreement",
+                "Compliance Officer",
+                "Grievance Redressal Mechanism",
+                "Corporate Governance Norms - directors, women directors, independent directors, audit committee, risk management committee, remuneration committee, stakeholder relationship committee, maximum number of directorships, related party transactions, obligations of independent directors",
+                "Disclosure of event or information under SEBI Regulations",
+                "Re-classification of promoters into non-promoters",
+                "Annual report"
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_07",
+              "code": "07",
+              "name": "Foreign Investment Laws",
+              "description": "Foreign Investment Laws",
+              "topics": [
+                "The Foreign Exchange Management Act, 1999 –",
+                "Regulation and management of Foreign Exchange",
+                "Contravention and Penalties",
+                "Adjudication and Appeal",
+                "Directorate of enforcement",
+                "Inbound and outbound investment in India (Foreign Direct Investment and Overseas Direct Investment)",
+                "Setting up of Joint Ventures and Wholly owned subsidiaries in India and outside India",
+                "Regulation of Foreign Institutional Investors (FII) / Foreign Portfolio Investor (FPI) in India Participatory Note",
+                "Niti Bhasin, FDI In India, New Century Publication, 2008.",
+                "V.A. Avdhani, Investment and Securities Market in India, Himalaya Publishing House, 2011."
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            }
+          ],
+          "questionCount": 7,
+          "semesterId": "sem3",
+          "questionFile": "data/questions/investment_securities.json"
+        },
+        {
+          "id": "criminal_minor_acts",
+          "name": "Criminal Minor Acts",
+          "shortName": "Criminal Minor Acts",
+          "code": "LDSE 0706",
+          "color": "#7f8c8d",
+          "icon": "shield",
+          "description": "Selected criminal statutes including Maharashtra Police Act, Arms Act, UAPA, MCOCA, NDPS Act, cyber laws and DPDP Act, 2023.",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "The Maharashtra Police Act, 1951",
+              "description": "The Maharashtra Police Act, 1951",
+              "topics": [
+                "Historical background, Objects, Scope and Definitions under the Act",
+                "Superintendence, control and organization of the Police Force",
+                "Regulation, Control and Discipline of the Police Force",
+                "Police Regulations",
+                "Special measures for Maintenance of Public Order and Safety of State",
+                "Executive Powers and Duties of the Police"
+              ],
+              "questionCount": 4,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "Arms Act 1959",
+              "description": "Arms Act 1959",
+              "topics": [
+                "Objectives & Scope",
+                "Definitions",
+                "Types of Arms",
+                "Arms Act 1959",
+                "Acquisition, possession of arms and ammunition",
+                "Provisions relating to licences",
+                "Powers and procedure",
+                "Offences and penalties"
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "The Unlawful Activities (prevention) Act, 1967",
+              "description": "The Unlawful Activities (prevention) Act, 1967",
+              "topics": [
+                "Objects",
+                "Definition",
+                "Unlawful associations",
+                "Offences and penalties",
+                "Terrorist organizations",
+                "Punishment for terrorist Activities"
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "The Maharashtra Control of Organized Crime Act, 1999",
+              "description": "The Maharashtra Control of Organized Crime Act, 1999",
+              "topics": [
+                "Legislative History, Object and Scope of the Act",
+                "Organized Crime: Definition and Scope, Punishments",
+                "Courts and Public Prosecutor (Sections 6-12)",
+                "Interception of Wire, Electronic or Oral Communication (Sections 13-16)",
+                "Special Procedure: Change in Rules of Evidence and Criminal Procedure (Sections 17- 23)"
+              ],
+              "questionCount": 2,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "The Narcotic Drugs and Psychotropic Substances Act, 1985",
+              "description": "The Narcotic Drugs and Psychotropic Substances Act, 1985",
+              "topics": [
+                "Legislative History, Object and Definitions",
+                "Authorities and Officers",
+                "Prohibition, Control and Regulation of Narcotic Drugs and Psychotropic Substances",
+                "Offences and Punishments",
+                "Procedure under Act"
+              ],
+              "questionCount": 5,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_06",
+              "code": "06",
+              "name": "Cyber Laws in India",
+              "description": "Cyber Laws in India",
+              "topics": [
+                "1 Need for cyber law 2 Cyber Crime / Cyber frauds on the rise 3 Types of cyber frauds 4 History of cyber law in India The Information Technology Act, 2000:",
+                "Definitions",
+                "Digital signature and electronic signature",
+                "Electronic governance",
+                "Attribution, acknowledgement and despatch of electronic records",
+                "Secure electronic records and secure electronic signature",
+                "Regulation of certifying authorities",
+                "Electronic signature certificates",
+                "Duties of subscribers, penalties, compensation and adjudication",
+                "The appellate tribunal",
+                "Offences",
+                "Offences under other legislations The Digital Personal Data Protection Act, 2023"
+              ],
+              "questionCount": 2,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_07",
+              "code": "07",
+              "name": "The Digital Personal Data Protection Act, 2023",
+              "description": "The Digital Personal Data Protection Act, 2023",
+              "topics": [
+                "Obligations of data fiduciary",
+                "Rights and duties of data principal",
+                "Special provisions",
+                "Data protection board of India",
+                "Powers, functions and procedure to be followed by board",
+                "Appeal and alternate dispute resolution",
+                "Penalties and adjudication",
+                "A.S. Ramachandra Rao, Commentary on the Prevention of Corruption Act, Universal Publication Co., New Delhi.",
+                "R.P Kataria, Law Relating to Narcotic Drugs and Psychotropic Substances in India, Oriental Publication.",
+                "Taxmann on Juvenile Justice (Care and Protection of Children) Act, 2015.",
+                "Rohatgi and Karkare, ‘Guide to Cyber Law & Crimes’, 3rd Edn. Whytes & Co. 2018.",
+                "Sunil Dighe, The Maharashtra Police Act 1951, Snow White Publication, 2016",
+                "Commercial’s The Arms Act, 1959- Bare Act",
+                "The Arms Act, 1959 and The Arms Rules 2016 – by Justice P.S. Narayana and P."
+              ],
+              "questionCount": 3,
+              "estimatedHours": 0
+            }
+          ],
+          "questionCount": 18,
+          "semesterId": "sem3",
+          "questionFile": "data/questions/criminal_minor_acts.json"
+        },
+        {
+          "id": "cooperative_law",
+          "name": "Cooperative Law",
+          "shortName": "Cooperative Law",
+          "code": "LDSE 0707",
+          "color": "#27ae60",
+          "icon": "users",
+          "description": "Theory, growth, registration, incorporation, privileges, dispute settlement, liquidation, finance, accounts and audit of cooperative societies.",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "Theory and Principles of Co-operation",
+              "description": "Theory and Principles of Co-operation",
+              "topics": [
+                "Capitalist, socialist and co-operative forms of organisation",
+                "Definition of co-operation",
+                "Fundamental principles of co-operation",
+                "Characteristics of a co-operative society",
+                "Comparison with other forms of organization, viz., company, trust and partnership firms",
+                "Role and functions of different kinds of co-operative societies: Credit, finance, banking; Producers, farmers, dairy; Consumers; Housing; Marketing",
+                "Importance, advantages and limitations of co-operation",
+                "Advantages of co-operative organization in the society and the economy",
+                "Social, economic and moral benefits of co-operation"
+              ],
+              "questionCount": 2,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "History, Growth and Development of Co-operation",
+              "description": "History, Growth and Development of Co-operation",
+              "topics": [
+                "History, growth and development of co-operative movement in India",
+                "Growth and development through Five-Year Plans",
+                "Role of the State in development of co-operation, State aid to societies",
+                "Role of National Co-operative Development Corporation, NABARD",
+                "Co-operative legislations, particularly the State cooperative laws and Multi State Cooperative law, with special reference to Maharashtra",
+                "Constitutional Provisions – Freedom to form Co-operative Societies and Restrictions (Article 19) and Provisions relating to Co-operative Societies (Articles 243ZH to 243 ZT)"
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "Preliminary and Registration of Societies",
+              "description": "Preliminary and Registration of Societies",
+              "topics": [
+                "Objects and Definitions under the MCS Act, 1960",
+                "Societies that can be registered, limited liability or unlimited liability, Classification of societies, Conditions of registration, Name of society, Procedure for registration",
+                "Who can become a member, types of members, open membership",
+                "Procedure for admission, continuation and cessation of membership, Removal and expulsion of a member",
+                "Rights, privileges, duties, disabilities and liabilities of members, voting power of a member, expulsion of members",
+                "Bye-laws, important features of Model Bye-laws",
+                "Cancellation of registration, De-registration",
+                "Amalgamation, Transfer, Division or Conversion Societies"
+              ],
+              "questionCount": 3,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "Incorporation, Duties and Privileges of Society",
+              "description": "Incorporation, Duties and Privileges of Society",
+              "topics": [
+                "Effect of incorporation",
+                "Register of members, and its inspection and copies",
+                "Rights, privileges and immunities of a Society",
+                "Duties, disabilities, liabilities of, and restrictions on a Society",
+                "Final authority of General Body",
+                "Election of the Managing Committee, Procedure, Supervision over elections, Elections to specified and notified societies, No-confidence against officers of societies",
+                "Managing Committee, Constitution, Who can be its member, Reservation of seats, its powers and functions, Liability of members of the managing committee",
+                "Appointment and nomination of members of committee, Disqualification of membership of the committee",
+                "Meetings of General Body and Managing Committee, Annual general meeting and special general meeting, Conduct of business at such meetings",
+                "Registrar’s powers of supervision, inquiry, investigation and administration"
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "Dispute Settlement and Liquidation",
+              "description": "Dispute Settlement and Liquidation",
+              "topics": [
+                "Types of disputes, and forums for redressal, Cooperative Court, Registrar",
+                "Exclusive jurisdiction of the Cooperative Court, Jurisdiction, Limitation period",
+                "Procedure for settlement of disputes and Powers of the Co-operative Court, its decision, Appeals against decisions",
+                "Contempt of Co-operative Court and Cooperative Appellate Court",
+                "Constitution and powers of the Maharashtra State Co-operative Appellate Court",
+                "Appeal, Review and Revision",
+                "Disputes for recovery of money, Recovery certificate and its effect",
+                "Liquidation of Cooperative Societies, Appointment of and Powers of Liquidator, Procedure for liquidation and winding up.",
+                "Offences and Penalties, Cognizance of offences"
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_06",
+              "code": "06",
+              "name": "Finance, Accounts and Audit",
+              "description": "Finance, Accounts and Audit",
+              "topics": [
+                "State aid to societies, Role of apex societies.",
+                "Funds and their utilization, Restrictions on utilization of funds, Reserve Fund, Restriction on dividends, Investment of funds",
+                "Maintenance of account books and registers",
+                "Audit of cooperative societies, need for audit",
+                "Rectification of defects in accounts",
+                "Registrar’s powers of inspection and supervision",
+                "S Desai, Commentary on Co-operative Housing Societies, Snow White Publications, 2009.",
+                "V V Ghanekar, Co-Operative Movement in India, Institute of Rural Development & Education, 2004.",
+                "A K Gupte and S D Dighe, Maharashtra Co-operative Societies Act 1960 with Rules",
+                "Hind Law House, 2008.",
+                "M C Jain and H M Bhatt, Maharashtra Co-Operative Societies Act, 1960, Law Times.",
+                "A E Karmali, Maharashtra Co-operative Societies Act, 1960 and Rules,1961, Snow White Publications, 1997.",
+                "H A Mehta, Guide to Co-Operative Housing Societies, 7th ed Reprint, Snow White"
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            }
+          ],
+          "questionCount": 9,
+          "semesterId": "sem3",
+          "questionFile": "data/questions/cooperative_law.json"
+        },
+        {
+          "id": "private_international_law",
+          "name": "Private International Law",
+          "shortName": "Private Intl. Law",
+          "code": "LDSE 0708",
+          "color": "#2c3e50",
+          "icon": "globe",
+          "description": "Conflict of laws, characterization, domicile, marriage/divorce, adoption, foreign judgments, property, contracts and torts involving foreign elements.",
+          "modules": [
+            {
+              "id": "module_01",
+              "code": "01",
+              "name": "Introduction",
+              "description": "Introduction",
+              "topics": [
+                "Meaning and definition of Private International Law",
+                "Historical development of Private International Law and Indian Private International Law",
+                "Nature, scope, theories and sources of Private International Law",
+                "Relationship between Public International Law and Private International Law"
+              ],
+              "questionCount": 5,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_02",
+              "code": "02",
+              "name": "Classification / characterization",
+              "description": "Classification / characterization",
+              "topics": [
+                "Meaning, and nature of problem requiring characterization",
+                "Concept and theories of characterization - based on lex fori, lex causae; Two- fold characterization (primary and secondary), Comparative Law",
+                "Process and stages of characterization",
+                "Characterization of factual situation",
+                "Characterization of connecting factor",
+                "Characterization of proper law",
+                "Doctrine of renvoi : Meaning, process and theories of renvoi",
+                "The mutual disclaimer theory",
+                "The theory of renvoi proper",
+                "The foreign court theory"
+              ],
+              "questionCount": 5,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_03",
+              "code": "03",
+              "name": "Concept of Domicile",
+              "description": "Concept of Domicile",
+              "topics": [
+                "General principles / fundamental Principles",
+                "Elements – intention and residence",
+                "Kinds",
+                "Domicile of Origin",
+                "Domicile of Choice",
+                "Domicile of dependence: married women, minor children, lunatics.",
+                "Domicile of corporation"
+              ],
+              "questionCount": 3,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_04",
+              "code": "04",
+              "name": "Marriage and Dissolution of Marriage",
+              "description": "Marriage and Dissolution of Marriage",
+              "topics": [
+                "Material and Formal Validity of Marriage under Indian and English Law.",
+                "Choice of Law and Jurisdiction of Courts in Matrimonial Causes",
+                "Dissolution of Marriage, Grounds of Divorce, Restitution of Conjugal Rights",
+                "Recognition of Foreign Judgments"
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_05",
+              "code": "05",
+              "name": "Legitimacy, Legitimation and Adoption –",
+              "description": "Legitimacy, Legitimation and Adoption –",
+              "topics": [
+                "What law governs legitimacy - Legitimation and Succession",
+                "Essential conditions of adoption under Indian and English law",
+                "Recognition of foreign adoption",
+                "Choice of law and jurisdiction of the courts.",
+                "Guardianship and custody under Indian and English Law.",
+                "Hague Conference on Private International Law Foreign Judgments"
+              ],
+              "questionCount": 1,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_06",
+              "code": "06",
+              "name": "Foreign Judgments",
+              "description": "Foreign Judgments",
+              "topics": [
+                "Recognition and enforcement of foreign judgments Indian and English law- direct execution of foreign decrees",
+                "Recognition and Enforcement of Arbitral awards"
+              ],
+              "questionCount": 4,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_07",
+              "code": "07",
+              "name": "Law of Property",
+              "description": "Law of Property",
+              "topics": [
+                "Movable and Immovable Property",
+                "Transfer of Tangible Movables",
+                "Assignment of Intangible Movables",
+                "Insolvency",
+                "Succession"
+              ],
+              "questionCount": 2,
+              "estimatedHours": 0
+            },
+            {
+              "id": "module_08",
+              "code": "08",
+              "name": "Contract and Tort Law",
+              "description": "Contract and Tort Law",
+              "topics": [
+                "Evolution Of modern proper law theory",
+                "Rome Convention on the Law applicable to Contractual Obligations",
+                "English and Indian position",
+                "Theories lex fori, lex loci delicti, proper law or social environmental theory, development of proper law of tort cases – UK and Indian Position",
+                "Choice of Law in Tort Under the Private International Law (Miscellaneous Provisions) Act 1995, Ss.9,10, 11,12 & 14 Regulation (EC) No 864/2007 of the European Parliament and of the Council of 11 July 2007 on the law applicable to non-contractual obligations (Rome II) – Articles 1, 4, 8, 9, 11, 12, 14, 15"
+              ],
+              "questionCount": 3,
+              "estimatedHours": 0
+            }
+          ],
+          "questionCount": 24,
+          "semesterId": "sem3",
+          "questionFile": "data/questions/private_international_law.json"
+        }
+      ],
+      "active": true
     },
     {
       "id": "sem4",
       "name": "Semester 4",
-      "displayName": "Second Year \u2014 Semester II",
+      "displayName": "Second Year — Semester II",
       "year": 2,
       "sequence": 4,
       "status": "coming_soon",
@@ -1281,7 +2496,7 @@
     {
       "id": "sem5",
       "name": "Semester 5",
-      "displayName": "Third Year \u2014 Semester I",
+      "displayName": "Third Year — Semester I",
       "year": 3,
       "sequence": 5,
       "status": "planned",
@@ -1299,7 +2514,7 @@
     {
       "id": "sem6",
       "name": "Semester 6",
-      "displayName": "Third Year \u2014 Semester II",
+      "displayName": "Third Year — Semester II",
       "year": 3,
       "sequence": 6,
       "status": "planned",
